@@ -1,25 +1,37 @@
 #!/bin/bash
 
 # COMMAND					BEHAVIOR
+#
 # "map" 					paste signatures
-# "map up" 					navigate up
-# "map root" 				navigate to root of map
-# "map <sig>" 				navigate down
 # "map <sig> rm" 			remove a signature
-# "map <sig> <nickname>"	name a signature
-# "map <sig> <jcode>"		fetch statics/weather
+#
+# "map <sig>" 				navigate down
+# "map up" 					navigate up
+# "map root" / "map home" 	navigate to root of map
+#
+# "map <sig> <nickname>"	rename a signature
+# "map <sig> <jcode>"		fetch class/statics/weather
+# "map undo"				revert last command
 
+# Create backup for undo
+rm -rf "$HOME/Documents/bashmapper/undo/"
+cp -r "$HOME/Documents/bashmapper/home/" "$HOME/Documents/bashmapper/undo/"
+
+# Ensure map root directory exists
 if [ ! -d "$HOME/Documents/bashmapper/home/" ]; then
     mkdir "$HOME/Documents/bashmapper/home/"
 fi
 
-# Reset map view ("map root")
-if [[ "$1" == "root" ]]; then
+# Undo functionality
+if [[ "$1" == "undo" ]]; then
+	rm -rf "$HOME/Documents/bashmapper/home/"
+	cp -r "$HOME/Documents/bashmapper/undo/" "$HOME/Documents/bashmapper/home/"
 	cd "$HOME/Documents/bashmapper/home/"
-	echo "=================================================="
-	echo "FULL MAP"
-	echo "=================================================="
-	tree -C
+	
+# Reset map view ("map root")
+elif [[ "$1" == "home" || "$1" == "root" ]]; then
+	cd "$HOME/Documents/bashmapper/home/"
+	
 # Navigate up ("map up")
 elif [[ "$1" == "up" ]]; then
 	cd ".."
@@ -75,7 +87,8 @@ elif [[ "$#" -eq 0 ]]; then
 
 		# Concatenate new string and remove irrelevant bits
 		tailReal=$(echo "$tail" | cut -c1-"$i")
-		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Gas Site //' -e 's/Data Site //' -e 's/Relic Site //' -e 's/Unstable Wormhole//' -e 's/Wormhole//')
+		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Unstable Wormhole//' -e 's/Wormhole//')
+		#  -e 's/Gas Site //' -e 's/Data Site //' -e 's/Relic Site //'
 
 		# 'Overwriting' functionality
 		checkExisting=$(find . -maxdepth 1 -name "${head}*")
@@ -90,6 +103,7 @@ elif [[ "$#" -eq 0 ]]; then
 		fi
 
 		# 'Cleanup' functionality (lazy delete in Pathfinder/Wanderer)
+		touch "$HOME/Documents/bashmapper/del.txt"
 		for file in */; do
 		
 			# Get head ("ABC-123")
@@ -98,16 +112,25 @@ elif [[ "$#" -eq 0 ]]; then
 			# Delete signature if it doesnt exist on clipboard
 			if ! grep -q "$head" "$HOME/Documents/bashmapper/clipboard.txt"; then
 				rm -rf "$file"
-				echo "Removing signature: $head"
+				echo "Delete bookmark: $head" >> "$HOME/Documents/bashmapper/del.txt"
 			fi
 		done
 	done
 fi
 
-if [[ "$1" != "root" ]]; then
-	# Print map
-	echo "=================================================="
-	echo "CURRENT SYSTEM: ${PWD##*/}"
-	echo "=================================================="
-	tree -LC 1 #-D for timestamps
+# Print updated map
+clear
+echo "=================================================="
+echo "CURRENT SIGNATURE: ${PWD##*/}"
+echo "=================================================="
+tree -LC 1 | tail -n+2 - | head -n -3
+	#-D for timestamps
+
+# Indicate signatures for removal
+if [[ -s "$HOME/Documents/bashmapper/del.txt" ]]; then
+	echo "OBSOLETE SIGNATURES:"
+	while read line; do
+		echo $line
+	done < "$HOME/Documents/bashmapper/del.txt"
+	rm "$HOME/Documents/bashmapper/del.txt"
 fi
