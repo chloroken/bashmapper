@@ -9,14 +9,17 @@
 # "map <sig> <nickname>"	name a signature
 # "map <sig> <jcode>"		fetch statics/weather
 
-if [ ! -d "$HOME/Documents/shellmap/home/" ]; then
-    mkdir "$HOME/Documents/shellmap/home/"
+if [ ! -d "$HOME/Documents/bashmapper/home/" ]; then
+    mkdir "$HOME/Documents/bashmapper/home/"
 fi
 
 # Reset map view ("map root")
 if [[ "$1" == "root" ]]; then
-	cd "$HOME/Documents/shellmap/home/"
-
+	cd "$HOME/Documents/bashmapper/home/"
+	echo "=================================================="
+	echo "FULL MAP"
+	echo "=================================================="
+	tree -C
 # Navigate up ("map up")
 elif [[ "$1" == "up" ]]; then
 	cd ".."
@@ -40,7 +43,7 @@ elif [[ "${#1}" -eq 3 ]]; then
 		id=$(echo "$filename" | cut -c1-5)
 		tempname=$(echo "$id" "$2")
 		if [[ "${#2}" == 6 ]]; then
-			newname=$(grep -hr "$2" "$HOME/Documents/shellmap/data.txt")
+			newname=$(grep -hr "$2" "$HOME/Documents/bashmapper/data.txt")
 			mv "$PWD/$filename" "$PWD/$id $newname"
 		else
 			mv "$PWD/$filename" "$PWD/$tempname"
@@ -51,10 +54,10 @@ elif [[ "${#1}" -eq 3 ]]; then
 elif [[ "$#" -eq 0 ]]; then
 
 	# Store clipboard & convert all whitespace to single spaces
-	wl-paste | sed -e "s/[[:space:]]\+/ /g" | tr -s ' ' > "$HOME/Documents/shellmap/clipboard.txt"
+	wl-paste | sed -e "s/[[:space:]]\+/ /g" | tr -s ' ' > "$HOME/Documents/bashmapper/clipboard.txt"
 
 	# Iterate clipboard lines
-	cat "$HOME/Documents/shellmap/clipboard.txt" | while read -r line || [ -n "$line" ]; do
+	cat "$HOME/Documents/bashmapper/clipboard.txt" | while read -r line || [ -n "$line" ]; do
 
 		# Store identifier (e.g., "ABC")
 		head=$(echo "$line" | cut -c1-3)
@@ -72,7 +75,7 @@ elif [[ "$#" -eq 0 ]]; then
 
 		# Concatenate new string and remove irrelevant bits
 		tailReal=$(echo "$tail" | cut -c1-"$i")
-		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Gas Site //' -e 's/Data Site //' -e 's/Relic Site //' -e 's/Unstable Wormhole//')
+		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Gas Site //' -e 's/Data Site //' -e 's/Relic Site //' -e 's/Unstable Wormhole//' -e 's/Wormhole//')
 
 		# 'Overwriting' functionality
 		checkExisting=$(find . -maxdepth 1 -name "${head}*")
@@ -93,15 +96,18 @@ elif [[ "$#" -eq 0 ]]; then
 			head=$(echo "$file" | cut -c1-3)
 
 			# Delete signature if it doesnt exist on clipboard
-			if ! grep -q "$head" "$HOME/Documents/shellmap/clipboard.txt"; then
+			if ! grep -q "$head" "$HOME/Documents/bashmapper/clipboard.txt"; then
 				rm -rf "$file"
+				echo "Removing signature: $head"
 			fi
 		done
 	done
 fi
 
-# Print map
-echo "========================================"
-echo "CURRENT SYSTEM: ${PWD##*/}"
-echo "========================================"
-tree -LC 1 #-D for timestamps
+if [[ "$1" != "root" ]]; then
+	# Print map
+	echo "=================================================="
+	echo "CURRENT SYSTEM: ${PWD##*/}"
+	echo "=================================================="
+	tree -LC 1 #-D for timestamps
+fi
