@@ -1,17 +1,18 @@
 #!/bin/bash
 
-# COMMAND					BEHAVIOR
-#
+# [COMMAND]					[BEHAVIOR]
 # "map" 					paste signatures
-# "map <sig> rm" 			remove a signature
 # "map undo"				revert last command
+# "map <sig> rm" 			remove a signature
 #
-# "map <sig>" 				navigate down
+# [NAVIGATION]				[BEHAVIOR]
 # "map up" 					navigate up
-# "map root" / "map home" 	navigate to root of map
+# "map home" 				navigate to root (& show full tree)
+# "map <sig>" 				navigate down
 #
+# [LABELING]				[BEHAVIOR]
 # "map <sig> <nickname>"	rename a signature
-# "map <sig> flag"			add an "!" after sig ID
+# "map <sig> flag"			add "!" to ID for eol/crit
 # "map <sig> <jcode>"		fetch class/statics/weather
 
 dir="$HOME/Documents/bashmapper"
@@ -31,8 +32,8 @@ if [[ "$1" == "undo" ]]; then
 	cp -r "$dir/undo/" "$dir/home/"
 	cd "$dir/home/"
 	
-# Reset map view ("map home" or "map root")
-elif [[ "$1" == "home" || "$1" == "root" ]]; then
+# Reset map view ("map home")
+elif [[ "$1" == "home" ]]; then
 	cd "$dir/home/"
 	
 # Navigate up ("map up")
@@ -47,7 +48,7 @@ elif [[ "${#1}" -eq 3 ]]; then
 
 	# Remove a signature and all of its contents
 	if [[ "$2" == "rm" ]]; then
-		echo "rm -rf $filename"
+		rm -rf "$filename"
 	
 	# Navigate wormholes ("map xyz")
 	elif [[ "$#" -eq 1 ]]; then
@@ -111,8 +112,8 @@ elif [[ "$#" -eq 0 ]]; then
 
 		# Concatenate new string and remove irrelevant bits
 		tailReal=$(echo "$tail" | cut -c1-"$i")
-		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Unstable Wormhole//' -e 's/Wormhole//')
-		#  -e 's/Gas Site //' -e 's/Data Site //' -e 's/Relic Site //'
+		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Unstable Wormhole//' -e 's/Wormhole//' -e 's/Gas Site //' -e 's/Data Site //' -e 's/Relic Site //')
+		#  '
 
 		# 'Overwriting' functionality
 		checkExisting=$(find . -maxdepth 1 -name "${head}*")
@@ -145,12 +146,17 @@ elif [[ "$#" -eq 0 ]]; then
 	rm "$dir/clipboard.txt"
 fi
 
+
 # Print updated map
-#clear
+clear
 echo "=================================================="
-echo "CURRENT SIGNATURE: ${PWD##*/}"
+echo "CURRENT LOCATION: ${PWD##*/}"
 echo "=================================================="
-tree -LC 1 | tail -n+2 - | head -n -2 # -LCD for timestamps
+if [[ "${PWD##*/}" == "home" ]]; then
+	tree -C | tail -n+2 - | head -n -2
+else
+	tree -LC 1 | tail -n+2 - | head -n -2
+fi
 
 # Indicate signatures for removal
 if [[ -s "$dir/del.txt" ]]; then
