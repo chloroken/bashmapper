@@ -13,7 +13,6 @@ if [ ! -d "$HOME/Documents/shellmap/home/" ]; then
     mkdir "$HOME/Documents/shellmap/home/"
 fi
 
-
 # Reset map view ("map root")
 if [[ "$1" == "root" ]]; then
 	cd "$HOME/Documents/shellmap/home/"
@@ -93,7 +92,7 @@ elif [[ "$#" -eq 0 ]]; then
 			# Get head ("ABC-123")
 			head=$(echo "$file" | cut -c1-3)
 
-			# Delete signature if it doesnt exist on keyboard
+			# Delete signature if it doesnt exist on clipboard
 			if ! grep -q "$head" "$HOME/Documents/shellmap/clipboard.txt"; then
 				rm -rf "$file"
 			fi
