@@ -1,19 +1,19 @@
 #!/bin/bash
 
 # [COMMAND]					[BEHAVIOR]
-# "map" 					paste signatures
-# "map undo"				revert last command
-# "map <sig> rm" 			remove a signature
+# map 						paste signatures
+# map undo					revert last command
+# map <sig> rm 				remove a signature
 #
 # [NAVIGATION]				[BEHAVIOR]
-# "map up" 					navigate up
-# "map home" 				navigate to root (& show full tree)
-# "map <sig>" 				navigate down
+# map up 					navigate up
+# map home 					navigate to root (& show full tree)
+# map <sig> 				navigate down
 #
 # [LABELING]				[BEHAVIOR]
-# "map <sig> <nickname>"	rename a signature
-# "map <sig> flag"			add "!" to ID for eol/crit
-# "map <sig> <jcode>"		fetch class/statics/weather
+# map <sig> "<nickname>"	rename a signature (quotes for multiple words)
+# map <sig> flag			add "!" to ID for eol/crit
+# map <sig> <jcode>			fetch class/statics/weather
 
 dir="$HOME/Documents/bashmapper"
 
@@ -149,7 +149,6 @@ fi
 
 # Print updated map
 clear
-echo "=================================================="
 echo "CURRENT LOCATION: ${PWD##*/}"
 echo "=================================================="
 if [[ "${PWD##*/}" == "home" ]]; then
@@ -157,6 +156,7 @@ if [[ "${PWD##*/}" == "home" ]]; then
 else
 	tree -LC 1 | tail -n+2 - | head -n -2
 fi
+echo "=================================================="
 
 # Indicate signatures for removal
 if [[ -s "$dir/del.txt" ]]; then
@@ -164,6 +164,7 @@ if [[ -s "$dir/del.txt" ]]; then
 	while read line; do
 		echo $line
 	done < "$dir/del.txt"
+	echo "=================================================="
 
 	#Clean up
 	rm "$dir/del.txt"
