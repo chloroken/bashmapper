@@ -2,27 +2,35 @@
 
 # COMMAND					BEHAVIOR
 # "map" 					paste signatures
-# "map root" 				navigate to root of map
 # "map up" 					navigate up
+# "map root" 				navigate to root of map
 # "map <sig>" 				navigate down
 # "map <sig> rm" 			remove a signature
 # "map <sig> <nickname>"	name a signature
 # "map <sig> <jcode>"		fetch statics/weather
 
+if [ ! -d "$HOME/Documents/shellmap/home/" ]; then
+    mkdir "$HOME/Documents/shellmap/home/"
+fi
+
+
 # Reset map view ("map root")
-if [[ "$1" == "home" ]]; then
-	cd "$HOME/Documents/shellmap/home"
+if [[ "$1" == "root" ]]; then
+	cd "$HOME/Documents/shellmap/home/"
 
 # Navigate up ("map up")
 elif [[ "$1" == "up" ]]; then
 	cd ".."
 	
-# Quick actions
+# Targeted actions
 elif [[ "${#1}" -eq 3 ]]; then
+
+	# Fetch file name (only search current directory)
 	filename=$(find . -maxdepth 1 -iname "${1}*")
 
+	# Remove a signature and all of its contents
 	if [[ "$2" == "rm" ]]; then
-		rm -rf "$PWD/$filename"
+		echo "rm -rf $filename"
 	
 	# Navigate wormholes ("map xyz")
 	elif [[ "$#" -eq 1 ]]; then
@@ -80,13 +88,21 @@ elif [[ "$#" -eq 0 ]]; then
 		fi
 
 		# 'Cleanup' functionality (lazy delete in Pathfinder/Wanderer)
-			# Check if an orphaned folder exists (i.e., not on clipboard)
-			# Delete that folder
-			# Repeat
+		for file in */; do
 		
+			# Get head ("ABC-123")
+			head=$(echo "$file" | cut -c1-3)
+
+			# Delete signature if it doesnt exist on keyboard
+			if ! grep -q "$head" "$HOME/Documents/shellmap/clipboard.txt"; then
+				rm -rf "$file"
+			fi
+		done
 	done
 fi
 
 # Print map
-tree #-L 1
-
+echo "========================================"
+echo "CURRENT SYSTEM: ${PWD##*/}"
+echo "========================================"
+tree -LC 1 #-D for timestamps
