@@ -4,33 +4,36 @@
 #
 # "map" 					paste signatures
 # "map <sig> rm" 			remove a signature
+# "map undo"				revert last command
 #
 # "map <sig>" 				navigate down
 # "map up" 					navigate up
 # "map root" / "map home" 	navigate to root of map
 #
 # "map <sig> <nickname>"	rename a signature
+# "map <sig> flag"			add an "!" after sig ID
 # "map <sig> <jcode>"		fetch class/statics/weather
-# "map undo"				revert last command
+
+dir="$HOME/Documents/bashmapper"
 
 # Create backup for undo
-rm -rf "$HOME/Documents/bashmapper/undo/"
-cp -r "$HOME/Documents/bashmapper/home/" "$HOME/Documents/bashmapper/undo/"
+rm -rf "$dir/undo/"
+cp -r "$dir/home/" "$dir/undo/"
 
 # Ensure map root directory exists
-if [ ! -d "$HOME/Documents/bashmapper/home/" ]; then
-    mkdir "$HOME/Documents/bashmapper/home/"
+if [ ! -d "$dir/home/" ]; then
+    mkdir "$dir/home/"
 fi
 
 # Undo functionality
 if [[ "$1" == "undo" ]]; then
-	rm -rf "$HOME/Documents/bashmapper/home/"
-	cp -r "$HOME/Documents/bashmapper/undo/" "$HOME/Documents/bashmapper/home/"
-	cd "$HOME/Documents/bashmapper/home/"
+	rm -rf "$dir/home/"
+	cp -r "$dir/undo/" "$dir/home/"
+	cd "$dir/home/"
 	
-# Reset map view ("map root")
+# Reset map view ("map home" or "map root")
 elif [[ "$1" == "home" || "$1" == "root" ]]; then
-	cd "$HOME/Documents/bashmapper/home/"
+	cd "$dir/home/"
 	
 # Navigate up ("map up")
 elif [[ "$1" == "up" ]]; then
@@ -49,14 +52,35 @@ elif [[ "${#1}" -eq 3 ]]; then
 	# Navigate wormholes ("map xyz")
 	elif [[ "$#" -eq 1 ]]; then
 		cd "$filename"
+
+	# Flag signatures ("map xyz flag")
+	elif [[ "$2" == "flag" ]]; then
+
+		# Determine where to insert exlamation mark
+		preString="$filename"
+		spaces=0
+		for (( i=0; i<${#preString}; i++ )); do
 		
+			# Break out when second space is found
+			if [[ "${preString:$i:1}" == " " ]]; then
+				if [[ $spaces -ge 1 ]]; then
+					break
+				fi
+				((spaces++))
+			fi
+		done
+
+		# Update the string
+		postString="${preString:0:$i}!${preString:$i}"
+		mv "$filename" "$postString"
+	
 	# Label signatures ("map xyz 123456")
 	else
 		id=$(echo "$filename" | cut -c1-5)
 		tempname=$(echo "$id" "$2")
 		if [[ "${#2}" == 6 ]]; then
-			newname=$(grep -hr "$2" "$HOME/Documents/bashmapper/data.txt")
-			mv "$PWD/$filename" "$PWD/$id $newname"
+			newname=$(grep -hr "$2" "$dir/data.txt")
+			mv "$PWD/$filename" "$PWD/$filename $newname"
 		else
 			mv "$PWD/$filename" "$PWD/$tempname"
 		fi
@@ -66,10 +90,10 @@ elif [[ "${#1}" -eq 3 ]]; then
 elif [[ "$#" -eq 0 ]]; then
 
 	# Store clipboard & convert all whitespace to single spaces
-	wl-paste | sed -e "s/[[:space:]]\+/ /g" | tr -s ' ' > "$HOME/Documents/bashmapper/clipboard.txt"
+	wl-paste | sed -e "s/[[:space:]]\+/ /g" | tr -s ' ' > "$dir/clipboard.txt"
 
 	# Iterate clipboard lines
-	cat "$HOME/Documents/bashmapper/clipboard.txt" | while read -r line || [ -n "$line" ]; do
+	cat "$dir/clipboard.txt" | while read -r line || [ -n "$line" ]; do
 
 		# Store identifier (e.g., "ABC")
 		head=$(echo "$line" | cut -c1-3)
@@ -103,34 +127,38 @@ elif [[ "$#" -eq 0 ]]; then
 		fi
 
 		# 'Cleanup' functionality (lazy delete in Pathfinder/Wanderer)
-		touch "$HOME/Documents/bashmapper/del.txt"
+		touch "$dir/del.txt"
 		for file in */; do
 		
 			# Get head ("ABC-123")
 			head=$(echo "$file" | cut -c1-3)
 
 			# Delete signature if it doesnt exist on clipboard
-			if ! grep -q "$head" "$HOME/Documents/bashmapper/clipboard.txt"; then
+			if ! grep -q "$head" "$dir/clipboard.txt"; then
 				rm -rf "$file"
-				echo "Delete bookmark: $head" >> "$HOME/Documents/bashmapper/del.txt"
-			fi
+				echo "$head" >> "$dir/del.txt"
+			fi 
 		done
 	done
+
+	# Clean up
+	rm "$dir/clipboard.txt"
 fi
 
 # Print updated map
-clear
+#clear
 echo "=================================================="
 echo "CURRENT SIGNATURE: ${PWD##*/}"
 echo "=================================================="
-tree -LC 1 | tail -n+2 - | head -n -3
-	#-D for timestamps
+tree -LC 1 | tail -n+2 - | head -n -2 # -LCD for timestamps
 
 # Indicate signatures for removal
-if [[ -s "$HOME/Documents/bashmapper/del.txt" ]]; then
+if [[ -s "$dir/del.txt" ]]; then
 	echo "OBSOLETE SIGNATURES:"
 	while read line; do
 		echo $line
-	done < "$HOME/Documents/bashmapper/del.txt"
-	rm "$HOME/Documents/bashmapper/del.txt"
+	done < "$dir/del.txt"
+
+	#Clean up
+	rm "$dir/del.txt"
 fi
