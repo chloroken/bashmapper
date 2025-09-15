@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # [COMMAND]					[BEHAVIOR]
-# map 						paste signatures
+# map paste					paste signatures
+# map lazy					lazy-delete paste
 # map undo					revert last command
 # map <sig> rm 				remove a signature
 #
@@ -12,7 +13,7 @@
 #
 # [LABELING]				[BEHAVIOR]
 # map <sig> "<nickname>"	rename a signature (quotes for multiple words)
-# map <sig> flag			add "!" to ID for eol/crit
+# map <sig> flag			add "!" after first word in label (e.g., 5x)
 # map <sig> <jcode>			fetch class/statics/weather
 
 dir="$HOME/Documents/bashmapper"
@@ -54,10 +55,10 @@ elif [[ "${#1}" -eq 3 ]]; then
 	elif [[ "$#" -eq 1 ]]; then
 		cd "$filename"
 
-	# Flag signatures ("map xyz flag")
+	# Flag (!) signatures ("map xyz flag")
 	elif [[ "$2" == "flag" ]]; then
 
-		# Determine where to insert exlamation mark
+		# Iterate through filename string
 		preString="$filename"
 		spaces=0
 		for (( i=0; i<${#preString}; i++ )); do
@@ -71,7 +72,7 @@ elif [[ "${#1}" -eq 3 ]]; then
 			fi
 		done
 
-		# Update the string
+		# Update string with a flag (!)
 		postString="${preString:0:$i}!${preString:$i}"
 		mv "$filename" "$postString"
 	
@@ -79,7 +80,9 @@ elif [[ "${#1}" -eq 3 ]]; then
 	else
 		id=$(echo "$filename" | cut -c1-5)
 		tempname=$(echo "$id" "$2")
-		if [[ "${#2}" == 6 ]]; then
+
+		# Check if second argument is 6 chars like "111105"
+		if [[ "${#2}" -eq 6 ]]; then
 			newname=$(grep -hr "$2" "$dir/data.txt")
 			mv "$PWD/$filename" "$PWD/$filename $newname"
 		else
@@ -88,7 +91,7 @@ elif [[ "${#1}" -eq 3 ]]; then
 	fi
 
 # Paste signatures in current directory ("map")
-elif [[ "$#" -eq 0 ]]; then
+elif [[ "$1" == "paste" || "$1" == "lazy" ]]; then #[[ "$#" -eq 0 ]]; then
 
 	# Store clipboard & convert all whitespace to single spaces
 	wl-paste | sed -e "s/[[:space:]]\+/ /g" | tr -s ' ' > "$dir/clipboard.txt"
@@ -128,27 +131,29 @@ elif [[ "$#" -eq 0 ]]; then
 		fi
 
 		# 'Cleanup' functionality (lazy delete in Pathfinder/Wanderer)
-		touch "$dir/del.txt"
-		for file in */; do
-		
-			# Get head ("ABC-123")
-			head=$(echo "$file" | cut -c1-3)
+		if [[ "$1" == "lazy" ]]; then
+			touch "$dir/del.txt"
+			for file in */; do
+			
+				# Get head ("ABC-123")
+				head=$(echo "$file" | cut -c1-3)
 
-			# Delete signature if it doesnt exist on clipboard
-			if ! grep -q "$head" "$dir/clipboard.txt"; then
-				rm -rf "$file"
-				echo "$head" >> "$dir/del.txt"
-			fi 
-		done
+				# Delete signature if it doesnt exist on clipboard
+				if ! grep -q "$head" "$dir/clipboard.txt"; then
+					rm -rf "$file"
+					echo "$head" >> "$dir/del.txt"
+				fi 
+			done
+		fi
 	done
 
 	# Clean up
 	rm "$dir/clipboard.txt"
 fi
 
-
 # Print updated map
 clear
+echo "=================================================="
 echo "CURRENT LOCATION: ${PWD##*/}"
 echo "=================================================="
 if [[ "${PWD##*/}" == "home" ]]; then
