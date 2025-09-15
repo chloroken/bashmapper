@@ -2,30 +2,32 @@
 
 # [COMMAND]					[BEHAVIOR]
 # map paste					paste signatures
-# map lazy					lazy-delete paste
+# map lazy					'lazy-delete' paste
 # map undo					revert last command
 # map <sig> rm 				remove a signature
 #
 # [NAVIGATION]				[BEHAVIOR]
 # map up 					navigate up
 # map home 					navigate to root (& show full tree)
-# map <sig> 				navigate down
+# map <sig> 				navigate down a wormhole
 #
 # [LABELING]				[BEHAVIOR]
-# map <sig> "<nickname>"	rename a signature (quotes for multiple words)
-# map <sig> flag			add "!" after first word in label (e.g., 5x)
+# map <sig> "<nickname>"	rename a sig (quotes for multiple words)
+# map <sig> flag			add "!" after first word (e.g., "ABC 5x!")
 # map <sig> <jcode>			fetch class/statics/weather
 
+# Initialize magic strings
 dir="$HOME/Documents/bashmapper"
-
-# Create backup for undo
-rm -rf "$dir/undo/"
-cp -r "$dir/home/" "$dir/undo/"
+divider="=================================================="
 
 # Ensure map root directory exists
 if [ ! -d "$dir/home/" ]; then
     mkdir "$dir/home/"
 fi
+
+# Create backup for undo
+rm -rf "$dir/undo/"
+cp -r "$dir/home/" "$dir/undo/"
 
 # Undo functionality
 if [[ "$1" == "undo" ]]; then
@@ -81,11 +83,16 @@ elif [[ "${#1}" -eq 3 ]]; then
 		id=$(echo "$filename" | cut -c1-5)
 		tempname=$(echo "$id" "$2")
 
-		# Check if second argument is 6 chars like "111105"
-		if [[ "${#2}" -eq 6 ]]; then
+		# Check if second parameter is a 6-char int like "111105"
+		re='^[0-9]+$'
+		if [[ "${#2}" -eq 6 && "${#2}" =~ $re ]]; then
+
+			# Append class, static, and weather strings
 			newname=$(grep -hr "$2" "$dir/data.txt")
 			mv "$PWD/$filename" "$PWD/$filename $newname"
 		else
+
+			# Rename system
 			mv "$PWD/$filename" "$PWD/$tempname"
 		fi
 	fi
@@ -116,31 +123,38 @@ elif [[ "$1" == "paste" || "$1" == "lazy" ]]; then #[[ "$#" -eq 0 ]]; then
 		# Concatenate new string and remove irrelevant bits
 		tailReal=$(echo "$tail" | cut -c1-"$i")
 		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Unstable Wormhole//' -e 's/Wormhole//' -e 's/Gas Site //' -e 's/Data Site //' -e 's/Relic Site //')
-		#  '
 
-		# 'Overwriting' functionality
+		# Signature 'overwriting' functionality
 		checkExisting=$(find . -maxdepth 1 -name "${head}*")
 		if [[ ${#checkExisting} -lt ${#newText} ]]; then
 
 			# We literally just have to compare string lengths
 			if [[ ${#checkExisting} -gt 0 ]]; then
+
+				# And keep the longer one
 				mv "$PWD/$checkExisting" "$PWD/$newText"
 			else
+
+				# Or overwrite it
 				mkdir "$PWD/$newText"
 			fi
 		fi
 
-		# 'Cleanup' functionality (lazy delete in Pathfinder/Wanderer)
+		# 'Cleanup' functionality ('lazy delete' in Pathfinder/Wanderer)
 		if [[ "$1" == "lazy" ]]; then
+
+			# Create a temporary file with sigs we want to delete
 			touch "$dir/del.txt"
 			for file in */; do
 			
-				# Get head ("ABC-123")
+				# Get signature label identifier ("ABC")
 				head=$(echo "$file" | cut -c1-3)
 
 				# Delete signature if it doesnt exist on clipboard
 				if ! grep -q "$head" "$dir/clipboard.txt"; then
 					rm -rf "$file"
+
+					# Store deleted sig for later reference
 					echo "$head" >> "$dir/del.txt"
 				fi 
 			done
@@ -153,23 +167,23 @@ fi
 
 # Print updated map
 clear
-echo "=================================================="
+echo $divider
 echo "CURRENT LOCATION: ${PWD##*/}"
-echo "=================================================="
+echo $divider
 if [[ "${PWD##*/}" == "home" ]]; then
 	tree -C | tail -n+2 - | head -n -2
 else
 	tree -LC 1 | tail -n+2 - | head -n -2
 fi
-echo "=================================================="
 
-# Indicate signatures for removal
+# Indicate signatures for manual removal
 if [[ -s "$dir/del.txt" ]]; then
+	echo $divider
 	echo "OBSOLETE SIGNATURES:"
 	while read line; do
-		echo $line
+		echo "> $line"
 	done < "$dir/del.txt"
-	echo "=================================================="
+	echo $divider
 
 	#Clean up
 	rm "$dir/del.txt"
