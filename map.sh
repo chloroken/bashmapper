@@ -38,7 +38,7 @@ if [[ "$1" == "undo" ]]; then
 # Reset map view ("map home")
 elif [[ "$1" == "home" ]]; then
 	cd "$dir/home/"
-	
+
 # Navigate up ("map up")
 elif [[ "$1" == "up" ]]; then
 	cd ".."
@@ -56,7 +56,7 @@ elif [[ "${#1}" -eq 3 ]]; then
 	# Navigate wormholes ("map xyz")
 	elif [[ "$#" -eq 1 ]]; then
 		cd "$filename"
-
+		
 	# Flag (!) signatures ("map xyz flag")
 	elif [[ "$2" == "flag" ]]; then
 
@@ -83,22 +83,30 @@ elif [[ "${#1}" -eq 3 ]]; then
 		id=$(echo "$filename" | cut -c1-5)
 		tempname=$(echo "$id" "$2")
 
-		# Check if second parameter is a 6-char int like "111105"
-		re='^[0-9]+$'
-		if [[ "${#2}" -eq 6 && "${#2}" =~ $re ]]; then
+		# Check if second parameter is 6 characters
+		if [[ "${#2}" -eq 6 ]]; then
 
-			# Append class, static, and weather strings
-			newname=$(grep -hr "$2" "$dir/data.txt")
-			mv "$PWD/$filename" "$PWD/$filename $newname"
+			# If it's an integer
+			re='^[0-9]+$'
+			if [[ "${#2}" =~ $re ]]; then
+			
+				# Append class, static, and weather strings
+				newname=$(grep -hr "$2" "$dir/data.txt")
+				mv "$filename" "$filename $newname"
+				cd "$filename $newname"
+			else
+			
+				# Rename system
+				mv "$filename" "$tempname"
+			fi
 		else
-
 			# Rename system
-			mv "$PWD/$filename" "$PWD/$tempname"
+			mv "$filename" "$tempname"
 		fi
 	fi
 
 # Paste signatures in current directory ("map")
-elif [[ "$1" == "paste" || "$1" == "lazy" ]]; then #[[ "$#" -eq 0 ]]; then
+elif [[ "$1" == "paste" || "$1" == "lazy" ]]; then
 
 	# Store clipboard & convert all whitespace to single spaces
 	wl-paste | sed -e "s/[[:space:]]\+/ /g" | tr -s ' ' > "$dir/clipboard.txt"
