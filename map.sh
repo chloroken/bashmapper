@@ -8,7 +8,7 @@
 #
 # [NAVIGATION]				[BEHAVIOR]
 # map up 					navigate up
-# map home 					navigate to root (& show full tree)
+# map top 					navigate to root (& show full tree)
 # map <sig> 				navigate down a wormhole
 #
 # [LABELING]				[BEHAVIOR]
@@ -16,8 +16,12 @@
 # map <sig> flag			add "!" after first word (e.g., "ABC 5x!")
 # map <sig> <jcode>			fetch class/statics/weather
 
-# Initialize magic strings
+# Initialize magic variables
 dir="$HOME/Documents/bashmapper"
+home="$dir/home/"
+backup="$dir/undo/"
+clipboard="$dir/clipboard.txt"
+del="$dir/del.txt"
 divider="=================================================="
 
 # Ensure map root directory exists
@@ -25,19 +29,23 @@ if [ ! -d "$dir/home/" ]; then
     mkdir "$dir/home/"
 fi
 
-# Create backup for undo
-rm -rf "$dir/undo/"
-cp -r "$dir/home/" "$dir/undo/"
-
 # Undo functionality
 if [[ "$1" == "undo" ]]; then
-	rm -rf "$dir/home/"
-	cp -r "$dir/undo/" "$dir/home/"
-	cd "$dir/home/"
-	
-# Reset map view ("map home")
-elif [[ "$1" == "home" ]]; then
-	cd "$dir/home/"
+	rm -rf "$home"
+
+	# Restore backup
+	cp -r "$backup" "$home"
+	cd "$home"
+else
+
+	# Create backup
+	rm -rf "$backup"
+	cp -r "$home" "$backup"
+fi
+
+# Reset map view ("map top")
+if [[ "$1" == "top" ]]; then
+	cd "$home"
 
 # Navigate up ("map up")
 elif [[ "$1" == "up" ]]; then
@@ -62,7 +70,7 @@ elif [[ "${#1}" -eq 3 ]]; then
 
 		# Iterate through filename string
 		preString="$filename"
-		spaces=0
+		spaces=0 # just use i
 		for (( i=0; i<${#preString}; i++ )); do
 		
 			# Break out when second space is found
@@ -86,7 +94,7 @@ elif [[ "${#1}" -eq 3 ]]; then
 		# Check if second parameter is 6 characters
 		if [[ "${#2}" -eq 6 ]]; then
 
-			# If it's an integer
+			# If it's an integer (i.e., a jcode)
 			re='^[0-9]+$'
 			if [[ "${#2}" =~ $re ]]; then
 			
@@ -109,10 +117,10 @@ elif [[ "${#1}" -eq 3 ]]; then
 elif [[ "$1" == "paste" || "$1" == "lazy" ]]; then
 
 	# Store clipboard & convert all whitespace to single spaces
-	wl-paste | sed -e "s/[[:space:]]\+/ /g" | tr -s ' ' > "$dir/clipboard.txt"
+	wl-paste | sed -e "s/[[:space:]]\+/ /g" | tr -s ' ' > "$clipboard"
 
 	# Iterate clipboard lines
-	cat "$dir/clipboard.txt" | while read -r line || [ -n "$line" ]; do
+	cat "$clipboard" | while read -r line || [ -n "$line" ]; do
 
 		# Store identifier (e.g., "ABC")
 		head=$(echo "$line" | cut -c1-3)
@@ -140,11 +148,11 @@ elif [[ "$1" == "paste" || "$1" == "lazy" ]]; then
 			if [[ ${#checkExisting} -gt 0 ]]; then
 
 				# And keep the longer one
-				mv "$PWD/$checkExisting" "$PWD/$newText"
+				mv "$checkExisting" "$newText"
 			else
 
 				# Or overwrite it
-				mkdir "$PWD/$newText"
+				mkdir "$newText"
 			fi
 		fi
 
@@ -152,25 +160,25 @@ elif [[ "$1" == "paste" || "$1" == "lazy" ]]; then
 		if [[ "$1" == "lazy" ]]; then
 
 			# Create a temporary file with sigs we want to delete
-			touch "$dir/del.txt"
+			touch "$del"
 			for file in */; do
 			
 				# Get signature label identifier ("ABC")
 				head=$(echo "$file" | cut -c1-3)
 
 				# Delete signature if it doesnt exist on clipboard
-				if ! grep -q "$head" "$dir/clipboard.txt"; then
+				if ! grep -q "$head" "$clipboard"; then
 					rm -rf "$file"
 
 					# Store deleted sig for later reference
-					echo "$head" >> "$dir/del.txt"
+					echo "$head" >> "$del"
 				fi 
 			done
 		fi
 	done
 
 	# Clean up
-	rm "$dir/clipboard.txt"
+	rm "$clipboard"
 fi
 
 # Print updated map
@@ -190,9 +198,9 @@ if [[ -s "$dir/del.txt" ]]; then
 	echo "OBSOLETE SIGNATURES:"
 	while read line; do
 		echo "> $line"
-	done < "$dir/del.txt"
+	done < "$del"
 	echo $divider
 
 	#Clean up
-	rm "$dir/del.txt"
+	rm "$del"
 fi
