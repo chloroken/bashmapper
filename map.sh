@@ -4,17 +4,17 @@
 # map paste					paste signatures
 # map lazy					'lazy-delete' paste
 # map undo					revert last command
-# map <sig> rm 				remove a signature
 #
 # [NAVIGATION]				[BEHAVIOR]
 # map up 					navigate up
 # map top 					navigate to root (& show full tree)
 # map <sig> 				navigate down a wormhole
 #
-# [LABELING]				[BEHAVIOR]
+# [SIGNATURES]				[BEHAVIOR]
 # map <sig> "<nickname>"	rename a sig (quotes for multiple words)
 # map <sig> flag			add "!" after first word (e.g., "ABC 5x!")
 # map <sig> <jcode>			fetch class/statics/weather
+# map <sig> rm 				remove a signature
 
 # Initialize magic variables
 dir="$HOME/Documents/bashmapper"
