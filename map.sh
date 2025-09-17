@@ -175,7 +175,7 @@ elif [[ "${#1}" -eq 3 ]]; then
 fi
 
 # Print updated map
-#clear
+clear
 echo $divider
 echo "CURRENT LOCATION: ${PWD##*/}"
 echo $divider
