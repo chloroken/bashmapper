@@ -51,23 +51,21 @@ if [[ "$1" == "top" || "$1" == "home" ]]; then
 elif [[ "$1" == "up" && "${PWD##*/}" != "top" ]]; then
 	cd ".."
 
-# Navigate wormholes ("map nav <sig> <sig>..")
-elif [[ "$1" == "nav" ]]; then
+# Multi-sig commands ("map <cmd> <sig> <sig>..")
+elif [[ "$1" == "nav" || "$1" == "del" ]]; then
 	for param in "$@"; do
 		letters='^[a-zA-Z]+$'
 		if [[ "${#param}" -eq 3  && "${param}" =~ $letters ]]; then
 			filename=$(find . -maxdepth 1 -iname "${param}*")
-			cd "$filename"
-		fi
-	done
 
-# Delete signatures ("map del <sig> <sig>..")
-elif [[ "$1" == "del" ]]; then
-	for param in "$@"; do
-		letters='^[a-zA-Z]+$'
-		if [[ "${#param}" -eq 3  && "${param}" =~ $letters ]]; then
-			filename=$(find . -maxdepth 1 -iname "${param}*")
-			rm -rf "$filename"
+			# Navigate wormholes ("map nav <sig> <sig>..")
+			if [[ "$1" == "nav" ]]; then
+				cd "$filename"
+
+			# Delete signatures ("map del <sig> <sig>..")
+			elif [[ "$1" == "del" ]]; then
+				rm -rf "$filename"
+			fi
 		fi
 	done
 
@@ -160,7 +158,7 @@ elif [[ "${#1}" -eq 3 ]]; then
 			mv "$filename" "$tempname"
 
 		# Complex relabel ("map <sig> <label> <label>..")
-		else
+		elif  [[ $# -gt 2 ]]; then
 			paramStrings=""
 			i=1
 			for param in "$@"; do
