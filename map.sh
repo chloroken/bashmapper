@@ -1,136 +1,89 @@
 #!/bin/bash
 
+# TODO
+# - Add multiple undo steps
+
 # [COMMAND]					[BEHAVIOR]
-# map paste					paste signatures
+# map add					additively paste sigs
 # map lazy					'lazy-delete' paste
 # map undo					revert last command
 #
 # [NAVIGATION]				[BEHAVIOR]
 # map up 					navigate up
-# map top 					navigate to root (& show full tree)
-# map <sig> 				navigate down a wormhole
+# map top 					navigate to home system
+# map nav <sig> <sig>.. 	navigate down one or more wormholes
+# map full 					show full map
 #
 # [SIGNATURES]				[BEHAVIOR]
 # map <sig> "<nickname>"	rename a sig (quotes for multiple words)
 # map <sig> flag			add "!" after first word (e.g., "ABC 5x!")
 # map <sig> <jcode>			fetch class/statics/weather
-# map <sig> rm 				remove a signature
+# map del <sig> <sig>..		remove one or more signatures
 
 # Initialize magic variables
 dir="$HOME/Documents/bashmapper"
-home="$dir/home/"
+top="$dir/top/"
 backup="$dir/undo/"
 clipboard="$dir/clipboard.txt"
 del="$dir/del.txt"
-divider="=================================================="
+divider="================================================================================"
 
 # Ensure map root directory exists
-if [ ! -d "$dir/home/" ]; then
-    mkdir "$dir/home/"
+if [ ! -d "$dir/top/" ]; then
+    mkdir "$dir/top/"
 fi
 
 # Undo functionality
 if [[ "$1" == "undo" ]]; then
-	rm -rf "$home"
-
-	# Restore backup
-	cp -r "$backup" "$home"
-	cd "$home"
+	rm -rf "$top"
+	mv -r "$backup" "$top"
+	cd "$top"
 else
-
-	# Create backup
 	rm -rf "$backup"
-	cp -r "$home" "$backup"
+	cp -r "$top" "$backup"
 fi
 
 # Reset map view ("map top")
 if [[ "$1" == "top" ]]; then
-	cd "$home"
+	cd "$top"
 
 # Navigate up ("map up")
-elif [[ "$1" == "up" ]]; then
+elif [[ "$1" == "up" && "${PWD##*/}" != "top" ]]; then
 	cd ".."
-	
-# Targeted actions
-elif [[ "${#1}" -eq 3 ]]; then
 
-	# Fetch file name (only search current directory)
-	filename=$(find . -maxdepth 1 -iname "${1}*")
-
-	# Remove a signature and all of its contents
-	if [[ "$2" == "rm" ]]; then
-		rm -rf "$filename"
-	
-	# Navigate wormholes ("map xyz")
-	elif [[ "$#" -eq 1 ]]; then
-		cd "$filename"
-		
-	# Flag (!) signatures ("map xyz flag")
-	elif [[ "$2" == "flag" ]]; then
-
-		# Iterate through filename string
-		preString="$filename"
-		spaces=0 # just use i
-		for (( i=0; i<${#preString}; i++ )); do
-		
-			# Break out when second space is found
-			if [[ "${preString:$i:1}" == " " ]]; then
-				if [[ $spaces -ge 1 ]]; then
-					break
-				fi
-				((spaces++))
-			fi
-		done
-
-		# Update string with a flag (!)
-		postString="${preString:0:$i}!${preString:$i}"
-		mv "$filename" "$postString"
-	
-	# Label signatures ("map xyz 123456")
-	else
-		id=$(echo "$filename" | cut -c1-5)
-		tempname=$(echo "$id" "$2")
-
-		# Check if second parameter is 6 characters
-		if [[ "${#2}" -eq 6 ]]; then
-
-			# If it's an integer (i.e., a jcode)
-			re='^[0-9]+$'
-			if [[ "${#2}" =~ $re ]]; then
-			
-				# Append class, static, and weather strings
-				newname=$(grep -hr "$2" "$dir/data.txt")
-				mv "$filename" "$filename $newname"
-				cd "$filename $newname"
-			else
-			
-				# Rename system
-				mv "$filename" "$tempname"
-			fi
-		else
-			# Rename system
-			mv "$filename" "$tempname"
+# Navigate wormholes ("map nav <sig> <sig>..")
+elif [[ "$1" == "nav" ]]; then
+	for param in "$@"; do
+		letters='^[a-zA-Z]+$'
+		if [[ "${#param}" -eq 3  && "${param}" =~ $letters ]]; then
+			filename=$(find . -maxdepth 1 -iname "${param}*")
+			cd "$filename"
 		fi
-	fi
+	done
 
-# Paste signatures in current directory ("map")
-elif [[ "$1" == "paste" || "$1" == "lazy" ]]; then
+# Delete signatures ("map del <sig> <sig>..")
+elif [[ "$1" == "del" ]]; then
+	for param in "$@"; do
+		letters='^[a-zA-Z]+$'
+		if [[ "${#param}" -eq 3  && "${param}" =~ $letters ]]; then
+			filename=$(find . -maxdepth 1 -iname "${param}*")
+			rm -rf "$filename"
+		fi
+	done
 
-	# Store clipboard & convert all whitespace to single spaces
+# Paste signatures from clipboard ("map add")
+elif [[ "$1" == "add" || "$1" == "lazy" ]]; then
 	wl-paste | sed -e "s/[[:space:]]\+/ /g" | tr -s ' ' > "$clipboard"
-
-	# Iterate clipboard lines
 	cat "$clipboard" | while read -r line || [ -n "$line" ]; do
 
-		# Store identifier (e.g., "ABC")
+		# Initial parsing of clipboard (keep chars #1-3 and #9+)
 		head=$(echo "$line" | cut -c1-3)
-
-		# Remove tail (everything after site name)
 		tail=$(echo "$line" | cut -c 9-)
+		
+		# Jspace sites don't have numbers, so we just trim
+		# when we find the first integer in the string
 		nums='^[0-9]+$'
 		for (( i=0; i<${#tail}; i++ )); do
-		
-			# Break out when a number is found
 			if [[ "${tail:$i:1}" =~ $nums ]] ; then
 				break
 			fi
@@ -138,47 +91,79 @@ elif [[ "$1" == "paste" || "$1" == "lazy" ]]; then
 
 		# Concatenate new string and remove irrelevant bits
 		tailReal=$(echo "$tail" | cut -c1-"$i")
-		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Unstable Wormhole//' -e 's/Wormhole//' -e 's/Gas Site //' -e 's/Data Site //' -e 's/Relic Site //')
+		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Unstable Wormhole//' -e 's/Wormhole//' -e 's/Gas Site //') # -e 's/Data Site //' -e 's/Relic Site //')
 
-		# Signature 'overwriting' functionality
+		# Remove more bits from data/relic sites, but only when they're revealed
+		# This allows for half-scanned stuff to show "Data Site" still, etc
+		if [[ "$newText" == *"Unsecured"* || "$newText" == *"Forgotten"* || "$newText" == *"Ruined"* || "$newText" == *"Central"* ]] ; then
+			newText=$(echo "${newText}" | sed -e 's/Data Site //' -e 's/Relic Site //')
+		fi
+		
+		# Signature 'overwriting' (i.e., which to keep) functionality is
+		# done by comparing string lengths (somehow this actually works)
 		checkExisting=$(find . -maxdepth 1 -name "${head}*")
 		if [[ ${#checkExisting} -lt ${#newText} ]]; then
-
-			# We literally just have to compare string lengths
 			if [[ ${#checkExisting} -gt 0 ]]; then
-
-				# And keep the longer one
 				mv "$checkExisting" "$newText"
 			else
-
-				# Or overwrite it
 				mkdir "$newText"
 			fi
 		fi
 
-		# 'Cleanup' functionality ('lazy delete' in Pathfinder/Wanderer)
+		# 'Lazy delete' functionality ("map lazy")
 		if [[ "$1" == "lazy" ]]; then
-
-			# Create a temporary file with sigs we want to delete
 			touch "$del"
 			for file in */; do
 			
-				# Get signature label identifier ("ABC")
+				# Delete sigs not on the clipboard
 				head=$(echo "$file" | cut -c1-3)
-
-				# Delete signature if it doesnt exist on clipboard
 				if ! grep -q "$head" "$clipboard"; then
 					rm -rf "$file"
-
-					# Store deleted sig for later reference
 					echo "$head" >> "$del"
 				fi 
 			done
 		fi
 	done
-
-	# Clean up
 	rm "$clipboard"
+
+# Labeling commands
+elif [[ "${#1}" -eq 3 ]]; then
+	filename=$(find . -maxdepth 1 -iname "${1}*")
+
+	# Flag a signature with "!" (map flag <sig>)
+	if [[ "$2" == "flag" ]]; then
+		preString="$filename"
+		for (( i=0; i<${#preString}; i++ )); do
+			if [[ "${preString:$i:1}" == " " ]]; then
+				if [[ $i -ge 1 ]]; then
+					break
+				fi
+			fi
+		done
+		postString="${preString:0:$i}!${preString:$i}"
+		mv "$filename" "$postString"
+	
+	# Auto-label signatures ("map <sig> <jcode>")
+	else
+		id=$(echo "$filename" | cut -c1-5)
+		tempname=$(echo "$id" "$2")
+		if [[ "${#2}" -eq 6 ]]; then # jcodes are 6 digits
+			re='^[0-9]+$'
+			if [[ "$2" =~ $re ]]; then # jcodes are integers
+			
+				# Append class, static, and weather strings
+				newname=$(grep -hr "$2" "$dir/data.txt")
+				mv "$filename" "$filename $newname"
+				cd "$filename $newname"
+			else
+				mv "$filename" "$tempname"
+			fi
+
+		# Simple relabel ("map <sig> <label>")
+		else
+			mv "$filename" "$tempname"
+		fi
+	fi
 fi
 
 # Print updated map
@@ -186,7 +171,7 @@ clear
 echo $divider
 echo "CURRENT LOCATION: ${PWD##*/}"
 echo $divider
-if [[ "${PWD##*/}" == "home" ]]; then
+if [[ "$1" == "full" ]]; then
 	tree -C | tail -n+2 - | head -n -2
 else
 	tree -LC 1 | tail -n+2 - | head -n -2
