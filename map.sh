@@ -15,7 +15,7 @@
 # map full 					show full map
 #
 # [SIGNATURES]				[BEHAVIOR]
-# map <sig> "<nickname>"	rename a sig (quotes for multiple words)
+# map <sig> <label>			rename a sig (accepts multiple words)
 # map <sig> flag			add "!" after first word (e.g., "ABC 5x!")
 # map <sig> <jcode>			fetch class/statics/weather
 # map del <sig> <sig>..		remove one or more signatures
@@ -44,7 +44,7 @@ else
 fi
 
 # Reset map view ("map top")
-if [[ "$1" == "top" ]]; then
+if [[ "$1" == "top" || "$1" == "home" ]]; then
 	cd "$top"
 
 # Navigate up ("map up")
@@ -147,27 +147,35 @@ elif [[ "${#1}" -eq 3 ]]; then
 	else
 		id=$(echo "$filename" | cut -c1-5)
 		tempname=$(echo "$id" "$2")
-		if [[ "${#2}" -eq 6 ]]; then # jcodes are 6 digits
-			re='^[0-9]+$'
-			if [[ "$2" =~ $re ]]; then # jcodes are integers
+		re='^[0-9]+$'
+		if [[ "${#2}" -eq 6 && "$2" =~ $re ]]; then # jcodes are integers
 			
-				# Append class, static, and weather strings
-				newname=$(grep -hr "$2" "$dir/data.txt")
-				mv "$filename" "$filename $newname"
-				cd "$filename $newname"
-			else
-				mv "$filename" "$tempname"
-			fi
-
+			# Append class, static, and weather strings
+			newname=$(grep -hr "$2" "$dir/data.txt")
+			mv "$filename" "$filename $newname"
+			cd "$filename $newname"
+				
 		# Simple relabel ("map <sig> <label>")
-		else
+		elif [[ $# -eq 2 ]]; then
 			mv "$filename" "$tempname"
+
+		# Complex relabel ("map <sig> <label> <label>..")
+		else
+			paramStrings=""
+			i=1
+			for param in "$@"; do
+				if ((i>2)); then
+					paramStrings="${paramStrings}$param "
+				fi
+				((i++))
+			done
+			mv "$filename" "$tempname $paramStrings"
 		fi
 	fi
 fi
 
 # Print updated map
-clear
+#clear
 echo $divider
 echo "CURRENT LOCATION: ${PWD##*/}"
 echo $divider
