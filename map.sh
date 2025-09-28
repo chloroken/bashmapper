@@ -2,6 +2,9 @@
 
 # TODO
 # - Add multiple undo steps
+# - Add multiflagging
+# - Change map <sig> <jcode> to
+# - map fetch <jcode> (current system)
 
 # [COMMAND]					[BEHAVIOR]
 # map add					additively paste sigs
@@ -16,8 +19,8 @@
 #
 # [SIGNATURES]				[BEHAVIOR]
 # map <sig> <label>			rename a sig (accepts multiple words)
-# map <sig> flag			add "!" after first word (e.g., "ABC 5x!")
-# map <sig> <jcode>			fetch class/statics/weather
+# map <sig> flag			append "!" to ID (e.g., "ABC!")
+# map <sig> <jcode>			append class/statics/weather to label
 # map del <sig> <sig>..		remove one or more signatures
 
 # Initialize magic variables
@@ -26,7 +29,7 @@ top="$dir/top/"
 backup="$dir/undo/"
 clipboard="$dir/clipboard.txt"
 del="$dir/del.txt"
-divider="================================================================================"
+divider="=============================="
 
 # Ensure map root directory exists
 if [ ! -d "$dir/top/" ]; then
@@ -36,7 +39,7 @@ fi
 # Undo functionality
 if [[ "$1" == "undo" ]]; then
 	rm -rf "$top"
-	mv -r "$backup" "$top"
+	cp -r "$backup" "$top"
 	cd "$top"
 else
 	rm -rf "$backup"
@@ -44,7 +47,7 @@ else
 fi
 
 # Reset map view ("map top")
-if [[ "$1" == "top" || "$1" == "home" ]]; then
+if [[ "$1" == "top" ]]; then
 	cd "$top"
 
 # Navigate up ("map up")
@@ -54,6 +57,8 @@ elif [[ "$1" == "up" && "${PWD##*/}" != "top" ]]; then
 # Multi-sig commands ("map <cmd> <sig> <sig>..")
 elif [[ "$1" == "nav" || "$1" == "del" ]]; then
 	for param in "$@"; do
+
+		# Ensure we're looking at sig IDs (e.g., "ABC")
 		letters='^[a-zA-Z]+$'
 		if [[ "${#param}" -eq 3  && "${param}" =~ $letters ]]; then
 			filename=$(find . -maxdepth 1 -iname "${param}*")
@@ -78,8 +83,8 @@ elif [[ "$1" == "add" || "$1" == "lazy" ]]; then
 		head=$(echo "$line" | cut -c1-3)
 		tail=$(echo "$line" | cut -c 9-)
 		
-		# Jspace sites don't have numbers, so we just trim
-		# when we find the first integer in the string
+		# Jspace sites don't have numbers, so we can just
+		# trim when we find the first integer in the string
 		nums='^[0-9]+$'
 		for (( i=0; i<${#tail}; i++ )); do
 			if [[ "${tail:$i:1}" =~ $nums ]] ; then
@@ -89,7 +94,7 @@ elif [[ "$1" == "add" || "$1" == "lazy" ]]; then
 
 		# Concatenate new string and remove irrelevant bits
 		tailReal=$(echo "$tail" | cut -c1-"$i")
-		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Unstable Wormhole//' -e 's/Wormhole//' -e 's/Gas Site //') # -e 's/Data Site //' -e 's/Relic Site //')
+		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Unstable Wormhole//' -e 's/Wormhole//' -e 's/Gas Site //')
 
 		# Remove more bits from data/relic sites, but only when they're revealed
 		# This allows for half-scanned stuff to show "Data Site" still, etc
@@ -117,6 +122,8 @@ elif [[ "$1" == "add" || "$1" == "lazy" ]]; then
 				head=$(echo "$file" | cut -c1-3)
 				if ! grep -q "$head" "$clipboard"; then
 					rm -rf "$file"
+
+					# Store sig identifiers for report
 					echo "$head" >> "$del"
 				fi 
 			done
@@ -140,13 +147,15 @@ elif [[ "${#1}" -eq 3 ]]; then
 		done
 		postString="${preString:0:$i}!${preString:$i}"
 		mv "$filename" "$postString"
-	
-	# Auto-label signatures ("map <sig> <jcode>")
+
+	# Naming commands
 	else
 		id=$(echo "$filename" | cut -c1-5)
 		tempname=$(echo "$id" "$2")
 		re='^[0-9]+$'
-		if [[ "${#2}" -eq 6 && "$2" =~ $re ]]; then # jcodes are integers
+		
+		# Auto-label signatures ("map <sig> <jcode>")
+		if [[ "${#2}" -eq 6 && "$2" =~ $re ]]; then # jcodes are 6-digit integers
 			
 			# Append class, static, and weather strings
 			newname=$(grep -hr "$2" "$dir/data.txt")
@@ -158,7 +167,7 @@ elif [[ "${#1}" -eq 3 ]]; then
 			mv "$filename" "$tempname"
 
 		# Complex relabel ("map <sig> <label> <label>..")
-		elif  [[ $# -gt 2 ]]; then
+		elif [[ $# -gt 2 ]]; then
 			paramStrings=""
 			i=1
 			for param in "$@"; do
@@ -178,6 +187,7 @@ echo $divider
 echo "CURRENT LOCATION: ${PWD##*/}"
 echo $divider
 if [[ "$1" == "full" ]]; then
+	cd "$top"
 	tree -C | tail -n+2 - | head -n -2
 else
 	tree -LC 1 | tail -n+2 - | head -n -2
