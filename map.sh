@@ -1,10 +1,17 @@
 #!/bin/bash
 
 # TODO
-# - Add multiple undo steps
+# //- Append a "new sigs" to report
+# //- Add multiple undo steps
 # - Add multiflagging
-# - Change map <sig> <jcode> to
-# - map fetch <jcode> (current system)
+# - Change map <sig> <jcode> to:
+# - - map fetch <jcode> (current system)
+#
+# Convert entire script to python:
+# - use a mock database
+# - store sigs forever
+# - include timestamps
+# - add routing tool?
 
 # [COMMAND]					[BEHAVIOR]
 # map add					additively paste sigs
@@ -26,9 +33,12 @@
 # Initialize magic variables
 dir="$HOME/Documents/bashmapper"
 top="$dir/top/"
-backup="$dir/undo/"
+backup1="$dir/undo1/"
+backup2="$dir/undo2/"
+backup3="$dir/undo3/"
 clipboard="$dir/clipboard.txt"
 del="$dir/del.txt"
+new="$dir/new.txt"
 divider="=============================="
 
 # Ensure map root directory exists
@@ -38,12 +48,23 @@ fi
 
 # Undo functionality
 if [[ "$1" == "undo" ]]; then
-	rm -rf "$top"
-	cp -r "$backup" "$top"
-	cd "$top"
+	if [ ! -z "$(ls -A $backup1)" ]; then
+		rm -rf "$top"
+		cp -r "$backup1" "$top"
+		rm -rf "$backup1"
+		cp -r "$backup2" "$backup1"
+		rm -rf "$backup2"
+		cp -r "$backup3" "$backup2"
+		rm -rf "$backup3"
+		cd "$top"
+	fi
 else
-	rm -rf "$backup"
-	cp -r "$top" "$backup"
+	rm -rf "$backup3"
+	cp -r "$backup2" "$backup3"
+	rm -rf "$backup2"
+	cp -r "$backup1" "$backup2"
+	rm -rf "$backup1"
+	cp -r "$top" "$backup1"
 fi
 
 # Reset map view ("map top")
@@ -109,6 +130,8 @@ elif [[ "$1" == "add" || "$1" == "lazy" ]]; then
 			if [[ ${#checkExisting} -gt 0 ]]; then
 				mv "$checkExisting" "$newText"
 			else
+				touch "$new"
+				echo "$head" >> "$new"
 				mkdir "$newText"
 			fi
 		fi
@@ -196,7 +219,7 @@ fi
 # Indicate signatures for manual removal
 if [[ -s "$dir/del.txt" ]]; then
 	echo $divider
-	echo "OBSOLETE SIGNATURES:"
+	echo "DELETE SIGNATURES:"
 	while read line; do
 		echo "> $line"
 	done < "$del"
@@ -204,4 +227,17 @@ if [[ -s "$dir/del.txt" ]]; then
 
 	#Clean up
 	rm "$del"
+fi
+
+# Indicate signatures to scan (new)
+if [[ -s "$dir/new.txt" ]]; then
+	echo $divider
+	echo "NEW SIGNATURES:"
+	while read line; do
+		echo "> $line"
+	done < "$new"
+	echo $divider
+
+	#Clean up
+	rm "$new"
 fi
