@@ -1,2604 +1,2604 @@
-~ J105443 ~ Class 1 + N   
-~ J100744 ~ Class 1 + N ~ Cataclysmic Variable
-~ J225046 ~ Class 1 + N   
-~ J160837 ~ Class 1 + N   
-~ J114700 ~ Class 1 + N   
-~ J134914 ~ Class 1 + N   
-~ J102655 ~ Class 1 + N   
-~ J134312 ~ Class 1 + N ~ Magnetar 
-~ J205818 ~ Class 1 + N   
-~ J113434 ~ Class 1 + N   
-~ J105711 ~ Class 1 + N ~ Cataclysmic Variable
-~ J164218 ~ Class 1 + N   
-~ J154535 ~ Class 1 + N ~ Black Hole
-~ J111301 ~ Class 1 + N ~ Cataclysmic Variable
-~ J135038 ~ Class 1 + N   
-~ J121358 ~ Class 1 + N   
-~ J222914 ~ Class 1 + N ~ Pulsar 
-~ J155429 ~ Class 1 + N   
-~ J204640 ~ Class 1 + N ~ Black Hole
-~ J162604 ~ Class 1 + N   
-~ J164807 ~ Class 1 + N   
-~ J233317 ~ Class 1 + N ~ Wolf-Rayet Star
-~ J155023 ~ Class 1 + N   
-~ J112628 ~ Class 1 + N ~ Wolf-Rayet Star
-~ J153001 ~ Class 1 + N   
-~ J143204 ~ Class 1 + N   
-~ J101729 ~ Class 1 + N   
-~ J221203 ~ Class 1 + N ~ Black Hole
-~ J125428 ~ Class 1 + L   
-~ J131854 ~ Class 1 + L ~ Black Hole
-~ J160534 ~ Class 1 + L   
-~ J144855 ~ Class 1 + L   
-~ J101453 ~ Class 1 + L   
-~ J144913 ~ Class 1 + L   
-~ J144530 ~ Class 1 + L   
-~ J135411 ~ Class 1 + L ~ Magnetar 
-~ J125713 ~ Class 1 + L   
-~ J105521 ~ Class 1 + L ~ Red Giant
-~ J224324 ~ Class 1 + L   
-~ J163203 ~ Class 1 + L ~ Cataclysmic Variable
-~ J171818 ~ Class 1 + L ~ Magnetar 
-~ J145337 ~ Class 1 + L   
-~ J150131 ~ Class 1 + L   
-~ J130842 ~ Class 1 + L   
-~ J145406 ~ Class 1 + L   
-~ J103404 ~ Class 1 + L ~ Wolf-Rayet Star
-~ J112124 ~ Class 1 + L   
-~ J124926 ~ Class 1 + L ~ Cataclysmic Variable
-~ J232605 ~ Class 1 + L   
-~ J144938 ~ Class 1 + L   
-~ J233828 ~ Class 1 + L   
-~ J130714 ~ Class 1 + L ~ Black Hole
-~ J142701 ~ Class 1 + L   
-~ J154226 ~ Class 1 + L   
-~ J125843 ~ Class 1 + L   
-~ J155459 ~ Class 1 + L   
-~ J225555 ~ Class 1 + L ~ Magnetar 
-~ J115549 ~ Class 1 + L   
-~ J140741 ~ Class 1 + L ~ Black Hole
-~ J104140 ~ Class 1 + L   
-~ J101757 ~ Class 1 + L ~ Black Hole
-~ J100250 ~ Class 1 + L   
-~ J113721 ~ Class 1 + L   
-~ J105039 ~ Class 1 + L ~ Pulsar 
-~ J233550 ~ Class 1 + L   
-~ J114033 ~ Class 1 + L ~ Wolf-Rayet Star
-~ J105936 ~ Class 1 + L ~ Red Giant
-~ J140121 ~ Class 1 + L ~ Magnetar 
-~ J154029 ~ Class 1 + L   
-~ J101336 ~ Class 1 + L ~ Cataclysmic Variable
-~ J160039 ~ Class 1 + L   
-~ J161257 ~ Class 1 + L ~ Red Giant
-~ J144303 ~ Class 1 + L   
-~ J121131 ~ Class 1 + L ~ Wolf-Rayet Star
-~ J113653 ~ Class 1 + L   
-~ J123454 ~ Class 1 + L ~ Wolf-Rayet Star
-~ J110750 ~ Class 1 + L   
-~ J151106 ~ Class 1 + L ~ Magnetar 
-~ J100040 ~ Class 1 + L ~ Black Hole
-~ J223733 ~ Class 1 + L   
-~ J110431 ~ Class 1 + L ~ Cataclysmic Variable
-~ J134446 ~ Class 1 + L   
-~ J143202 ~ Class 1 + L   
-~ J210436 ~ Class 1 + L   
-~ J133030 ~ Class 1 + L ~ Cataclysmic Variable
-~ J170645 ~ Class 1 + L   
-~ J103151 ~ Class 1 + L ~ Pulsar 
-~ J222206 ~ Class 1 + L   
-~ J130602 ~ Class 1 + L   
-~ J123708 ~ Class 1 + L   
-~ J123831 ~ Class 1 + L   
-~ J164927 ~ Class 1 + L   
-~ J134143 ~ Class 1 + L   
-~ J214534 ~ Class 1 + L   
-~ J135250 ~ Class 1 + L   
-~ J111707 ~ Class 1 + L   
-~ J135245 ~ Class 1 + L   
-~ J101408 ~ Class 1 + L   
-~ J215117 ~ Class 1 + L   
-~ J141019 ~ Class 1 + L   
-~ J102206 ~ Class 1 + L   
-~ J125903 ~ Class 1 + L   
-~ J134939 ~ Class 1 + L   
-~ J162641 ~ Class 1 + L ~ Red Giant
-~ J152537 ~ Class 1 + L ~ Black Hole
-~ J224442 ~ Class 1 + L ~ Black Hole
-~ J104138 ~ Class 1 + L ~ Magnetar 
-~ J121516 ~ Class 1 + L   
-~ J114540 ~ Class 1 + L   
-~ J155013 ~ Class 1 + L   
-~ J144450 ~ Class 1 + L   
-~ J141239 ~ Class 1 + L   
-~ J115545 ~ Class 1 + L   
-~ J114905 ~ Class 1 + L   
-~ J120522 ~ Class 1 + L   
-~ J172907 ~ Class 1 + L ~ Pulsar 
-~ J164550 ~ Class 1 + L ~ Magnetar 
-~ J141812 ~ Class 1 + L   
-~ J134637 ~ Class 1 + L   
-~ J134132 ~ Class 1 + L   
-~ J125011 ~ Class 1 + L   
-~ J105942 ~ Class 1 + L ~ Cataclysmic Variable
-~ J171653 ~ Class 1 + L   
-~ J110213 ~ Class 1 + L   
-~ J115048 ~ Class 1 + L   
-~ J174405 ~ Class 1 + L ~ Wolf-Rayet Star
-~ J123111 ~ Class 1 + L   
-~ J123047 ~ Class 1 + L   
-~ J231541 ~ Class 1 + L   
-~ J215900 ~ Class 1 + L ~ Cataclysmic Variable
-~ J110651 ~ Class 1 + L   
-~ J140602 ~ Class 1 + L   
-~ J163804 ~ Class 1 + L ~ Wolf-Rayet Star
-~ J125209 ~ Class 1 + H ~ Magnetar 
-~ J140831 ~ Class 1 + H   
-~ J161811 ~ Class 1 + H   
-~ J112913 ~ Class 1 + H   
-~ J105632 ~ Class 1 + H   
-~ J160710 ~ Class 1 + H   
-~ J160835 ~ Class 1 + H   
-~ J122659 ~ Class 1 + H   
-~ J130931 ~ Class 1 + H   
-~ J161115 ~ Class 1 + H   
-~ J120734 ~ Class 1 + H   
-~ J110906 ~ Class 1 + H   
-~ J121418 ~ Class 1 + H   
-~ J113820 ~ Class 1 + H   
-~ J113506 ~ Class 1 + H   
-~ J172240 ~ Class 1 + H   
-~ J110101 ~ Class 1 + H   
-~ J110108 ~ Class 1 + H   
-~ J213555 ~ Class 1 + H ~ Black Hole
-~ J144704 ~ Class 1 + H   
-~ J115815 ~ Class 1 + H   
-~ J133653 ~ Class 1 + H   
-~ J171700 ~ Class 1 + H   
-~ J104628 ~ Class 1 + H   
-~ J114546 ~ Class 1 + H   
-~ J235419 ~ Class 1 + H   
-~ J204503 ~ Class 1 + H ~ Magnetar 
-~ J215417 ~ Class 1 + H   
-~ J110545 ~ Class 1 + H   
-~ J153536 ~ Class 1 + H   
-~ J150407 ~ Class 1 + H ~ Red Giant
-~ J153530 ~ Class 1 + H   
-~ J131232 ~ Class 1 + H   
-~ J101020 ~ Class 1 + H   
-~ J133613 ~ Class 1 + H   
-~ J165901 ~ Class 1 + H   
-~ J152006 ~ Class 1 + H   
-~ J160345 ~ Class 1 + H   
-~ J134330 ~ Class 1 + H   
-~ J213342 ~ Class 1 + H   
-~ J150745 ~ Class 1 + H   
-~ J165056 ~ Class 1 + H   
-~ J150827 ~ Class 1 + H   
-~ J144632 ~ Class 1 + H   
-~ J102630 ~ Class 1 + H   
-~ J133335 ~ Class 1 + H   
-~ J125925 ~ Class 1 + H   
-~ J142617 ~ Class 1 + H   
-~ J150818 ~ Class 1 + H ~ Pulsar 
-~ J114420 ~ Class 1 + H   
-~ J112250 ~ Class 1 + H   
-~ J155935 ~ Class 1 + H   
-~ J115738 ~ Class 1 + H ~ Pulsar 
-~ J232715 ~ Class 1 + H   
-~ J110051 ~ Class 1 + H   
-~ J152928 ~ Class 1 + H   
-~ J132216 ~ Class 1 + H   
-~ J132758 ~ Class 1 + H ~ Cataclysmic Variable
-~ J134145 ~ Class 1 + H ~ Pulsar 
-~ J102849 ~ Class 1 + H   
-~ J120335 ~ Class 1 + H   
-~ J104439 ~ Class 1 + H ~ Wolf-Rayet Star
-~ J122717 ~ Class 1 + H   
-~ J101817 ~ Class 1 + H   
-~ J131551 ~ Class 1 + H ~ Black Hole
-~ J115200 ~ Class 1 + H   
-~ J155029 ~ Class 1 + H ~ Black Hole
-~ J223703 ~ Class 1 + H   
-~ J233359 ~ Class 1 + H   
-~ J114107 ~ Class 1 + H   
-~ J152014 ~ Class 1 + H   
-~ J100211 ~ Class 1 + H   
-~ J104103 ~ Class 1 + H   
-~ J171019 ~ Class 1 + H ~ Cataclysmic Variable
-~ J114313 ~ Class 1 + H   
-~ J130542 ~ Class 1 + H   
-~ J114719 ~ Class 1 + H   
-~ J130322 ~ Class 1 + H   
-~ J161524 ~ Class 1 + H ~ Pulsar 
-~ J162858 ~ Class 1 + H   
-~ J121158 ~ Class 1 + H ~ Black Hole
-~ J113050 ~ Class 1 + H   
-~ J141514 ~ Class 1 + H   
-~ J220654 ~ Class 1 + H   
-~ J162118 ~ Class 1 + H ~ Cataclysmic Variable
-~ J231004 ~ Class 1 + H ~ Cataclysmic Variable
-~ J120621 ~ Class 1 + H   
-~ J151601 ~ Class 1 + H   
-~ J105837 ~ Class 1 + H   
-~ J143133 ~ Class 1 + H   
-~ J100422 ~ Class 1 + H ~ Red Giant
-~ J104335 ~ Class 1 + H ~ Wolf-Rayet Star
-~ J105700 ~ Class 1 + H   
-~ J215431 ~ Class 1 + H   
-~ J143628 ~ Class 1 + H   
-~ J141150 ~ Class 1 + H   
-~ J163743 ~ Class 1 + H   
-~ J161509 ~ Class 1 + H   
-~ J150629 ~ Class 1 + H   
-~ J141017 ~ Class 1 + H   
-~ J130045 ~ Class 1 + H   
-~ J123748 ~ Class 1 + H   
-~ J124051 ~ Class 1 + H   
-~ J151141 ~ Class 1 + H   
-~ J112129 ~ Class 1 + H   
-~ J213653 ~ Class 1 + H   
-~ J143649 ~ Class 1 + H   
-~ J223855 ~ Class 1 + H ~ Red Giant
-~ J140019 ~ Class 1 + H ~ Black Hole
-~ J110605 ~ Class 1 + H   
-~ J122843 ~ Class 1 + H ~ Pulsar 
-~ J205004 ~ Class 1 + H   
-~ J122114 ~ Class 1 + H   
-~ J163533 ~ Class 1 + H ~ Pulsar 
-~ J151518 ~ Class 1 + H   
-~ J122712 ~ Class 1 + H   
-~ J143002 ~ Class 1 + H ~ Black Hole
-~ J160307 ~ Class 1 + H ~ Red Giant
-~ J213932 ~ Class 1 + H   
-~ J102414 ~ Class 1 + H   
-~ J170949 ~ Class 1 + H   
-~ J235001 ~ Class 1 + H   
-~ J103320 ~ Class 1 + H   
-~ J141038 ~ Class 1 + H ~ Wolf-Rayet Star
-~ J172003 ~ Class 1 + H   
-~ J124215 ~ Class 1 + H ~ Magnetar 
-~ J215754 ~ Class 1 + H ~ Red Giant
-~ J102837 ~ Class 1 + H ~ Cataclysmic Variable
-~ J130155 ~ Class 1 + H   
-~ J170544 ~ Class 1 + H   
-~ J142649 ~ Class 1 + H   
-~ J150539 ~ Class 1 + H ~ Black Hole
-~ J163156 ~ Class 1 + H   
-~ J120338 ~ Class 1 + H ~ Wolf-Rayet Star
-~ J142941 ~ Class 1 + H ~ Magnetar 
-~ J110126 ~ Class 1 + H   
-~ J155504 ~ Class 1 + H   
-~ J144228 ~ Class 1 + H ~ Red Giant
-~ J223650 ~ Class 1 + H   
-~ J102734 ~ Class 1 + H   
-~ J105232 ~ Class 1 + H   
-~ J133128 ~ Class 1 + H   
-~ J140135 ~ Class 1 + H ~ Pulsar 
-~ J115216 ~ Class 1 + H   
-~ J153311 ~ Class 1 + H   
-~ J164756 ~ Class 1 + H   
-~ J165216 ~ Class 1 + H ~ Red Giant
-~ J114914 ~ Class 1 + H ~ Cataclysmic Variable
-~ J212504 ~ Class 1 + H ~ Wolf-Rayet Star
-~ J120256 ~ Class 1 + H   
-~ J143421 ~ Class 1 + H   
-~ J223026 ~ Class 1 + H   
-~ J102918 ~ Class 1 + H   
-~ J142136 ~ Class 1 + H   
-~ J134540 ~ Class 1 + H   
-~ J124451 ~ Class 1 + H   
-~ J102749 ~ Class 1 + H   
-~ J165741 ~ Class 1 + H ~ Cataclysmic Variable
-~ J142119 ~ Class 1 + H   
-~ J105642 ~ Class 1 + H   
-~ J154354 ~ Class 1 + H ~ Magnetar 
-~ J102005 ~ Class 1 + H   
-~ J133052 ~ Class 1 + H   
-~ J103341 ~ Class 1 + H   
-~ J142114 ~ Class 1 + H   
-~ J152353 ~ Class 1 + H   
-~ J120431 ~ Class 1 + H   
-~ J103547 ~ Class 1 + H   
-~ J161107 ~ Class 1 + H   
-~ J160334 ~ Class 1 + H ~ Black Hole
-~ J101845 ~ Class 1 + H   
-~ J171805 ~ Class 1 + H ~ Red Giant
-~ J134610 ~ Class 1 + H ~ Wolf-Rayet Star
-~ J173842 ~ Class 1 + H   
-~ J155203 ~ Class 1 + H ~ Wolf-Rayet Star
-~ J121935 ~ Class 1 + H   
-~ J105013 ~ Class 1 + H ~ Cataclysmic Variable
-~ J161846 ~ Class 1 + H   
-~ J113632 ~ Class 1 + H ~ Magnetar 
-~ J170106 ~ Class 1 + H   
-~ J123828 ~ Class 1 + H   
-~ J172147 ~ Class 1 + H   
-~ J164759 ~ Class 1 + H   
-~ J212957 ~ Class 1 + H   
-~ J212338 ~ Class 1 + H   
-~ J115823 ~ Class 1 + H   
-~ J112744 ~ Class 1 + H   
-~ J121941 ~ Class 1 + H   
-~ J125650 ~ Class 1 + H   
-~ J161344 ~ Class 1 + H ~ Black Hole
-~ J134833 ~ Class 1 + H   
-~ J143517 ~ Class 1 + H ~ Black Hole
-~ J133245 ~ Class 1 + H ~ Red Giant
-~ J113918 ~ Class 1 + H   
-~ J161644 ~ Class 1 + H   
-~ J152257 ~ Class 1 + H   
-~ J155833 ~ Class 1 + H ~ Magnetar 
-~ J151332 ~ Class 1 + H   
-~ J231306 ~ Class 1 + H ~ Wolf-Rayet Star
-~ J171312 ~ Class 1 + H   
-~ J112406 ~ Class 1 + H ~ Cataclysmic Variable
-~ J212904 ~ Class 1 + H   
-~ J111811 ~ Class 1 + H   
-~ J104201 ~ Class 1 + H   
-~ J150216 ~ Class 1 + H   
-~ J112934 ~ Class 1 + H   
-~ J115808 ~ Class 1 + H   
-~ J121915 ~ Class 1 + H   
-~ J133259 ~ Class 1 + H   
-~ J150325 ~ Class 1 + H   
-~ J122224 ~ Class 1 + H   
-~ J131702 ~ Class 1 + H ~ Pulsar 
-~ J141807 ~ Class 1 + H   
-~ J142327 ~ Class 1 + H   
-~ J144822 ~ Class 1 + H   
-~ J164417 ~ Class 2 + 3,H   
-~ J125227 ~ Class 2 + 3,H ~ Pulsar 
-~ J113057 ~ Class 2 + 3,H   
-~ J101524 ~ Class 2 + 3,H   
-~ J124508 ~ Class 2 + 3,H   
-~ J141156 ~ Class 2 + 3,H   
-~ J222822 ~ Class 2 + 3,H   
-~ J104253 ~ Class 2 + 3,H   
-~ J144153 ~ Class 2 + 3,H   
-~ J103406 ~ Class 2 + 3,H ~ Pulsar 
-~ J133210 ~ Class 2 + 3,H   
-~ J111740 ~ Class 2 + 3,H   
-~ J125956 ~ Class 2 + 3,H   
-~ J105951 ~ Class 2 + 3,H   
-~ J141857 ~ Class 2 + 3,H   
-~ J120726 ~ Class 2 + 3,H   
-~ J155737 ~ Class 2 + 3,H ~ Pulsar 
-~ J144605 ~ Class 2 + 3,H   
-~ J144218 ~ Class 2 + 3,H   
-~ J114835 ~ Class 2 + 3,H   
-~ J134006 ~ Class 2 + 3,H   
-~ J160941 ~ Class 2 + 3,H   
-~ J111557 ~ Class 2 + 3,H   
-~ J124219 ~ Class 2 + 3,H   
-~ J155620 ~ Class 2 + 3,H ~ Wolf-Rayet Star
-~ J114346 ~ Class 2 + 3,H   
-~ J153532 ~ Class 2 + 3,H ~ Pulsar 
-~ J211936 ~ Class 2 + 3,H   
-~ J211036 ~ Class 2 + 3,H   
-~ J145805 ~ Class 2 + 3,H   
-~ J151548 ~ Class 2 + 3,H ~ Magnetar 
-~ J160412 ~ Class 2 + 3,H ~ Pulsar 
-~ J104008 ~ Class 2 + 3,H   
-~ J145715 ~ Class 2 + 3,H   
-~ J235321 ~ Class 2 + 3,H ~ Cataclysmic Variable
-~ J103339 ~ Class 2 + 3,H   
-~ J132009 ~ Class 2 + 3,H   
-~ J210548 ~ Class 2 + 3,H   
-~ J235408 ~ Class 2 + 3,H   
-~ J122821 ~ Class 2 + 3,H   
-~ J121925 ~ Class 2 + 3,H ~ Cataclysmic Variable
-~ J151047 ~ Class 2 + 3,H ~ Pulsar 
-~ J111011 ~ Class 2 + 3,H   
-~ J154212 ~ Class 2 + 3,H   
-~ J130256 ~ Class 2 + 3,H ~ Magnetar 
-~ J113230 ~ Class 2 + 3,H   
-~ J132557 ~ Class 2 + 3,H   
-~ J233534 ~ Class 2 + 3,H ~ Magnetar 
-~ J232801 ~ Class 2 + 3,H   
-~ J153627 ~ Class 2 + 3,H ~ Magnetar 
-~ J134800 ~ Class 2 + 3,H   
-~ J111508 ~ Class 2 + 3,H   
-~ J143639 ~ Class 2 + 3,H   
-~ J160753 ~ Class 2 + 3,H   
-~ J151231 ~ Class 2 + 3,H   
-~ J142547 ~ Class 2 + 3,H   
-~ J142306 ~ Class 2 + 3,H   
-~ J210422 ~ Class 2 + 3,H   
-~ J112137 ~ Class 2 + 3,H   
-~ J160715 ~ Class 2 + 3,H ~ Black Hole
-~ J145931 ~ Class 2 + 3,H   
-~ J103217 ~ Class 2 + 3,H ~ Magnetar 
-~ J143505 ~ Class 2 + 3,H   
-~ J142533 ~ Class 2 + 3,H ~ Pulsar 
-~ J112146 ~ Class 2 + 3,H ~ Red Giant
-~ J103839 ~ Class 2 + 3,H ~ Wolf-Rayet Star
-~ J152433 ~ Class 2 + 3,H ~ Red Giant
-~ J110408 ~ Class 2 + 3,H   
-~ J205546 ~ Class 2 + 3,H   
-~ J152801 ~ Class 2 + 3,H ~ Pulsar 
-~ J120308 ~ Class 2 + 3,H   
-~ J103948 ~ Class 2 + 3,H   
-~ J112820 ~ Class 2 + 3,H   
-~ J231837 ~ Class 2 + 3,H   
-~ J110043 ~ Class 2 + 3,H   
-~ J121454 ~ Class 2 + 3,H   
-~ J230959 ~ Class 2 + 3,H   
-~ J103408 ~ Class 2 + 3,H ~ Red Giant
-~ J162720 ~ Class 2 + 3,H ~ Red Giant
-~ J132418 ~ Class 2 + 3,H   
-~ J164235 ~ Class 2 + 3,H ~ Pulsar 
-~ J143429 ~ Class 2 + 3,H   
-~ J134654 ~ Class 2 + 3,H   
-~ J112801 ~ Class 2 + 3,H   
-~ J110656 ~ Class 2 + 3,H   
-~ J134951 ~ Class 2 + 3,H   
-~ J155307 ~ Class 2 + 3,H   
-~ J131204 ~ Class 2 + 3,H   
-~ J213737 ~ Class 2 + 3,H ~ Black Hole
-~ J235117 ~ Class 2 + 3,H   
-~ J164938 ~ Class 2 + 3,H   
-~ J120310 ~ Class 2 + 3,H ~ Black Hole
-~ J144838 ~ Class 2 + 3,H   
-~ J101307 ~ Class 2 + 3,H   
-~ J172354 ~ Class 2 + 3,H   
-~ J235447 ~ Class 2 + 3,H   
-~ J124023 ~ Class 2 + 3,H   
-~ J171424 ~ Class 2 + 3,H   
-~ J150921 ~ Class 2 + 3,H   
-~ J171518 ~ Class 2 + 3,H   
-~ J140012 ~ Class 2 + 3,H   
-~ J155616 ~ Class 2 + 3,H ~ Black Hole
-~ J234557 ~ Class 2 + 3,H   
-~ J162700 ~ Class 2 + 3,H   
-~ J103716 ~ Class 2 + 4,H   
-~ J100640 ~ Class 2 + 4,H   
-~ J151250 ~ Class 2 + 4,H   
-~ J141332 ~ Class 2 + 4,H ~ Wolf-Rayet Star
-~ J211915 ~ Class 2 + 4,H ~ Cataclysmic Variable
-~ J144546 ~ Class 2 + 4,H ~ Pulsar 
-~ J145759 ~ Class 2 + 4,H   
-~ J103422 ~ Class 2 + 4,H ~ Wolf-Rayet Star
-~ J130222 ~ Class 2 + 4,H   
-~ J165357 ~ Class 2 + 4,H   
-~ J105321 ~ Class 2 + 4,H   
-~ J105803 ~ Class 2 + 4,H   
-~ J130209 ~ Class 2 + 4,H   
-~ J122832 ~ Class 2 + 4,H ~ Red Giant
-~ J143359 ~ Class 2 + 4,H   
-~ J100447 ~ Class 2 + 4,H ~ Black Hole
-~ J115651 ~ Class 2 + 4,H   
-~ J134323 ~ Class 2 + 4,H ~ Wolf-Rayet Star
-~ J160014 ~ Class 2 + 4,H ~ Red Giant
-~ J110823 ~ Class 2 + 4,H ~ Red Giant
-~ J100246 ~ Class 2 + 4,H   
-~ J131221 ~ Class 2 + 4,H   
-~ J145155 ~ Class 2 + 4,H   
-~ J114405 ~ Class 2 + 4,H   
-~ J215537 ~ Class 2 + 4,H   
-~ J172551 ~ Class 2 + 4,H   
-~ J131107 ~ Class 2 + 4,H ~ Black Hole
-~ J113108 ~ Class 2 + 4,H   
-~ J172556 ~ Class 2 + 4,H   
-~ J123450 ~ Class 2 + 4,H ~ Wolf-Rayet Star
-~ J135809 ~ Class 2 + 4,H ~ Red Giant
-~ J212319 ~ Class 2 + 4,H ~ Pulsar 
-~ J104210 ~ Class 2 + 4,H ~ Pulsar 
-~ J170038 ~ Class 2 + 4,H ~ Black Hole
-~ J104115 ~ Class 2 + 4,H   
-~ J114758 ~ Class 2 + 4,H ~ Pulsar 
-~ J231517 ~ Class 2 + 4,H ~ Cataclysmic Variable
-~ J114055 ~ Class 2 + 4,H   
-~ J120619 ~ Class 2 + 4,H   
-~ J213058 ~ Class 2 + 4,H   
-~ J162430 ~ Class 2 + 4,H   
-~ J120928 ~ Class 2 + 4,H ~ Red Giant
-~ J132918 ~ Class 2 + 4,H   
-~ J105203 ~ Class 2 + 4,H   
-~ J104328 ~ Class 2 + 4,H   
-~ J130854 ~ Class 2 + 4,H   
-~ J164130 ~ Class 2 + 4,H   
-~ J110316 ~ Class 2 + 4,H   
-~ J122331 ~ Class 2 + 4,H   
-~ J133419 ~ Class 2 + 4,H ~ Cataclysmic Variable
-~ J150137 ~ Class 2 + 4,H   
-~ J140112 ~ Class 2 + 4,H   
-~ J125721 ~ Class 2 + 4,H   
-~ J154515 ~ Class 2 + 4,H   
-~ J135703 ~ Class 2 + 4,H ~ Pulsar 
-~ J102347 ~ Class 2 + 4,H   
-~ J234942 ~ Class 2 + 4,H ~ Red Giant
-~ J134618 ~ Class 2 + 4,H ~ Black Hole
-~ J154858 ~ Class 2 + 4,H   
-~ J132052 ~ Class 2 + 4,H ~ Magnetar 
-~ J114046 ~ Class 2 + 4,H ~ Red Giant
-~ J150859 ~ Class 2 + 4,H   
-~ J151615 ~ Class 2 + 4,H ~ Cataclysmic Variable
-~ J122246 ~ Class 2 + 4,H   
-~ J132559 ~ Class 2 + 4,H   
-~ J230207 ~ Class 2 + 4,H   
-~ J140308 ~ Class 2 + 4,H   
-~ J140642 ~ Class 2 + 4,H   
-~ J114306 ~ Class 2 + 4,H   
-~ J154606 ~ Class 2 + 4,H   
-~ J135910 ~ Class 2 + 4,H ~ Cataclysmic Variable
-~ J132024 ~ Class 2 + 4,H   
-~ J160311 ~ Class 2 + 4,H   
-~ J142239 ~ Class 2 + 4,H   
-~ J101149 ~ Class 2 + 4,H   
-~ J154538 ~ Class 2 + 4,H   
-~ J144426 ~ Class 2 + 4,H   
-~ J150341 ~ Class 2 + 4,H ~ Wolf-Rayet Star
-~ J122124 ~ Class 2 + 4,H   
-~ J112614 ~ Class 2 + 4,H   
-~ J145316 ~ Class 2 + 4,H ~ Magnetar 
-~ J215736 ~ Class 2 + 4,H ~ Red Giant
-~ J163138 ~ Class 2 + 4,H ~ Pulsar 
-~ J100033 ~ Class 2 + 4,H   
-~ J170552 ~ Class 2 + 4,H   
-~ J104820 ~ Class 2 + 4,H   
-~ J131240 ~ Class 2 + 4,H   
-~ J120442 ~ Class 2 + 4,H   
-~ J105000 ~ Class 2 + 4,H ~ Magnetar 
-~ J164507 ~ Class 2 + 4,H ~ Cataclysmic Variable
-~ J144956 ~ Class 2 + 4,H   
-~ J114712 ~ Class 2 + 4,H   
-~ J211908 ~ Class 2 + 4,H   
-~ J150700 ~ Class 2 + 4,H   
-~ J164931 ~ Class 2 + 4,H   
-~ J121412 ~ Class 2 + 4,H ~ Wolf-Rayet Star
-~ J145211 ~ Class 2 + 4,H ~ Black Hole
-~ J174449 ~ Class 2 + 4,H   
-~ J133015 ~ Class 2 + 4,H   
-~ J134534 ~ Class 2 + 4,H ~ Pulsar 
-~ J153229 ~ Class 2 + 4,H   
-~ J133557 ~ Class 2 + 4,H ~ Wolf-Rayet Star
-~ J150807 ~ Class 2 + 2,L   
-~ J110413 ~ Class 2 + 2,L   
-~ J105352 ~ Class 2 + 2,L   
-~ J161246 ~ Class 2 + 2,L   
-~ J125927 ~ Class 2 + 2,L ~ Red Giant
-~ J130650 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J142826 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J152737 ~ Class 2 + 2,L ~ Black Hole
-~ J225316 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J163146 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J134107 ~ Class 2 + 2,L   
-~ J104850 ~ Class 2 + 2,L   
-~ J131124 ~ Class 2 + 2,L   
-~ J123435 ~ Class 2 + 2,L   
-~ J150853 ~ Class 2 + 2,L   
-~ J170558 ~ Class 2 + 2,L ~ Black Hole
-~ J214238 ~ Class 2 + 2,L ~ Magnetar 
-~ J110538 ~ Class 2 + 2,L ~ Red Giant
-~ J143336 ~ Class 2 + 2,L   
-~ J232044 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J145225 ~ Class 2 + 2,L ~ Black Hole
-~ J231210 ~ Class 2 + 2,L   
-~ J223853 ~ Class 2 + 2,L   
-~ J234542 ~ Class 2 + 2,L   
-~ J115911 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J135155 ~ Class 2 + 2,L   
-~ J152825 ~ Class 2 + 2,L   
-~ J115334 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J114749 ~ Class 2 + 2,L   
-~ J134730 ~ Class 2 + 2,L ~ Black Hole
-~ J105544 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J233129 ~ Class 2 + 2,L   
-~ J114528 ~ Class 2 + 2,L ~ Red Giant
-~ J103351 ~ Class 2 + 2,L   
-~ J152322 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J132617 ~ Class 2 + 2,L   
-~ J104517 ~ Class 2 + 2,L   
-~ J132401 ~ Class 2 + 2,L   
-~ J142918 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J163902 ~ Class 2 + 2,L ~ Red Giant
-~ J214843 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J173322 ~ Class 2 + 2,L   
-~ J120252 ~ Class 2 + 2,L   
-~ J232305 ~ Class 2 + 2,L ~ Pulsar 
-~ J123907 ~ Class 2 + 2,L   
-~ J144057 ~ Class 2 + 2,L   
-~ J223320 ~ Class 2 + 2,L   
-~ J153247 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J204623 ~ Class 2 + 2,L   
-~ J223348 ~ Class 2 + 2,L   
-~ J115734 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J154735 ~ Class 2 + 2,L   
-~ J115314 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J164816 ~ Class 2 + 2,L   
-~ J132712 ~ Class 2 + 2,L   
-~ J124530 ~ Class 2 + 2,L   
-~ J134949 ~ Class 2 + 2,L   
-~ J132458 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J160927 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J150836 ~ Class 2 + 2,L ~ Magnetar 
-~ J102222 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J103144 ~ Class 2 + 2,L   
-~ J135629 ~ Class 2 + 2,L   
-~ J115530 ~ Class 2 + 2,L   
-~ J133111 ~ Class 2 + 2,L   
-~ J150904 ~ Class 2 + 2,L ~ Pulsar 
-~ J111846 ~ Class 2 + 2,L   
-~ J152950 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J120704 ~ Class 2 + 2,L   
-~ J104718 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J131808 ~ Class 2 + 2,L   
-~ J231644 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J232147 ~ Class 2 + 2,L   
-~ J132048 ~ Class 2 + 2,L   
-~ J172350 ~ Class 2 + 2,L   
-~ J145619 ~ Class 2 + 2,L   
-~ J163446 ~ Class 2 + 2,L   
-~ J140816 ~ Class 2 + 2,L   
-~ J141015 ~ Class 2 + 2,L   
-~ J101346 ~ Class 2 + 2,L   
-~ J212238 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J235852 ~ Class 2 + 2,L ~ Black Hole
-~ J134349 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J204221 ~ Class 2 + 2,L   
-~ J110910 ~ Class 2 + 2,L   
-~ J131753 ~ Class 2 + 2,L   
-~ J113221 ~ Class 2 + 2,L   
-~ J152941 ~ Class 2 + 2,L   
-~ J144727 ~ Class 2 + 2,L   
-~ J143320 ~ Class 2 + 2,L ~ Magnetar 
-~ J155551 ~ Class 2 + 2,L   
-~ J162516 ~ Class 2 + 2,L   
-~ J135827 ~ Class 2 + 2,L ~ Red Giant
-~ J131706 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J214854 ~ Class 2 + 2,L   
-~ J150109 ~ Class 2 + 2,L   
-~ J103512 ~ Class 2 + 2,L   
-~ J121658 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J143706 ~ Class 2 + 2,L   
-~ J235924 ~ Class 2 + 2,L   
-~ J103854 ~ Class 2 + 2,L   
-~ J214725 ~ Class 2 + 2,L   
-~ J101415 ~ Class 2 + 2,L ~ Red Giant
-~ J122837 ~ Class 2 + 2,L   
-~ J125727 ~ Class 2 + 2,L ~ Black Hole
-~ J142847 ~ Class 2 + 2,L ~ Magnetar 
-~ J155035 ~ Class 2 + 2,L   
-~ J102504 ~ Class 2 + 2,L   
-~ J160305 ~ Class 2 + 2,L   
-~ J151503 ~ Class 2 + 2,L ~ Red Giant
-~ J142838 ~ Class 2 + 2,L ~ Red Giant
-~ J131034 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J214901 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J113323 ~ Class 2 + 2,L ~ Wolf-Rayet Star
-~ J112956 ~ Class 2 + 2,L ~ Black Hole
-~ J104802 ~ Class 2 + 2,L   
-~ J100808 ~ Class 2 + 2,L   
-~ J100509 ~ Class 2 + 2,L   
-~ J142055 ~ Class 2 + 2,L   
-~ J135141 ~ Class 2 + 2,L   
-~ J151902 ~ Class 2 + 2,L   
-~ J235759 ~ Class 2 + 2,L ~ Cataclysmic Variable
-~ J164613 ~ Class 2 + 2,L ~ Magnetar 
-~ J225805 ~ Class 2 + 2,L   
-~ J112916 ~ Class 2 + 2,L   
-~ J115347 ~ Class 2 + 2,L   
-~ J224217 ~ Class 2 + 2,L   
-~ J110555 ~ Class 2 + 2,L   
-~ J143455 ~ Class 2 + 2,L   
-~ J111141 ~ Class 2 + 2,L   
-~ J104606 ~ Class 2 + 2,L ~ Pulsar 
-~ J222830 ~ Class 2 + 2,L ~ Pulsar 
-~ J123249 ~ Class 2 + 2,L   
-~ J115310 ~ Class 2 + 2,L   
-~ J143702 ~ Class 2 + 2,L ~ Black Hole
-~ J223538 ~ Class 2 + 2,L   
-~ J131618 ~ Class 2 + 2,L   
-~ J215944 ~ Class 2 + 2,L   
-~ J121952 ~ Class 2 + 2,L   
-~ J121928 ~ Class 2 + 2,L ~ Red Giant
-~ J105439 ~ Class 2 + 2,L   
-~ J150627 ~ Class 2 + 5,N   
-~ J121745 ~ Class 2 + 5,N ~ Cataclysmic Variable
-~ J141438 ~ Class 2 + 5,N   
-~ J214929 ~ Class 2 + 5,N   
-~ J130709 ~ Class 2 + 5,N   
-~ J103924 ~ Class 2 + 5,N   
-~ J211000 ~ Class 2 + 5,N ~ Red Giant
-~ J123555 ~ Class 2 + 5,N   
-~ J151125 ~ Class 2 + 5,N ~ Magnetar 
-~ J123412 ~ Class 2 + 5,N ~ Cataclysmic Variable
-~ J112309 ~ Class 2 + 5,N   
-~ J123850 ~ Class 2 + 5,N   
-~ J163923 ~ Class 2 + 5,N   
-~ J143546 ~ Class 2 + 5,N   
-~ J130832 ~ Class 2 + 5,N   
-~ J221337 ~ Class 2 + 5,N   
-~ J113449 ~ Class 2 + 5,N ~ Magnetar 
-~ J212607 ~ Class 2 + 5,N   
-~ J165157 ~ Class 2 + 5,N ~ Red Giant
-~ J142937 ~ Class 2 + 5,N   
-~ J120455 ~ Class 2 + 5,N   
-~ J122638 ~ Class 2 + 5,N   
-~ J161411 ~ Class 2 + 5,N ~ Wolf-Rayet Star
-~ J124028 ~ Class 2 + 5,N   
-~ J134735 ~ Class 2 + 5,N   
-~ J142845 ~ Class 2 + 5,N   
-~ J140750 ~ Class 2 + 5,N   
-~ J104515 ~ Class 2 + 5,N ~ Wolf-Rayet Star
-~ J113039 ~ Class 2 + 5,N   
-~ J111159 ~ Class 2 + 5,N   
-~ J105342 ~ Class 2 + 5,N   
-~ J121728 ~ Class 2 + 5,N   
-~ J115700 ~ Class 2 + 5,N ~ Wolf-Rayet Star
-~ J143234 ~ Class 2 + 5,N   
-~ J122524 ~ Class 2 + 5,N   
-~ J124007 ~ Class 2 + 5,N ~ Red Giant
-~ J150533 ~ Class 2 + 5,N   
-~ J143933 ~ Class 2 + 5,N   
-~ J225128 ~ Class 2 + 5,N ~ Magnetar 
-~ J133632 ~ Class 2 + 5,N ~ Red Giant
-~ J131744 ~ Class 2 + 6,N   
-~ J125923 ~ Class 2 + 6,N   
-~ J161138 ~ Class 2 + 6,N ~ Red Giant
-~ J125824 ~ Class 2 + 6,N   
-~ J223511 ~ Class 2 + 6,N   
-~ J134401 ~ Class 2 + 6,N   
-~ J214739 ~ Class 2 + 6,N ~ Pulsar 
-~ J104321 ~ Class 2 + 6,N   
-~ J115327 ~ Class 2 + 6,N ~ Wolf-Rayet Star
-~ J154937 ~ Class 2 + 6,N   
-~ J112505 ~ Class 2 + 1,H   
-~ J102739 ~ Class 2 + 1,H   
-~ J171309 ~ Class 2 + 1,H   
-~ J133417 ~ Class 2 + 1,H   
-~ J124749 ~ Class 2 + 1,H   
-~ J122137 ~ Class 2 + 1,H ~ Magnetar 
-~ J140353 ~ Class 2 + 1,H   
-~ J104029 ~ Class 2 + 1,H   
-~ J151348 ~ Class 2 + 1,H ~ Pulsar 
-~ J163522 ~ Class 2 + 1,H   
-~ J131315 ~ Class 2 + 1,H ~ Black Hole
-~ J114008 ~ Class 2 + 1,H ~ Magnetar 
-~ J233839 ~ Class 2 + 1,H ~ Red Giant
-~ J112558 ~ Class 2 + 1,H   
-~ J114308 ~ Class 2 + 1,H   
-~ J130125 ~ Class 2 + 1,H   
-~ J173213 ~ Class 2 + 1,H   
-~ J160126 ~ Class 2 + 1,H   
-~ J154813 ~ Class 2 + 1,H   
-~ J215151 ~ Class 2 + 1,H   
-~ J144739 ~ Class 2 + 1,H   
-~ J102602 ~ Class 2 + 1,H   
-~ J120924 ~ Class 2 + 1,H   
-~ J212906 ~ Class 2 + 1,H   
-~ J101719 ~ Class 2 + 1,H   
-~ J101824 ~ Class 2 + 1,H   
-~ J153003 ~ Class 2 + 1,H   
-~ J105123 ~ Class 2 + 1,H   
-~ J122635 ~ Class 2 + 1,H ~ Red Giant
-~ J152624 ~ Class 2 + 1,H   
-~ J224145 ~ Class 2 + 1,H   
-~ J163318 ~ Class 2 + 1,H   
-~ J144004 ~ Class 2 + 1,H   
-~ J122931 ~ Class 2 + 1,H   
-~ J173245 ~ Class 2 + 1,H   
-~ J145246 ~ Class 2 + 1,H ~ Red Giant
-~ J124526 ~ Class 2 + 1,H ~ Red Giant
-~ J165648 ~ Class 2 + 1,H   
-~ J134405 ~ Class 2 + 1,H   
-~ J213111 ~ Class 2 + 1,H   
-~ J135422 ~ Class 2 + 1,H   
-~ J153030 ~ Class 2 + 1,H ~ Wolf-Rayet Star
-~ J120634 ~ Class 2 + 1,H   
-~ J102209 ~ Class 2 + 1,H   
-~ J123540 ~ Class 2 + 1,H   
-~ J112715 ~ Class 2 + 1,H ~ Red Giant
-~ J162159 ~ Class 2 + 1,H   
-~ J122118 ~ Class 2 + 1,H ~ Wolf-Rayet Star
-~ J105244 ~ Class 2 + 1,H ~ Black Hole
-~ J123958 ~ Class 2 + 1,H ~ Cataclysmic Variable
-~ J223552 ~ Class 2 + 1,H ~ Wolf-Rayet Star
-~ J232359 ~ Class 2 + 1,H   
-~ J171539 ~ Class 2 + 1,H   
-~ J100102 ~ Class 2 + 1,H   
-~ J154249 ~ Class 2 + 1,H   
-~ J105311 ~ Class 2 + 1,H   
-~ J210536 ~ Class 2 + 1,H   
-~ J151248 ~ Class 2 + 1,H   
-~ J131852 ~ Class 2 + 1,H   
-~ J141611 ~ Class 2 + 1,H   
-~ J113723 ~ Class 2 + 1,H   
-~ J121323 ~ Class 2 + 1,H   
-~ J144422 ~ Class 2 + 1,H   
-~ J140722 ~ Class 2 + 1,H   
-~ J141637 ~ Class 2 + 1,H ~ Magnetar 
-~ J112617 ~ Class 2 + 1,H   
-~ J150754 ~ Class 2 + 1,H   
-~ J102946 ~ Class 2 + 1,H ~ Cataclysmic Variable
-~ J115234 ~ Class 2 + 1,H   
-~ J145145 ~ Class 2 + 1,H ~ Red Giant
-~ J145426 ~ Class 2 + 1,H   
-~ J122732 ~ Class 2 + 1,H   
-~ J144203 ~ Class 2 + 1,H   
-~ J140843 ~ Class 2 + 1,H   
-~ J155631 ~ Class 2 + 1,H   
-~ J235525 ~ Class 2 + 1,H   
-~ J121749 ~ Class 2 + 1,H   
-~ J162518 ~ Class 2 + 1,H ~ Black Hole
-~ J132012 ~ Class 2 + 1,H   
-~ J102038 ~ Class 2 + 1,H ~ Red Giant
-~ J150234 ~ Class 2 + 1,H ~ Cataclysmic Variable
-~ J112520 ~ Class 2 + 1,H   
-~ J165412 ~ Class 2 + 1,H   
-~ J151102 ~ Class 2 + 1,H ~ Black Hole
-~ J133049 ~ Class 2 + 1,H   
-~ J161628 ~ Class 2 + 1,H   
-~ J134306 ~ Class 2 + 1,H   
-~ J131842 ~ Class 2 + 1,H   
-~ J232329 ~ Class 2 + 1,H ~ Black Hole
-~ J164921 ~ Class 2 + 1,H ~ Cataclysmic Variable
-~ J203814 ~ Class 2 + 1,H   
-~ J151311 ~ Class 2 + 1,H   
-~ J101650 ~ Class 2 + 1,H ~ Wolf-Rayet Star
-~ J165006 ~ Class 2 + 1,H   
-~ J103533 ~ Class 2 + 1,H ~ Magnetar 
-~ J101441 ~ Class 2 + 1,H ~ Red Giant
-~ J124253 ~ Class 2 + 1,H   
-~ J232200 ~ Class 2 + 1,H   
-~ J144326 ~ Class 2 + 1,H   
-~ J124449 ~ Class 2 + 1,H ~ Black Hole
-~ J100642 ~ Class 2 + 1,H   
-~ J133150 ~ Class 2 + 1,H   
-~ J164126 ~ Class 2 + 1,H   
-~ J171142 ~ Class 2 + 1,H   
-~ J145634 ~ Class 2 + 1,H   
-~ J151431 ~ Class 2 + 1,H   
-~ J233555 ~ Class 2 + 1,H   
-~ J100651 ~ Class 2 + 1,H ~ Red Giant
-~ J132103 ~ Class 2 + 1,H   
-~ J121720 ~ Class 2 + 1,H ~ Black Hole
-~ J210355 ~ Class 2 + 1,H   
-~ J125029 ~ Class 2 + 1,H   
-~ J103619 ~ Class 2 + 1,H ~ Pulsar 
-~ J165014 ~ Class 2 + 1,H   
-~ J124611 ~ Class 2 + 1,H   
-~ J150418 ~ Class 2 + 1,H ~ Wolf-Rayet Star
-~ J145440 ~ Class 2 + 1,H   
-~ J113223 ~ Class 2 + 1,H   
-~ J234915 ~ Class 2 + 1,H   
-~ J162042 ~ Class 2 + 1,H   
-~ J112019 ~ Class 2 + 1,H ~ Pulsar 
-~ J162332 ~ Class 2 + 1,H   
-~ J125350 ~ Class 2 + 1,H   
-~ J101710 ~ Class 2 + 1,H ~ Black Hole
-~ J223029 ~ Class 2 + 1,H   
-~ J234810 ~ Class 2 + 1,H   
-~ J135230 ~ Class 2 + 1,H   
-~ J111038 ~ Class 2 + 1,H   
-~ J160650 ~ Class 3 + L   
-~ J114342 ~ Class 3 + L ~ Black Hole
-~ J152031 ~ Class 3 + L   
-~ J113629 ~ Class 3 + L   
-~ J220301 ~ Class 3 + L   
-~ J102057 ~ Class 3 + L ~ Pulsar 
-~ J124753 ~ Class 3 + L ~ Magnetar 
-~ J114225 ~ Class 3 + L   
-~ J105002 ~ Class 3 + L   
-~ J111218 ~ Class 3 + L   
-~ J111634 ~ Class 3 + L   
-~ J105007 ~ Class 3 + L ~ Magnetar 
-~ J205027 ~ Class 3 + L   
-~ J111355 ~ Class 3 + L   
-~ J101012 ~ Class 3 + L ~ Red Giant
-~ J161338 ~ Class 3 + L   
-~ J170002 ~ Class 3 + L   
-~ J104654 ~ Class 3 + L   
-~ J124329 ~ Class 3 + L ~ Red Giant
-~ J114648 ~ Class 3 + L ~ Pulsar 
-~ J131228 ~ Class 3 + L ~ Red Giant
-~ J110448 ~ Class 3 + L   
-~ J144621 ~ Class 3 + L ~ Red Giant
-~ J153104 ~ Class 3 + L   
-~ J100932 ~ Class 3 + L   
-~ J114048 ~ Class 3 + L   
-~ J115706 ~ Class 3 + L   
-~ J123230 ~ Class 3 + L ~ Magnetar 
-~ J152218 ~ Class 3 + L ~ Magnetar 
-~ J123303 ~ Class 3 + L ~ Cataclysmic Variable
-~ J102856 ~ Class 3 + L ~ Red Giant
-~ J151900 ~ Class 3 + L ~ Cataclysmic Variable
-~ J124646 ~ Class 3 + L   
-~ J153528 ~ Class 3 + L   
-~ J112850 ~ Class 3 + L   
-~ J102257 ~ Class 3 + L   
-~ J142414 ~ Class 3 + L ~ Black Hole
-~ J165803 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J115918 ~ Class 3 + L ~ Pulsar 
-~ J222104 ~ Class 3 + L   
-~ J124203 ~ Class 3 + L   
-~ J112608 ~ Class 3 + L   
-~ J161657 ~ Class 3 + L   
-~ J111805 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J113451 ~ Class 3 + L   
-~ J141007 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J164034 ~ Class 3 + L   
-~ J101750 ~ Class 3 + L   
-~ J165001 ~ Class 3 + L ~ Red Giant
-~ J111619 ~ Class 3 + L   
-~ J140521 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J140752 ~ Class 3 + L ~ Cataclysmic Variable
-~ J143447 ~ Class 3 + L   
-~ J142018 ~ Class 3 + L   
-~ J105102 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J124630 ~ Class 3 + L   
-~ J165302 ~ Class 3 + L ~ Magnetar 
-~ J143916 ~ Class 3 + L   
-~ J221414 ~ Class 3 + L   
-~ J153903 ~ Class 3 + L   
-~ J103955 ~ Class 3 + L ~ Cataclysmic Variable
-~ J210952 ~ Class 3 + L   
-~ J134102 ~ Class 3 + L   
-~ J140050 ~ Class 3 + L ~ Red Giant
-~ J131757 ~ Class 3 + L   
-~ J140341 ~ Class 3 + L   
-~ J111856 ~ Class 3 + L   
-~ J102407 ~ Class 3 + L   
-~ J151341 ~ Class 3 + L   
-~ J110706 ~ Class 3 + L   
-~ J133651 ~ Class 3 + L   
-~ J123452 ~ Class 3 + L ~ Cataclysmic Variable
-~ J102143 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J220832 ~ Class 3 + L ~ Pulsar 
-~ J160847 ~ Class 3 + L   
-~ J125949 ~ Class 3 + L   
-~ J164250 ~ Class 3 + L ~ Black Hole
-~ J212329 ~ Class 3 + L   
-~ J112905 ~ Class 3 + L   
-~ J144447 ~ Class 3 + L   
-~ J113530 ~ Class 3 + L ~ Magnetar 
-~ J103604 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J142038 ~ Class 3 + L ~ Pulsar 
-~ J130403 ~ Class 3 + L   
-~ J132525 ~ Class 3 + L   
-~ J103653 ~ Class 3 + L   
-~ J154642 ~ Class 3 + L ~ Black Hole
-~ J163526 ~ Class 3 + L   
-~ J212713 ~ Class 3 + L   
-~ J132635 ~ Class 3 + L   
-~ J114330 ~ Class 3 + L   
-~ J224926 ~ Class 3 + L   
-~ J113619 ~ Class 3 + L ~ Black Hole
-~ J214654 ~ Class 3 + L   
-~ J151429 ~ Class 3 + L   
-~ J111214 ~ Class 3 + L   
-~ J113420 ~ Class 3 + L   
-~ J135526 ~ Class 3 + L   
-~ J164116 ~ Class 3 + L   
-~ J214227 ~ Class 3 + L ~ Pulsar 
-~ J164342 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J151538 ~ Class 3 + L ~ Magnetar 
-~ J125938 ~ Class 3 + L   
-~ J165806 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J122803 ~ Class 3 + L ~ Cataclysmic Variable
-~ J113243 ~ Class 3 + L   
-~ J134022 ~ Class 3 + L ~ Cataclysmic Variable
-~ J152143 ~ Class 3 + L   
-~ J170717 ~ Class 3 + L   
-~ J121452 ~ Class 3 + L   
-~ J124126 ~ Class 3 + L   
-~ J173230 ~ Class 3 + L   
-~ J164457 ~ Class 3 + L   
-~ J112944 ~ Class 3 + L   
-~ J115253 ~ Class 3 + L   
-~ J100118 ~ Class 3 + L ~ Magnetar 
-~ J100620 ~ Class 3 + L   
-~ J145916 ~ Class 3 + L ~ Pulsar 
-~ J223207 ~ Class 3 + L   
-~ J144646 ~ Class 3 + L   
-~ J142520 ~ Class 3 + L ~ Magnetar 
-~ J230226 ~ Class 3 + L   
-~ J150704 ~ Class 3 + L   
-~ J225524 ~ Class 3 + L ~ Black Hole
-~ J133234 ~ Class 3 + L   
-~ J125833 ~ Class 3 + L   
-~ J104459 ~ Class 3 + L ~ Red Giant
-~ J164713 ~ Class 3 + L   
-~ J135355 ~ Class 3 + L   
-~ J220838 ~ Class 3 + L   
-~ J225949 ~ Class 3 + L   
-~ J130535 ~ Class 3 + L ~ Red Giant
-~ J111255 ~ Class 3 + L   
-~ J121628 ~ Class 3 + L   
-~ J221117 ~ Class 3 + L   
-~ J115015 ~ Class 3 + L ~ Cataclysmic Variable
-~ J172751 ~ Class 3 + L ~ Red Giant
-~ J134301 ~ Class 3 + L ~ Pulsar 
-~ J104351 ~ Class 3 + L   
-~ J144408 ~ Class 3 + L ~ Black Hole
-~ J220950 ~ Class 3 + L   
-~ J165815 ~ Class 3 + L   
-~ J120452 ~ Class 3 + L   
-~ J142026 ~ Class 3 + L ~ Magnetar 
-~ J111031 ~ Class 3 + L ~ Magnetar 
-~ J130116 ~ Class 3 + L ~ Magnetar 
-~ J111309 ~ Class 3 + L   
-~ J122213 ~ Class 3 + L   
-~ J170740 ~ Class 3 + L   
-~ J113543 ~ Class 3 + L   
-~ J170817 ~ Class 3 + L ~ Cataclysmic Variable
-~ J123405 ~ Class 3 + L   
-~ J125741 ~ Class 3 + L   
-~ J114627 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J155117 ~ Class 3 + L   
-~ J165118 ~ Class 3 + L   
-~ J141004 ~ Class 3 + L   
-~ J174317 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J145040 ~ Class 3 + L   
-~ J171549 ~ Class 3 + L ~ Pulsar 
-~ J100009 ~ Class 3 + L ~ Pulsar 
-~ J124257 ~ Class 3 + L   
-~ J154530 ~ Class 3 + L   
-~ J152636 ~ Class 3 + L   
-~ J100728 ~ Class 3 + L ~ Red Giant
-~ J115504 ~ Class 3 + L   
-~ J104905 ~ Class 3 + L   
-~ J125149 ~ Class 3 + L ~ Pulsar 
-~ J172743 ~ Class 3 + L   
-~ J111421 ~ Class 3 + L ~ Cataclysmic Variable
-~ J152146 ~ Class 3 + L ~ Pulsar 
-~ J111603 ~ Class 3 + L   
-~ J114127 ~ Class 3 + L ~ Black Hole
-~ J113923 ~ Class 3 + L   
-~ J123837 ~ Class 3 + L   
-~ J125049 ~ Class 3 + L   
-~ J161455 ~ Class 3 + L ~ Pulsar 
-~ J124715 ~ Class 3 + L ~ Black Hole
-~ J124813 ~ Class 3 + L ~ Black Hole
-~ J120945 ~ Class 3 + L ~ Pulsar 
-~ J155541 ~ Class 3 + L   
-~ J105017 ~ Class 3 + L ~ Pulsar 
-~ J154900 ~ Class 3 + L   
-~ J164951 ~ Class 3 + L   
-~ J162459 ~ Class 3 + L   
-~ J141832 ~ Class 3 + L   
-~ J115136 ~ Class 3 + L   
-~ J112854 ~ Class 3 + L ~ Red Giant
-~ J222222 ~ Class 3 + L   
-~ J124654 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J132750 ~ Class 3 + L   
-~ J170511 ~ Class 3 + L   
-~ J155852 ~ Class 3 + L   
-~ J121856 ~ Class 3 + H   
-~ J131025 ~ Class 3 + H   
-~ J122854 ~ Class 3 + H ~ Red Giant
-~ J132222 ~ Class 3 + H   
-~ J203753 ~ Class 3 + H   
-~ J130835 ~ Class 3 + H   
-~ J134123 ~ Class 3 + H ~ Cataclysmic Variable
-~ J133857 ~ Class 3 + H ~ Wolf-Rayet Star
-~ J171813 ~ Class 3 + H ~ Magnetar 
-~ J143513 ~ Class 3 + H ~ Cataclysmic Variable
-~ J112656 ~ Class 3 + H   
-~ J154357 ~ Class 3 + H   
-~ J154145 ~ Class 3 + H   
-~ J100129 ~ Class 3 + H   
-~ J155124 ~ Class 3 + H   
-~ J133207 ~ Class 3 + H ~ Pulsar 
-~ J124830 ~ Class 3 + H   
-~ J144725 ~ Class 3 + H ~ Magnetar 
-~ J170409 ~ Class 3 + H ~ Red Giant
-~ J103326 ~ Class 3 + H   
-~ J160739 ~ Class 3 + H ~ Pulsar 
-~ J133041 ~ Class 3 + H ~ Cataclysmic Variable
-~ J205412 ~ Class 3 + H   
-~ J145851 ~ Class 3 + H ~ Cataclysmic Variable
-~ J132737 ~ Class 3 + H ~ Red Giant
-~ J130247 ~ Class 3 + H ~ Black Hole
-~ J151405 ~ Class 3 + H   
-~ J131802 ~ Class 3 + H ~ Wolf-Rayet Star
-~ J221515 ~ Class 3 + H   
-~ J142951 ~ Class 3 + H   
-~ J101736 ~ Class 3 + H   
-~ J233739 ~ Class 3 + H   
-~ J221447 ~ Class 3 + H   
-~ J145645 ~ Class 3 + H   
-~ J153051 ~ Class 3 + H   
-~ J141451 ~ Class 3 + H   
-~ J131859 ~ Class 3 + H ~ Wolf-Rayet Star
-~ J144553 ~ Class 3 + H   
-~ J145615 ~ Class 3 + H   
-~ J223109 ~ Class 3 + H ~ Cataclysmic Variable
-~ J132721 ~ Class 3 + H   
-~ J103353 ~ Class 3 + H   
-~ J173223 ~ Class 3 + H   
-~ J104837 ~ Class 3 + H   
-~ J163745 ~ Class 3 + H   
-~ J101500 ~ Class 3 + H   
-~ J224826 ~ Class 3 + H ~ Wolf-Rayet Star
-~ J230905 ~ Class 3 + H   
-~ J110924 ~ Class 3 + H   
-~ J122220 ~ Class 3 + H ~ Magnetar 
-~ J165153 ~ Class 3 + H ~ Pulsar 
-~ J204030 ~ Class 3 + H   
-~ J134136 ~ Class 3 + H   
-~ J113334 ~ Class 3 + H   
-~ J125403 ~ Class 3 + H   
-~ J162437 ~ Class 3 + H   
-~ J235630 ~ Class 3 + H   
-~ J105409 ~ Class 3 + H   
-~ J163529 ~ Class 3 + H   
-~ J152931 ~ Class 3 + H   
-~ J131559 ~ Class 3 + H ~ Red Giant
-~ J143918 ~ Class 3 + H   
-~ J104643 ~ Class 3 + H ~ Wolf-Rayet Star
-~ J212304 ~ Class 3 + H ~ Cataclysmic Variable
-~ J154634 ~ Class 3 + H ~ Black Hole
-~ J172052 ~ Class 3 + H ~ Pulsar 
-~ J135036 ~ Class 3 + H ~ Cataclysmic Variable
-~ J134431 ~ Class 3 + H   
-~ J121105 ~ Class 3 + H   
-~ J120357 ~ Class 3 + H   
-~ J101854 ~ Class 3 + H   
-~ J232826 ~ Class 3 + H   
-~ J154934 ~ Class 3 + H ~ Cataclysmic Variable
-~ J170132 ~ Class 3 + H ~ Black Hole
-~ J114916 ~ Class 3 + H   
-~ J142400 ~ Class 3 + H   
-~ J115502 ~ Class 3 + H   
-~ J121300 ~ Class 3 + H ~ Red Giant
-~ J223658 ~ Class 3 + H   
-~ J124327 ~ Class 3 + H   
-~ J220438 ~ Class 3 + H   
-~ J144636 ~ Class 3 + H   
-~ J113347 ~ Class 3 + H   
-~ J150737 ~ Class 3 + H   
-~ J152044 ~ Class 3 + H ~ Magnetar 
-~ J142443 ~ Class 3 + H ~ Wolf-Rayet Star
-~ J164104 ~ Class 3 + H   
-~ J155008 ~ Class 3 + H   
-~ J114358 ~ Class 3 + H   
-~ J122259 ~ Class 3 + H ~ Pulsar 
-~ J125243 ~ Class 3 + H   
-~ J114508 ~ Class 3 + H   
-~ J125216 ~ Class 3 + H   
-~ J113143 ~ Class 3 + H   
-~ J101612 ~ Class 3 + H   
-~ J101354 ~ Class 3 + H   
-~ J100156 ~ Class 3 + H   
-~ J110425 ~ Class 3 + H ~ Pulsar 
-~ J133121 ~ Class 3 + H   
-~ J165936 ~ Class 3 + H   
-~ J213411 ~ Class 3 + H ~ Red Giant
-~ J231545 ~ Class 3 + H ~ Pulsar 
-~ J121603 ~ Class 3 + H   
-~ J222120 ~ Class 3 + H   
-~ J231240 ~ Class 3 + H   
-~ J164338 ~ Class 3 + L ~ Magnetar 
-~ J142603 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J212812 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J164501 ~ Class 3 + L   
-~ J144751 ~ Class 3 + L   
-~ J214744 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J135304 ~ Class 3 + L   
-~ J223601 ~ Class 3 + L ~ Magnetar 
-~ J103529 ~ Class 3 + L   
-~ J161051 ~ Class 3 + L ~ Cataclysmic Variable
-~ J224352 ~ Class 3 + L   
-~ J113048 ~ Class 3 + L   
-~ J140322 ~ Class 3 + L   
-~ J152741 ~ Class 3 + L   
-~ J222732 ~ Class 3 + L   
-~ J171542 ~ Class 3 + L   
-~ J205136 ~ Class 3 + L   
-~ J121706 ~ Class 3 + L ~ Pulsar 
-~ J143110 ~ Class 3 + L   
-~ J110121 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J104626 ~ Class 3 + L   
-~ J212159 ~ Class 3 + L   
-~ J151733 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J103032 ~ Class 3 + L ~ Cataclysmic Variable
-~ J150048 ~ Class 3 + L   
-~ J113432 ~ Class 3 + L ~ Black Hole
-~ J134629 ~ Class 3 + L   
-~ J113339 ~ Class 3 + L ~ Pulsar 
-~ J122041 ~ Class 3 + L   
-~ J130719 ~ Class 3 + L   
-~ J204039 ~ Class 3 + L ~ Magnetar 
-~ J101048 ~ Class 3 + L   
-~ J114119 ~ Class 3 + L ~ Black Hole
-~ J110411 ~ Class 3 + L   
-~ J104903 ~ Class 3 + L   
-~ J151433 ~ Class 3 + L   
-~ J143040 ~ Class 3 + L   
-~ J133521 ~ Class 3 + L   
-~ J163911 ~ Class 3 + L ~ Red Giant
-~ J204842 ~ Class 3 + L   
-~ J135214 ~ Class 3 + L ~ Magnetar 
-~ J131716 ~ Class 3 + L ~ Red Giant
-~ J225350 ~ Class 3 + L ~ Red Giant
-~ J105447 ~ Class 3 + N   
-~ J144103 ~ Class 3 + N   
-~ J165847 ~ Class 3 + N ~ Cataclysmic Variable
-~ J121921 ~ Class 3 + N ~ Wolf-Rayet Star
-~ J212025 ~ Class 3 + N ~ Magnetar 
-~ J145717 ~ Class 3 + N ~ Pulsar 
-~ J113705 ~ Class 3 + N ~ Black Hole
-~ J132037 ~ Class 3 + N   
-~ J224401 ~ Class 3 + N   
-~ J152544 ~ Class 3 + N ~ Wolf-Rayet Star
-~ J114506 ~ Class 3 + N   
-~ J231245 ~ Class 3 + N ~ Red Giant
-~ J151804 ~ Class 3 + N ~ Pulsar 
-~ J105033 ~ Class 3 + N   
-~ J214600 ~ Class 3 + N ~ Black Hole
-~ J152333 ~ Class 3 + N   
-~ J131245 ~ Class 3 + N ~ Pulsar 
-~ J151045 ~ Class 3 + N   
-~ J160822 ~ Class 3 + N   
-~ J125944 ~ Class 3 + N ~ Magnetar 
-~ J173330 ~ Class 3 + N   
-~ J115512 ~ Class 3 + N   
-~ J161854 ~ Class 3 + N ~ Black Hole
-~ J122442 ~ Class 3 + N ~ Black Hole
-~ J114010 ~ Class 3 + N   
-~ J153546 ~ Class 3 + N ~ Wolf-Rayet Star
-~ J141046 ~ Class 3 + N   
-~ J160111 ~ Class 3 + N ~ Wolf-Rayet Star
-~ J101243 ~ Class 3 + N   
-~ J214009 ~ Class 3 + N   
-~ J152757 ~ Class 3 + N   
-~ J164729 ~ Class 3 + N ~ Wolf-Rayet Star
-~ J171420 ~ Class 3 + N   
-~ J232441 ~ Class 3 + N ~ Red Giant
-~ J131656 ~ Class 3 + N   
-~ J135406 ~ Class 3 + N ~ Black Hole
-~ J230708 ~ Class 3 + N   
-~ J120124 ~ Class 3 + N   
-~ J132746 ~ Class 3 + N   
-~ J212207 ~ Class 3 + N   
-~ J104416 ~ Class 3 + N ~ Pulsar 
-~ J104841 ~ Class 3 + N   
-~ J172701 ~ Class 3 + N ~ Wolf-Rayet Star
-~ J104835 ~ Class 3 + N   
-~ J113647 ~ Class 3 + N   
-~ J144316 ~ Class 3 + N ~ Pulsar 
-~ J114612 ~ Class 3 + N   
-~ J130759 ~ Class 3 + N   
-~ J164751 ~ Class 3 + N   
-~ J131324 ~ Class 3 + N ~ Red Giant
-~ J230722 ~ Class 3 + N ~ Black Hole
-~ J134118 ~ Class 3 + N ~ Cataclysmic Variable
-~ J164223 ~ Class 3 + N ~ Pulsar 
-~ J154449 ~ Class 3 + N   
-~ J172815 ~ Class 3 + N   
-~ J151242 ~ Class 3 + N   
-~ J213423 ~ Class 3 + N ~ Red Giant
-~ J145555 ~ Class 3 + N   
-~ J101323 ~ Class 3 + N   
-~ J112954 ~ Class 3 + N   
-~ J133951 ~ Class 3 + N   
-~ J150444 ~ Class 3 + N   
-~ J153858 ~ Class 3 + N   
-~ J172422 ~ Class 3 + N ~ Magnetar 
-~ J155545 ~ Class 3 + N   
-~ J161441 ~ Class 3 + N   
-~ J125449 ~ Class 3 + N ~ Pulsar 
-~ J210445 ~ Class 3 + N   
-~ J123443 ~ Class 3 + N   
-~ J121422 ~ Class 3 + N   
-~ J155403 ~ Class 3 + N   
-~ J103724 ~ Class 3 + N ~ Red Giant
-~ J112948 ~ Class 3 + N ~ Black Hole
-~ J235330 ~ Class 3 + N   
-~ J121507 ~ Class 3 + N   
-~ J235712 ~ Class 3 + N   
-~ J125016 ~ Class 3 + N ~ Cataclysmic Variable
-~ J151516 ~ Class 3 + N   
-~ J132226 ~ Class 3 + N ~ Black Hole
-~ J170656 ~ Class 3 + N   
-~ J155722 ~ Class 3 + N   
-~ J150135 ~ Class 3 + N   
-~ J151645 ~ Class 3 + N ~ Wolf-Rayet Star
-~ J211151 ~ Class 3 + N   
-~ J213109 ~ Class 3 + N   
-~ J233628 ~ Class 3 + N   
-~ J102433 ~ Class 3 + N   
-~ J111823 ~ Class 3 + N   
-~ J211805 ~ Class 3 + N   
-~ J172028 ~ Class 3 + N   
-~ J101833 ~ Class 3 + N   
-~ J104815 ~ Class 3 + N   
-~ J124635 ~ Class 3 + N ~ Black Hole
-~ J110738 ~ Class 3 + N   
-~ J170550 ~ Class 3 + N   
-~ J143704 ~ Class 3 + N   
-~ J143614 ~ Class 3 + L   
-~ J170236 ~ Class 3 + L   
-~ J153034 ~ Class 3 + L ~ Pulsar 
-~ J220338 ~ Class 3 + L   
-~ J171828 ~ Class 3 + L   
-~ J112942 ~ Class 3 + L   
-~ J112709 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J161213 ~ Class 3 + L   
-~ J140739 ~ Class 3 + L ~ Pulsar 
-~ J213534 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J165224 ~ Class 3 + L   
-~ J170144 ~ Class 3 + L   
-~ J162010 ~ Class 3 + L ~ Cataclysmic Variable
-~ J110226 ~ Class 3 + L ~ Cataclysmic Variable
-~ J104421 ~ Class 3 + L ~ Cataclysmic Variable
-~ J104330 ~ Class 3 + L   
-~ J140208 ~ Class 3 + L   
-~ J100338 ~ Class 3 + L   
-~ J110034 ~ Class 3 + L   
-~ J124207 ~ Class 3 + L   
-~ J132907 ~ Class 3 + L   
-~ J100015 ~ Class 3 + L   
-~ J144024 ~ Class 3 + L   
-~ J122806 ~ Class 3 + L   
-~ J133250 ~ Class 3 + L   
-~ J135852 ~ Class 3 + L   
-~ J130616 ~ Class 3 + L ~ Magnetar 
-~ J204323 ~ Class 3 + L   
-~ J120742 ~ Class 3 + L   
-~ J105549 ~ Class 3 + L   
-~ J103237 ~ Class 3 + L   
-~ J215326 ~ Class 3 + L   
-~ J121700 ~ Class 3 + L ~ Cataclysmic Variable
-~ J124358 ~ Class 3 + L   
-~ J112420 ~ Class 3 + L   
-~ J130022 ~ Class 3 + L ~ Magnetar 
-~ J155419 ~ Class 3 + L   
-~ J135723 ~ Class 3 + L ~ Wolf-Rayet Star
-~ J105201 ~ Class 3 + L ~ Cataclysmic Variable
-~ J133218 ~ Class 3 + L ~ Magnetar 
-~ J143345 ~ Class 3 + L   
-~ J115448 ~ Class 3 + L   
-~ J135642 ~ Class 3 + L   
-~ J205900 ~ Class 3 + L   
-~ J112747 ~ Class 3 + L   
-~ J121027 ~ Class 3 + L   
-~ J124744 ~ Class 3 + L ~ Pulsar 
-~ J161303 ~ Class 3 + L   
-~ J141848 ~ Class 3 + L   
-~ J104001 ~ Class 3 + L   
-~ J102304 ~ Class 3 + L   
-~ J172852 ~ Class 3 + L   
-~ J131304 ~ Class 3 + L ~ Magnetar 
-~ J145632 ~ Class 3 + L   
-~ J102515 ~ Class 3 + L   
-~ J160645 ~ Class 3 + L   
-~ J135129 ~ Class 3 + L ~ Black Hole
-~ J115909 ~ Class 3 + L   
-~ J160225 ~ Class 4 + 2,4   
-~ J210458 ~ Class 4 + 2,4 ~ Wolf-Rayet Star
-~ J113925 ~ Class 4 + 2,4 ~ Black Hole
-~ J204815 ~ Class 4 + 2,4   
-~ J104754 ~ Class 4 + 2,4   
-~ J130518 ~ Class 4 + 2,4   
-~ J142200 ~ Class 4 + 2,4 ~ Cataclysmic Variable
-~ J103731 ~ Class 4 + 2,4   
-~ J100046 ~ Class 4 + 2,4 ~ Cataclysmic Variable
-~ J230301 ~ Class 4 + 2,4   
-~ J165839 ~ Class 4 + 2,4 ~ Black Hole
-~ J235953 ~ Class 4 + 2,4   
-~ J115018 ~ Class 4 + 2,4 ~ Wolf-Rayet Star
-~ J133458 ~ Class 4 + 2,4   
-~ J221859 ~ Class 4 + 2,4   
-~ J170215 ~ Class 4 + 2,4   
-~ J165820 ~ Class 4 + 2,4   
-~ J130253 ~ Class 4 + 2,4   
-~ J120937 ~ Class 4 + 2,4   
-~ J214811 ~ Class 4 + 2,4   
-~ J160419 ~ Class 4 + 2,4   
-~ J161752 ~ Class 4 + 2,1   
-~ J112610 ~ Class 4 + 2,1   
-~ J123726 ~ Class 4 + 2,1 ~ Black Hole
-~ J124837 ~ Class 4 + 2,1   
-~ J151643 ~ Class 4 + 2,1 ~ Pulsar 
-~ J160321 ~ Class 4 + 2,1   
-~ J165308 ~ Class 4 + 2,1 ~ Cataclysmic Variable
-~ J171359 ~ Class 4 + 2,5   
-~ J115547 ~ Class 4 + 2,5 ~ Cataclysmic Variable
-~ J141055 ~ Class 4 + 2,5   
-~ J153202 ~ Class 4 + 2,5   
-~ J121845 ~ Class 4 + 2,5 ~ Cataclysmic Variable
-~ J113456 ~ Class 4 + 2,5   
-~ J144746 ~ Class 4 + 2,5   
-~ J171554 ~ Class 4 + 2,5 ~ Magnetar 
-~ J111029 ~ Class 4 + 2,5   
-~ J145129 ~ Class 4 + 2,5   
-~ J113730 ~ Class 4 + 2,5 ~ Red Giant
-~ J100956 ~ Class 4 + 2,5   
-~ J134407 ~ Class 4 + 2,5   
-~ J101507 ~ Class 4 + 2,5 ~ Red Giant
-~ J105546 ~ Class 4 + 2,3 ~ Wolf-Rayet Star
-~ J123528 ~ Class 4 + 2,3   
-~ J145318 ~ Class 4 + 2,3 ~ Black Hole
-~ J132611 ~ Class 4 + 2,3   
-~ J153338 ~ Class 4 + 2,3   
-~ J102534 ~ Class 4 + 2,3 ~ Wolf-Rayet Star
-~ J144519 ~ Class 4 + 2,5 ~ Magnetar 
-~ J141218 ~ Class 4 + 2,5 ~ Black Hole
-~ J152255 ~ Class 4 + 2,5 ~ Magnetar 
-~ J142241 ~ Class 4 + 2,5 ~ Cataclysmic Variable
-~ J131047 ~ Class 4 + 2,5 ~ Red Giant
-~ J100150 ~ Class 4 + 2,5 ~ Black Hole
-~ J104311 ~ Class 4 + 2,3 ~ Black Hole
-~ J111950 ~ Class 4 + 2,3   
-~ J132754 ~ Class 4 + 2,3 ~ Wolf-Rayet Star
-~ J101551 ~ Class 4 + 2,3   
-~ J211027 ~ Class 4 + 2,3   
-~ J105415 ~ Class 4 + 2,3 ~ Cataclysmic Variable
-~ J224148 ~ Class 4 + 6,5 ~ Wolf-Rayet Star
-~ J100806 ~ Class 4 + 6,5   
-~ J133638 ~ Class 4 + 6,5   
-~ J231614 ~ Class 4 + 6,5   
-~ J103110 ~ Class 4 + 6,5 ~ Black Hole
-~ J101706 ~ Class 4 + 6,5   
-~ J142214 ~ Class 4 + 6,3   
-~ J155340 ~ Class 4 + 6,3   
-~ J165326 ~ Class 4 + 6,3 ~ Cataclysmic Variable
-~ J133113 ~ Class 4 + 6,3   
-~ J122656 ~ Class 4 + 6,3 ~ Black Hole
-~ J134716 ~ Class 4 + 6,3   
-~ J171344 ~ Class 4 + 6,3 ~ Red Giant
-~ J161119 ~ Class 4 + 6,5   
-~ J111404 ~ Class 4 + 6,5 ~ Cataclysmic Variable
-~ J105346 ~ Class 4 + 6,5 ~ Wolf-Rayet Star
-~ J154631 ~ Class 4 + 6,5 ~ Red Giant
-~ J150112 ~ Class 4 + 6,5 ~ Red Giant
-~ J104649 ~ Class 4 + 6,5 ~ Magnetar 
-~ J234421 ~ Class 4 + 6,4   
-~ J105726 ~ Class 4 + 6,4   
-~ J111758 ~ Class 4 + 6,4 ~ Cataclysmic Variable
-~ J142923 ~ Class 4 + 6,4   
-~ J114026 ~ Class 4 + 6,4   
-~ J115118 ~ Class 4 + 6,4   
-~ J162226 ~ Class 4 + 1,3 ~ Red Giant
-~ J165020 ~ Class 4 + 1,3 ~ Wolf-Rayet Star
-~ J125302 ~ Class 4 + 1,3   
-~ J113754 ~ Class 4 + 1,3 ~ Magnetar 
-~ J153215 ~ Class 4 + 1,3 ~ Wolf-Rayet Star
-~ J213820 ~ Class 4 + 1,3   
-~ J111555 ~ Class 4 + 1,2   
-~ J131553 ~ Class 4 + 1,2   
-~ J143841 ~ Class 4 + 1,2   
-~ J113250 ~ Class 4 + 1,2 ~ Magnetar 
-~ J204635 ~ Class 4 + 1,2   
-~ J212954 ~ Class 4 + 1,2   
-~ J132309 ~ Class 4 + 1,5   
-~ J231341 ~ Class 4 + 1,5   
-~ J160800 ~ Class 4 + 1,5 ~ Pulsar 
-~ J155338 ~ Class 4 + 1,5   
-~ J132149 ~ Class 4 + 1,5   
-~ J171937 ~ Class 4 + 1,5   
-~ J152443 ~ Class 4 + 1,5   
-~ J111329 ~ Class 4 + 1,4 ~ Red Giant
-~ J171334 ~ Class 4 + 1,4   
-~ J115552 ~ Class 4 + 1,4   
-~ J151520 ~ Class 4 + 1,4 ~ Pulsar 
-~ J165920 ~ Class 4 + 1,4   
-~ J145838 ~ Class 4 + 1,4   
-~ J125031 ~ Class 4 + 1,4   
-~ J110736 ~ Class 4 + 1,2 ~ Wolf-Rayet Star
-~ J165423 ~ Class 4 + 1,2   
-~ J155521 ~ Class 4 + 1,2 ~ Cataclysmic Variable
-~ J135508 ~ Class 4 + 1,2   
-~ J103008 ~ Class 4 + 1,2 ~ Magnetar 
-~ J103704 ~ Class 4 + 1,2 ~ Magnetar 
-~ J104603 ~ Class 4 + 1,2 ~ Pulsar 
-~ J163641 ~ Class 4 + 1,4 ~ Black Hole
-~ J203952 ~ Class 4 + 1,4   
-~ J105411 ~ Class 4 + 1,4   
-~ J101126 ~ Class 4 + 1,4   
-~ J122155 ~ Class 4 + 1,4 ~ Wolf-Rayet Star
-~ J110016 ~ Class 4 + 1,4 ~ Red Giant
-~ J212417 ~ Class 4 + 1,4 ~ Cataclysmic Variable
-~ J142355 ~ Class 4 + 1,3 ~ Red Giant
-~ J121347 ~ Class 4 + 1,3 ~ Cataclysmic Variable
-~ J172915 ~ Class 4 + 1,3   
-~ J155416 ~ Class 4 + 1,3   
-~ J211258 ~ Class 4 + 1,3   
-~ J120643 ~ Class 4 + 1,3 ~ Pulsar 
-~ J143946 ~ Class 4 + 4,2 ~ Pulsar 
-~ J125247 ~ Class 4 + 4,2   
-~ J144732 ~ Class 4 + 4,2 ~ Magnetar 
-~ J155711 ~ Class 4 + 4,2 ~ Wolf-Rayet Star
-~ J214308 ~ Class 4 + 4,2   
-~ J134851 ~ Class 4 + 4,2 ~ Wolf-Rayet Star
-~ J145452 ~ Class 4 + 4,2   
-~ J115026 ~ Class 4 + 4,1 ~ Black Hole
-~ J151720 ~ Class 4 + 4,1   
-~ J151353 ~ Class 4 + 4,1 ~ Black Hole
-~ J113727 ~ Class 4 + 4,1 ~ Magnetar 
-~ J130944 ~ Class 4 + 4,1   
-~ J145238 ~ Class 4 + 4,1   
-~ J235219 ~ Class 4 + 4,1   
-~ J172512 ~ Class 4 + 4,3   
-~ J141322 ~ Class 4 + 4,3 ~ Pulsar 
-~ J210333 ~ Class 4 + 4,3   
-~ J135836 ~ Class 4 + 4,3 ~ Pulsar 
-~ J101915 ~ Class 4 + 4,3 ~ Magnetar 
-~ J130203 ~ Class 4 + 4,3 ~ Wolf-Rayet Star
-~ J110719 ~ Class 4 + 4,3   
-~ J131208 ~ Class 4 + 4,3 ~ Black Hole
-~ J121623 ~ Class 4 + 4,3 ~ Pulsar 
-~ J150637 ~ Class 4 + 4,3   
-~ J130332 ~ Class 4 + 4,3   
-~ J1226-0 ~ Class 4 + 4,3   
-~ J114355 ~ Class 4 + 4,3 ~ Cataclysmic Variable
-~ J144401 ~ Class 4 + 4,3 ~ Red Giant
-~ J103242 ~ Class 4 + 4,3 ~ Cataclysmic Variable
-~ J161815 ~ Class 4 + 4,3   
-~ J132256 ~ Class 4 + 4,3 ~ Cataclysmic Variable
-~ J162819 ~ Class 4 + 4,3   
-~ J131004 ~ Class 4 + 4,3 ~ Black Hole
-~ J141931 ~ Class 4 + 4,3   
-~ J112630 ~ Class 4 + 4,6   
-~ J154109 ~ Class 4 + 4,6   
-~ J153116 ~ Class 4 + 4,6 ~ Black Hole
-~ J160455 ~ Class 4 + 4,6   
-~ J102439 ~ Class 4 + 4,6 ~ Magnetar 
-~ J160459 ~ Class 4 + 4,6 ~ Red Giant
-~ J131712 ~ Class 4 + 4,6   
-~ J140244 ~ Class 4 + 4,5 ~ Wolf-Rayet Star
-~ J150635 ~ Class 4 + 4,5 ~ Red Giant
-~ J125213 ~ Class 4 + 4,5 ~ Magnetar 
-~ J154541 ~ Class 4 + 4,5   
-~ J120409 ~ Class 4 + 4,5   
-~ J140545 ~ Class 4 + 4,5   
-~ J162251 ~ Class 4 + 4,5 ~ Black Hole
-~ J120450 ~ Class 4 + 4,5 ~ Red Giant
-~ J220151 ~ Class 4 + 4,5   
-~ J104502 ~ Class 4 + 4,5   
-~ J152654 ~ Class 4 + 4,5 ~ Cataclysmic Variable
-~ J124727 ~ Class 4 + 4,5   
-~ J151940 ~ Class 4 + 4,5   
-~ J212129 ~ Class 4 + 4,5   
-~ J141633 ~ Class 4 + 4,5   
-~ J145604 ~ Class 4 + 4,5   
-~ J212851 ~ Class 4 + 4,5 ~ Magnetar 
-~ J145659 ~ Class 4 + 4,5   
-~ J165719 ~ Class 4 + 4,5 ~ Pulsar 
-~ J154706 ~ Class 4 + 4,6   
-~ J141252 ~ Class 4 + 4,6 ~ Cataclysmic Variable
-~ J112110 ~ Class 4 + 4,6   
-~ J140912 ~ Class 4 + 4,6   
-~ J165532 ~ Class 4 + 4,6   
-~ J161037 ~ Class 4 + 4,6   
-~ J130828 ~ Class 4 + 4,6 ~ Wolf-Rayet Star
-~ J122934 ~ Class 4 + 4,3   
-~ J163435 ~ Class 4 + 4,3 ~ Wolf-Rayet Star
-~ J221855 ~ Class 4 + 4,3 ~ Magnetar 
-~ J124109 ~ Class 4 + 4,3 ~ Black Hole
-~ J123458 ~ Class 4 + 4,3   
-~ J134527 ~ Class 4 + 4,3 ~ Wolf-Rayet Star
-~ J133157 ~ Class 4 + 4,3 ~ Pulsar 
-~ J141342 ~ Class 4 + 4,3   
-~ J145757 ~ Class 4 + 4,3 ~ Black Hole
-~ J130343 ~ Class 4 + 4,3 ~ Black Hole
-~ J152628 ~ Class 4 + 4,3 ~ Black Hole
-~ J112928 ~ Class 4 + 4,3   
-~ J133358 ~ Class 4 + 4,3   
-~ J102844 ~ Class 4 + 4,5   
-~ J134732 ~ Class 4 + 4,5 ~ Red Giant
-~ J213615 ~ Class 4 + 4,5 ~ Magnetar 
-~ J131037 ~ Class 4 + 4,5   
-~ J154724 ~ Class 4 + 4,5   
-~ J213139 ~ Class 4 + 4,5 ~ Pulsar 
-~ J103104 ~ Class 4 + 4,5 ~ Cataclysmic Variable
-~ J121116 ~ Class 4 + 4,5 ~ Wolf-Rayet Star
-~ J142822 ~ Class 4 + 4,5 ~ Wolf-Rayet Star
-~ J102521 ~ Class 4 + 4,5   
-~ J215935 ~ Class 4 + 4,5   
-~ J162303 ~ Class 4 + 4,5 ~ Black Hole
-~ J102409 ~ Class 4 + 4,5   
-~ J104714 ~ Class 4 + 4,5 ~ Pulsar 
-~ J171225 ~ Class 4 + 4,2 ~ Black Hole
-~ J124306 ~ Class 4 + 4,2   
-~ J135908 ~ Class 4 + 4,2   
-~ J124930 ~ Class 4 + 4,2   
-~ J162632 ~ Class 4 + 4,2   
-~ J155313 ~ Class 4 + 4,2   
-~ J211328 ~ Class 4 + 4,5   
-~ J204506 ~ Class 4 + 4,5   
-~ J133957 ~ Class 4 + 4,5 ~ Red Giant
-~ J115304 ~ Class 4 + 4,5   
-~ J112150 ~ Class 4 + 4,5   
-~ J131252 ~ Class 4 + 4,5   
-~ J133936 ~ Class 4 + 4,2   
-~ J143140 ~ Class 4 + 4,2 ~ Magnetar 
-~ J154833 ~ Class 4 + 4,2   
-~ J101331 ~ Class 4 + 4,2   
-~ J151359 ~ Class 4 + 4,2   
-~ J150951 ~ Class 4 + 4,2 ~ Black Hole
-~ J140215 ~ Class 4 + 4,2   
-~ J152421 ~ Class 4 + 4,2   
-~ J130554 ~ Class 4 + 4,2   
-~ J101604 ~ Class 4 + 4,2 ~ Pulsar 
-~ J150320 ~ Class 4 + 4,2 ~ Black Hole
-~ J134414 ~ Class 4 + 4,2   
-~ J131113 ~ Class 4 + 4,2   
-~ J124933 ~ Class 4 + 4,3 ~ Cataclysmic Variable
-~ J150044 ~ Class 4 + 4,3   
-~ J155200 ~ Class 4 + 4,3   
-~ J145944 ~ Class 4 + 4,3   
-~ J145535 ~ Class 4 + 4,3   
-~ J141021 ~ Class 4 + 4,3   
-~ J223312 ~ Class 4 + 4,2   
-~ J212028 ~ Class 4 + 4,2 ~ Magnetar 
-~ J164835 ~ Class 4 + 4,2 ~ Black Hole
-~ J115528 ~ Class 4 + 4,2   
-~ J143922 ~ Class 4 + 4,2   
-~ J225234 ~ Class 4 + 4,2   
-~ J165645 ~ Class 4 + 4,2 ~ Pulsar 
-~ J100142 ~ Class 4 + 4,1   
-~ J101129 ~ Class 4 + 4,1   
-~ J141220 ~ Class 4 + 4,1 ~ Magnetar 
-~ J112450 ~ Class 4 + 4,1   
-~ J121558 ~ Class 4 + 4,1   
-~ J104404 ~ Class 4 + 4,1   
-~ J152633 ~ Class 4 + 4,3   
-~ J104624 ~ Class 4 + 4,3   
-~ J113227 ~ Class 4 + 4,3 ~ Pulsar 
-~ J211817 ~ Class 4 + 4,3 ~ Pulsar 
-~ J144329 ~ Class 4 + 4,3   
-~ J154102 ~ Class 4 + 4,3   
-~ J162231 ~ Class 4 + 3,4   
-~ J151303 ~ Class 4 + 3,4 ~ Red Giant
-~ J145848 ~ Class 4 + 3,4 ~ Red Giant
-~ J152720 ~ Class 4 + 3,4 ~ Magnetar 
-~ J123753 ~ Class 4 + 3,4   
-~ J101042 ~ Class 4 + 3,4 ~ Cataclysmic Variable
-~ J223824 ~ Class 4 + 3,4   
-~ J125929 ~ Class 4 + 3,1   
-~ J225111 ~ Class 4 + 3,1   
-~ J135346 ~ Class 4 + 3,1   
-~ J144120 ~ Class 4 + 3,1 ~ Black Hole
-~ J215743 ~ Class 4 + 3,1   
-~ J111007 ~ Class 4 + 3,1   
-~ J231710 ~ Class 4 + 3,5 ~ Magnetar 
-~ J141001 ~ Class 4 + 3,5   
-~ J163444 ~ Class 4 + 3,5   
-~ J103141 ~ Class 4 + 3,5 ~ Black Hole
-~ J112215 ~ Class 4 + 3,5   
-~ J215758 ~ Class 4 + 3,5   
-~ J101145 ~ Class 4 + 3,5 ~ Pulsar 
-~ J212838 ~ Class 4 + 3,2   
-~ J111458 ~ Class 4 + 3,2   
-~ J115554 ~ Class 4 + 3,2   
-~ J170445 ~ Class 4 + 3,2   
-~ J162831 ~ Class 4 + 3,2   
-~ J124236 ~ Class 4 + 3,2 ~ Cataclysmic Variable
-~ J101535 ~ Class 4 + 3,2 ~ Pulsar 
-~ J113551 ~ Class 4 + 3,2 ~ Red Giant
-~ J162656 ~ Class 4 + 3,2   
-~ J114530 ~ Class 4 + 3,2 ~ Cataclysmic Variable
-~ J155214 ~ Class 4 + 3,2   
-~ J102336 ~ Class 4 + 3,2   
-~ J123352 ~ Class 4 + 3,2   
-~ J100937 ~ Class 4 + 3,4 ~ Cataclysmic Variable
-~ J100107 ~ Class 4 + 3,4   
-~ J204230 ~ Class 4 + 3,4   
-~ J233909 ~ Class 4 + 3,4   
-~ J134354 ~ Class 4 + 3,4   
-~ J160046 ~ Class 4 + 3,4   
-~ J162816 ~ Class 4 + 3,4 ~ Magnetar 
-~ J170305 ~ Class 4 + 3,4 ~ Black Hole
-~ J102045 ~ Class 4 + 3,4 ~ Pulsar 
-~ J100830 ~ Class 4 + 3,4   
-~ J115658 ~ Class 4 + 3,4   
-~ J123947 ~ Class 4 + 3,4 ~ Cataclysmic Variable
-~ J224754 ~ Class 4 + 3,2   
-~ J140246 ~ Class 4 + 3,2   
-~ J214440 ~ Class 4 + 3,2   
-~ J144135 ~ Class 4 + 3,2 ~ Black Hole
-~ J151021 ~ Class 4 + 3,2   
-~ J114133 ~ Class 4 + 3,2 ~ Magnetar 
-~ J130810 ~ Class 4 + 3,5 ~ Red Giant
-~ J141425 ~ Class 4 + 3,5   
-~ J121847 ~ Class 4 + 3,5   
-~ J150805 ~ Class 4 + 3,5   
-~ J140810 ~ Class 4 + 3,5   
-~ J141104 ~ Class 4 + 3,5   
-~ J114735 ~ Class 4 + 3,5   
-~ J205922 ~ Class 4 + 3,5 ~ Black Hole
-~ J215101 ~ Class 4 + 3,5   
-~ J144131 ~ Class 4 + 3,5   
-~ J213429 ~ Class 4 + 3,5 ~ Red Giant
-~ J121006 ~ Class 4 + 3,5 ~ Pulsar 
-~ J111644 ~ Class 4 + 3,1 ~ Cataclysmic Variable
-~ J164031 ~ Class 4 + 3,1   
-~ J155249 ~ Class 4 + 3,1 ~ Pulsar 
-~ J103228 ~ Class 4 + 3,1   
-~ J164025 ~ Class 4 + 3,1   
-~ J163217 ~ Class 4 + 3,1 ~ Cataclysmic Variable
-~ J103631 ~ Class 4 + 3,1   
-~ J145739 ~ Class 4 + 3,4   
-~ J114408 ~ Class 4 + 3,4   
-~ J131704 ~ Class 4 + 3,4   
-~ J112404 ~ Class 4 + 3,4 ~ Magnetar 
-~ J104723 ~ Class 4 + 3,4 ~ Pulsar 
-~ J123746 ~ Class 4 + 3,4   
-~ J225441 ~ Class 4 + 3,4 ~ Magnetar 
-~ J111629 ~ Class 4 + 3,4 ~ Cataclysmic Variable
-~ J140154 ~ Class 4 + 3,4 ~ Red Giant
-~ J144743 ~ Class 4 + 3,4 ~ Wolf-Rayet Star
-~ J210247 ~ Class 4 + 3,4   
-~ J133013 ~ Class 4 + 3,4 ~ Red Giant
-~ J160032 ~ Class 4 + 3,4 ~ Black Hole
-~ J111009 ~ Class 4 + 3,4   
-~ J142117 ~ Class 4 + 3,5   
-~ J110417 ~ Class 4 + 3,5   
-~ J204853 ~ Class 4 + 3,5   
-~ J132144 ~ Class 4 + 3,5 ~ Red Giant
-~ J160016 ~ Class 4 + 3,5   
-~ J142335 ~ Class 4 + 3,5   
-~ J105835 ~ Class 4 + 3,5   
-~ J102055 ~ Class 4 + 3,5   
-~ J140932 ~ Class 4 + 3,5 ~ Wolf-Rayet Star
-~ J134333 ~ Class 4 + 3,5   
-~ J160156 ~ Class 4 + 3,5   
-~ J150944 ~ Class 4 + 3,5 ~ Magnetar 
-~ J113508 ~ Class 4 + 3,5   
-~ J151757 ~ Class 4 + 3,5   
-~ J142800 ~ Class 4 + 3,5 ~ Magnetar 
-~ J170642 ~ Class 4 + 3,5 ~ Pulsar 
-~ J130451 ~ Class 4 + 3,5 ~ Wolf-Rayet Star
-~ J113158 ~ Class 4 + 3,5 ~ Red Giant
-~ J225133 ~ Class 4 + 3,5 ~ Red Giant
-~ J100001 ~ Class 4 + 3,6   
-~ J155831 ~ Class 4 + 3,6   
-~ J145749 ~ Class 4 + 3,6 ~ Black Hole
-~ J164659 ~ Class 4 + 3,6   
-~ J135543 ~ Class 4 + 3,6   
-~ J132735 ~ Class 4 + 3,6   
-~ J141740 ~ Class 4 + 3,2 ~ Pulsar 
-~ J101315 ~ Class 4 + 3,2   
-~ J123345 ~ Class 4 + 3,2   
-~ J105621 ~ Class 4 + 3,2 ~ Red Giant
-~ J113813 ~ Class 4 + 3,2 ~ Pulsar 
-~ J135807 ~ Class 4 + 3,2   
-~ J122728 ~ Class 4 + 5,3   
-~ J110915 ~ Class 4 + 5,3   
-~ J171430 ~ Class 4 + 5,3 ~ Magnetar 
-~ J154321 ~ Class 4 + 5,3   
-~ J104729 ~ Class 4 + 5,3 ~ Red Giant
-~ J111753 ~ Class 4 + 5,3 ~ Pulsar 
-~ J140823 ~ Class 4 + 5,4   
-~ J161357 ~ Class 4 + 5,4 ~ Black Hole
-~ J162205 ~ Class 4 + 5,4   
-~ J113950 ~ Class 4 + 5,4   
-~ J124224 ~ Class 4 + 5,4   
-~ J155959 ~ Class 4 + 5,4   
-~ J103213 ~ Class 4 + 5,3   
-~ J105858 ~ Class 4 + 5,3 ~ Wolf-Rayet Star
-~ J172502 ~ Class 4 + 5,3   
-~ J170151 ~ Class 4 + 5,3 ~ Pulsar 
-~ J165058 ~ Class 4 + 5,3   
-~ J173638 ~ Class 4 + 5,3   
-~ J130330 ~ Class 4 + 5,4 ~ Pulsar 
-~ J132740 ~ Class 4 + 5,4   
-~ J133931 ~ Class 4 + 5,4 ~ Magnetar 
-~ J143902 ~ Class 4 + 5,4   
-~ J165105 ~ Class 4 + 5,4 ~ Cataclysmic Variable
-~ J141316 ~ Class 4 + 5,4   
-~ J113152 ~ Class 4 + 5,2   
-~ J113453 ~ Class 4 + 5,2 ~ Magnetar 
-~ J144845 ~ Class 4 + 5,2   
-~ J140053 ~ Class 4 + 5,2   
-~ J151416 ~ Class 4 + 5,2 ~ Wolf-Rayet Star
-~ J100846 ~ Class 4 + 5,2 ~ Black Hole
-~ J165943 ~ Class 4 + 5,3 ~ Wolf-Rayet Star
-~ J103538 ~ Class 4 + 5,3   
-~ J154854 ~ Class 4 + 5,3   
-~ J212627 ~ Class 4 + 5,3 ~ Black Hole
-~ J150656 ~ Class 4 + 5,3 ~ Black Hole
-~ J224031 ~ Class 4 + 5,3 ~ Pulsar 
-~ J215455 ~ Class 4 + 5,3   
-~ J122503 ~ Class 4 + 5,3   
-~ J103120 ~ Class 4 + 5,3 ~ Cataclysmic Variable
-~ J164528 ~ Class 4 + 5,3 ~ Pulsar 
-~ J125316 ~ Class 4 + 5,3 ~ Magnetar 
-~ J113131 ~ Class 4 + 5,3   
-~ J144038 ~ Class 4 + 5,4 ~ Pulsar 
-~ J172926 ~ Class 4 + 5,4   
-~ J154610 ~ Class 4 + 5,4 ~ Wolf-Rayet Star
-~ J103412 ~ Class 4 + 5,4   
-~ J150318 ~ Class 4 + 5,4 ~ Cataclysmic Variable
-~ J211504 ~ Class 4 + 5,4   
-~ J111617 ~ Class 4 + 5,4 ~ Black Hole
-~ J100346 ~ Class 4 + 5,2   
-~ J143557 ~ Class 4 + 5,2 ~ Red Giant
-~ J130001 ~ Class 4 + 5,2   
-~ J101142 ~ Class 4 + 5,2   
-~ J155002 ~ Class 4 + 5,2   
-~ J154232 ~ Class 4 + 5,2   
-~ J142506 ~ Class 4 + 5,4 ~ Magnetar 
-~ J155506 ~ Class 4 + 5,4   
-~ J163754 ~ Class 4 + 5,4   
-~ J100357 ~ Class 4 + 5,4   
-~ J115031 ~ Class 4 + 5,4   
-~ J122706 ~ Class 4 + 5,4   
-~ J114318 ~ Class 4 + 5,3 ~ Red Giant
-~ J150625 ~ Class 4 + 5,3   
-~ J113437 ~ Class 4 + 5,3   
-~ J213924 ~ Class 4 + 5,3   
-~ J152711 ~ Class 4 + 5,3 ~ Black Hole
-~ J160929 ~ Class 4 + 5,3 ~ Black Hole
-~ J153110 ~ Class 4 + 5,3 ~ Red Giant
-~ J132532 ~ Class 4 + 5,2   
-~ J114031 ~ Class 4 + 5,2   
-~ J120316 ~ Class 4 + 5,2 ~ Cataclysmic Variable
-~ J151610 ~ Class 4 + 5,2 ~ Red Giant
-~ J145937 ~ Class 4 + 5,2 ~ Black Hole
-~ J122056 ~ Class 4 + 5,2 ~ Red Giant
-~ J170127 ~ Class 4 + 5,2   
-~ J145424 ~ Class 4 + 5,1 ~ Cataclysmic Variable
-~ J101835 ~ Class 4 + 5,1 ~ Cataclysmic Variable
-~ J103907 ~ Class 4 + 5,1   
-~ J130237 ~ Class 4 + 5,1   
-~ J104948 ~ Class 4 + 5,1 ~ Cataclysmic Variable
-~ J120844 ~ Class 4 + 5,1   
-~ J154824 ~ Class 4 + 5,6 ~ Wolf-Rayet Star
-~ J134216 ~ Class 4 + 5,6 ~ Wolf-Rayet Star
-~ J120131 ~ Class 4 + 5,6   
-~ J120134 ~ Class 4 + 5,6 ~ Pulsar 
-~ J224558 ~ Class 4 + 5,6   
-~ J161029 ~ Class 4 + 5,6   
-~ J225530 ~ Class 4 + 3,4 ~ Magnetar 
-~ J154407 ~ Class 4 + 3,4   
-~ J140720 ~ Class 4 + 3,4   
-~ J222125 ~ Class 4 + 3,4 ~ Black Hole
-~ J152502 ~ Class 4 + 3,4   
-~ J220215 ~ Class 4 + 3,4 ~ Pulsar 
-~ J141647 ~ Class 4 + 3,2   
-~ J101957 ~ Class 4 + 3,2 ~ Wolf-Rayet Star
-~ J223808 ~ Class 4 + 3,2 ~ Black Hole
-~ J105433 ~ Class 4 + 3,2   
-~ J153722 ~ Class 4 + 3,2 ~ Magnetar 
-~ J105348 ~ Class 4 + 3,2 ~ Red Giant
-~ J113133 ~ Class 4 + 3,4   
-~ J105319 ~ Class 4 + 3,4   
-~ J162828 ~ Class 4 + 3,4 ~ Cataclysmic Variable
-~ J233449 ~ Class 4 + 3,4   
-~ J150026 ~ Class 4 + 3,4 ~ Wolf-Rayet Star
-~ J125629 ~ Class 4 + 3,4 ~ Pulsar 
-~ J123246 ~ Class 4 + 3,4 ~ Cataclysmic Variable
-~ J215615 ~ Class 4 + 3,4 ~ Magnetar 
-~ J152404 ~ Class 4 + 3,4 ~ Red Giant
-~ J132152 ~ Class 4 + 3,4   
-~ J145335 ~ Class 4 + 3,4   
-~ J162255 ~ Class 4 + 3,4   
-~ J112722 ~ Class 4 + 3,4 ~ Magnetar 
-~ J134459 ~ Class 4 + 3,1   
-~ J131624 ~ Class 4 + 3,1 ~ Magnetar 
-~ J165611 ~ Class 4 + 3,1 ~ Black Hole
-~ J152820 ~ Class 5 + 5 ~ Pulsar 
-~ J135100 ~ Class 5 + 5   
-~ J122515 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J172943 ~ Class 5 + 5   
-~ J205738 ~ Class 5 + 5   
-~ J134242 ~ Class 5 + 5   
-~ J103251 ~ Class 5 + 5 ~ Magnetar 
-~ J111220 ~ Class 5 + 5   
-~ J170540 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J102446 ~ Class 5 + 1 ~ Black Hole
-~ J141137 ~ Class 5 + 1   
-~ J164147 ~ Class 5 + 1   
-~ J100702 ~ Class 5 + 1 ~ Black Hole
-~ J133119 ~ Class 5 + 1 ~ Magnetar 
-~ J124730 ~ Class 5 + 1 ~ Black Hole
-~ J132823 ~ Class 5 + 1   
-~ J100724 ~ Class 5 + 1 ~ Red Giant
-~ J162638 ~ Class 5 + 1 ~ Pulsar 
-~ J230257 ~ Class 5 + 2   
-~ J223018 ~ Class 5 + 2 ~ Pulsar 
-~ J135449 ~ Class 5 + 2 ~ Black Hole
-~ J133537 ~ Class 5 + 2 ~ Black Hole
-~ J155714 ~ Class 5 + 2 ~ Pulsar 
-~ J112325 ~ Class 5 + 2 ~ Cataclysmic Variable
-~ J150606 ~ Class 5 + 2 ~ Wolf-Rayet Star
-~ J110550 ~ Class 5 + 2   
-~ J205659 ~ Class 5 + 2 ~ Red Giant
-~ J100120 ~ Class 5 + 2   
-~ J151057 ~ Class 5 + 2   
-~ J213245 ~ Class 5 + 2 ~ Wolf-Rayet Star
-~ J121230 ~ Class 5 + 2   
-~ J145203 ~ Class 5 + 2 ~ Wolf-Rayet Star
-~ J111106 ~ Class 5 + 2 ~ Cataclysmic Variable
-~ J222834 ~ Class 5 + 2   
-~ J232336 ~ Class 5 + 5   
-~ J161032 ~ Class 5 + 5   
-~ J154733 ~ Class 5 + 5   
-~ J153144 ~ Class 5 + 5   
-~ J122721 ~ Class 5 + 5 ~ Magnetar 
-~ J133440 ~ Class 5 + 5   
-~ J103727 ~ Class 5 + 2   
-~ J152739 ~ Class 5 + 2   
-~ J140717 ~ Class 5 + 2   
-~ J205205 ~ Class 5 + 2   
-~ J130026 ~ Class 5 + 2 ~ Pulsar 
-~ J151035 ~ Class 5 + 2   
-~ J112603 ~ Class 5 + 2 ~ Black Hole
-~ J151811 ~ Class 5 + 2 ~ Black Hole
-~ J105441 ~ Class 5 + 2   
-~ J124949 ~ Class 5 + 2 ~ Black Hole
-~ J130711 ~ Class 5 + 2 ~ Black Hole
-~ J131948 ~ Class 5 + 2   
-~ J132814 ~ Class 5 + 2 ~ Wolf-Rayet Star
-~ J213734 ~ Class 5 + 2   
-~ J140608 ~ Class 5 + 1 ~ Wolf-Rayet Star
-~ J212336 ~ Class 5 + 1 ~ Pulsar 
-~ J104448 ~ Class 5 + 1 ~ Magnetar 
-~ J164846 ~ Class 5 + 1 ~ Wolf-Rayet Star
-~ J161354 ~ Class 5 + 1   
-~ J103959 ~ Class 5 + 1   
-~ J114353 ~ Class 5 + 1 ~ Red Giant
-~ J171622 ~ Class 5 + 1 ~ Cataclysmic Variable
-~ J143123 ~ Class 5 + 1 ~ Pulsar 
-~ J125023 ~ Class 5 + 5   
-~ J122116 ~ Class 5 + 5   
-~ J151718 ~ Class 5 + 5   
-~ J153335 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J170122 ~ Class 5 + 5   
-~ J150515 ~ Class 5 + 5 ~ Magnetar 
-~ J104216 ~ Class 5 + 5   
-~ J111000 ~ Class 5 + 5   
-~ J155600 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J132601 ~ Class 5 + 5 ~ Black Hole
-~ J132258 ~ Class 5 + 5   
-~ J221512 ~ Class 5 + 5 ~ Red Giant
-~ J125853 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J141609 ~ Class 5 + 5   
-~ J134096 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J121146 ~ Class 5 + 5   
-~ J121649 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J135559 ~ Class 5 + 5   
-~ J130735 ~ Class 5 + 5   
-~ J144115 ~ Class 5 + 5 ~ Black Hole
-~ J112241 ~ Class 5 + 5 ~ Magnetar 
-~ J141204 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J131401 ~ Class 5 + 5   
-~ J170231 ~ Class 5 + 5   
-~ J164430 ~ Class 5 + 5   
-~ J143740 ~ Class 5 + 5   
-~ J115517 ~ Class 5 + 5   
-~ J230936 ~ Class 5 + 5   
-~ J133525 ~ Class 5 + 5 ~ Red Giant
-~ J215338 ~ Class 5 + 5   
-~ J112003 ~ Class 5 + 5   
-~ J214318 ~ Class 5 + 5   
-~ J110938 ~ Class 5 + 5   
-~ J103453 ~ Class 5 + 5 ~ Black Hole
-~ J101000 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J110117 ~ Class 5 + 5   
-~ J100328 ~ Class 5 + 5 ~ Black Hole
-~ J155845 ~ Class 5 + 5   
-~ J152703 ~ Class 5 + 5   
-~ J110628 ~ Class 5 + 5 ~ Red Giant
-~ J142438 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J153054 ~ Class 5 + 5   
-~ J114019 ~ Class 5 + 5   
-~ J233255 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J135046 ~ Class 5 + 5   
-~ J145322 ~ Class 5 + 5 ~ Magnetar 
-~ J112844 ~ Class 5 + 5 ~ Pulsar 
-~ J120816 ~ Class 5 + 5 ~ Red Giant
-~ J165340 ~ Class 5 + 5   
-~ J124409 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J124733 ~ Class 5 + 5   
-~ J173645 ~ Class 5 + 5   
-~ J165743 ~ Class 5 + 5   
-~ J171013 ~ Class 5 + 5   
-~ J155905 ~ Class 5 + 5   
-~ J213055 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J212224 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J234252 ~ Class 5 + 5 ~ Black Hole
-~ J150036 ~ Class 5 + 5   
-~ J172431 ~ Class 5 + 5   
-~ J114154 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J115127 ~ Class 5 + 5   
-~ J233658 ~ Class 5 + 5   
-~ J114403 ~ Class 5 + 5 ~ Black Hole
-~ J165946 ~ Class 5 + 5 ~ Red Giant
-~ J124046 ~ Class 5 + 5   
-~ J102736 ~ Class 5 + 5 ~ Magnetar 
-~ J133252 ~ Class 5 + 5   
-~ J140600 ~ Class 5 + 5   
-~ J163701 ~ Class 5 + 5   
-~ J115041 ~ Class 5 + 5   
-~ J154726 ~ Class 5 + 5   
-~ J123602 ~ Class 5 + 5 ~ Black Hole
-~ J100549 ~ Class 5 + 5   
-~ J124100 ~ Class 5 + 5 ~ Black Hole
-~ J113701 ~ Class 5 + 5   
-~ J164327 ~ Class 5 + 5   
-~ J110018 ~ Class 5 + 5   
-~ J164511 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J130037 ~ Class 5 + 5 ~ Magnetar 
-~ J101028 ~ Class 5 + 5   
-~ J100858 ~ Class 5 + 5   
-~ J151813 ~ Class 5 + 5 ~ Pulsar 
-~ J113758 ~ Class 5 + 5   
-~ J153802 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J130401 ~ Class 5 + 5 ~ Red Giant
-~ J130241 ~ Class 5 + 5   
-~ J232934 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J213642 ~ Class 5 + 5   
-~ J144107 ~ Class 5 + 5 ~ Magnetar 
-~ J140336 ~ Class 5 + 5 ~ Red Giant
-~ J214712 ~ Class 5 + 5   
-~ J170809 ~ Class 5 + 5 ~ Black Hole
-~ J220924 ~ Class 5 + 5   
-~ J142624 ~ Class 5 + 5 ~ Magnetar 
-~ J150306 ~ Class 5 + 5   
-~ J100425 ~ Class 5 + 5   
-~ J161745 ~ Class 5 + 5 ~ Red Giant
-~ J131718 ~ Class 5 + 5   
-~ J151319 ~ Class 5 + 5   
-~ J113059 ~ Class 5 + 5   
-~ J142234 ~ Class 5 + 5   
-~ J113636 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J142858 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J135540 ~ Class 5 + 5 ~ Red Giant
-~ J155739 ~ Class 5 + 5   
-~ J132427 ~ Class 5 + 5 ~ Black Hole
-~ J114337 ~ Class 5 + 5   
-~ J121842 ~ Class 5 + 5   
-~ J100415 ~ Class 5 + 5   
-~ J143057 ~ Class 5 + 5   
-~ J165953 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J102753 ~ Class 5 + 5 ~ Black Hole
-~ J221325 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J114443 ~ Class 5 + 5 ~ Magnetar 
-~ J125990 ~ Class 5 + 5   
-~ J114518 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J102623 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J164900 ~ Class 5 + 6   
-~ J122049 ~ Class 5 + 6 ~ Red Giant
-~ J154846 ~ Class 5 + 6 ~ Wolf-Rayet Star
-~ J115522 ~ Class 5 + 6   
-~ J145844 ~ Class 5 + 6 ~ Magnetar 
-~ J121704 ~ Class 5 + 6   
-~ J121959 ~ Class 5 + 6   
-~ J105849 ~ Class 5 + 6 ~ Wolf-Rayet Star
-~ J122610 ~ Class 5 + 6   
-~ J152912 ~ Class 5 + 6 ~ Black Hole
-~ J145359 ~ Class 5 + 6   
-~ J154906 ~ Class 5 + 6 ~ Magnetar 
-~ J160547 ~ Class 5 + 6 ~ Magnetar 
-~ J111150 ~ Class 5 + 6 ~ Red Giant
-~ J111935 ~ Class 5 + 6   
-~ J100237 ~ Class 5 + 6 ~ Wolf-Rayet Star
-~ J145735 ~ Class 5 + 6   
-~ J103600 ~ Class 5 + 6 ~ Black Hole
-~ J211517 ~ Class 5 + 6 ~ Wolf-Rayet Star
-~ J131128 ~ Class 5 + 6 ~ Cataclysmic Variable
-~ J143107 ~ Class 5 + 6 ~ Black Hole
-~ J213125 ~ Class 5 + 6 ~ Pulsar 
-~ J152325 ~ Class 5 + 6 ~ Cataclysmic Variable
-~ J114014 ~ Class 5 + 6 ~ Wolf-Rayet Star
-~ J215215 ~ Class 5 + 6   
-~ J143718 ~ Class 5 + 6 ~ Black Hole
-~ J134141 ~ Class 5 + 6 ~ Cataclysmic Variable
-~ J114842 ~ Class 5 + 6   
-~ J105504 ~ Class 5 + 6 ~ Black Hole
-~ J130302 ~ Class 5 + 6 ~ Cataclysmic Variable
-~ J170327 ~ Class 5 + 6   
-~ J120823 ~ Class 5 + 6 ~ Magnetar 
-~ J153449 ~ Class 5 + 6 ~ Red Giant
-~ J164621 ~ Class 5 + 6 ~ Magnetar 
-~ J142631 ~ Class 5 + 6   
-~ J134652 ~ Class 5 + 6   
-~ J123628 ~ Class 5 + 6   
-~ J130621 ~ Class 5 + 6   
-~ J171158 ~ Class 5 + 6   
-~ J163930 ~ Class 5 + 6 ~ Cataclysmic Variable
-~ J113907 ~ Class 5 + 6   
-~ J164610 ~ Class 5 + 6   
-~ J145512 ~ Class 5 + 6 ~ Magnetar 
-~ J133833 ~ Class 5 + 6   
-~ J141250 ~ Class 5 + 6 ~ Red Giant
-~ J105623 ~ Class 5 + 6 ~ Magnetar 
-~ J120010 ~ Class 5 + 6   
-~ J233630 ~ Class 5 + 6 ~ Black Hole
-~ J162007 ~ Class 5 + 6 ~ Black Hole
-~ J215124 ~ Class 5 + 6   
-~ J141615 ~ Class 5 + 6   
-~ J133222 ~ Class 5 + 6   
-~ J105822 ~ Class 5 + 6 ~ Wolf-Rayet Star
-~ J171136 ~ Class 5 + 6   
-~ J152111 ~ Class 5 + 6 ~ Pulsar 
-~ J104846 ~ Class 5 + 6 ~ Red Giant
-~ J123440 ~ Class 5 + 6   
-~ J121416 ~ Class 5 + 6 ~ Magnetar 
-~ J161635 ~ Class 5 + 6 ~ Black Hole
-~ J141043 ~ Class 5 + 6   
-~ J163408 ~ Class 5 + 6 ~ Cataclysmic Variable
-~ J135204 ~ Class 5 + 6   
-~ J133913 ~ Class 5 + 6 ~ Magnetar 
-~ J153447 ~ Class 5 + 6 ~ Cataclysmic Variable
-~ J145313 ~ Class 5 + 6   
-~ J162753 ~ Class 5 + 3 ~ Pulsar 
-~ J135301 ~ Class 5 + 3 ~ Wolf-Rayet Star
-~ J125254 ~ Class 5 + 3 ~ Cataclysmic Variable
-~ J145320 ~ Class 5 + 3 ~ Red Giant
-~ J103116 ~ Class 5 + 3   
-~ J120437 ~ Class 5 + 3   
-~ J100252 ~ Class 5 + 3   
-~ J153919 ~ Class 5 + 3 ~ Pulsar 
-~ J115520 ~ Class 5 + 3 ~ Wolf-Rayet Star
-~ J100919 ~ Class 5 + 3 ~ Wolf-Rayet Star
-~ J115933 ~ Class 5 + 3 ~ Pulsar 
-~ J133529 ~ Class 5 + 3   
-~ J131549 ~ Class 5 + 3 ~ Cataclysmic Variable
-~ J205517 ~ Class 5 + 3   
-~ J220546 ~ Class 5 + 3   
-~ J102853 ~ Class 5 + 3   
-~ J115418 ~ Class 5 + 3   
-~ J155040 ~ Class 5 + 3   
-~ J172937 ~ Class 5 + 3   
-~ J122757 ~ Class 5 + 3   
-~ J100759 ~ Class 5 + 3   
-~ J145416 ~ Class 5 + 3   
-~ J152034 ~ Class 5 + 3 ~ Magnetar 
-~ J125544 ~ Class 5 + 3 ~ Wolf-Rayet Star
-~ J123235 ~ Class 5 + 3   
-~ J151204 ~ Class 5 + 3   
-~ J104537 ~ Class 5 + 3 ~ Black Hole
-~ J162047 ~ Class 5 + 3 ~ Wolf-Rayet Star
-~ J140514 ~ Class 5 + 3   
-~ J154152 ~ Class 5 + 3   
-~ J143626 ~ Class 5 + 3 ~ Pulsar 
-~ J161737 ~ Class 5 + 3 ~ Black Hole
-~ J142110 ~ Class 5 + 3   
-~ J112042 ~ Class 5 + 3   
-~ J105719 ~ Class 5 + 3 ~ Black Hole
-~ J101556 ~ Class 5 + 3   
-~ J230047 ~ Class 5 + 3 ~ Black Hole
-~ J213226 ~ Class 5 + 3 ~ Pulsar 
-~ J104218 ~ Class 5 + 3   
-~ J115308 ~ Class 5 + 3 ~ Red Giant
-~ J140418 ~ Class 5 + 3 ~ Black Hole
-~ J101343 ~ Class 5 + 3 ~ Wolf-Rayet Star
-~ J105135 ~ Class 5 + 3 ~ Red Giant
-~ J111818 ~ Class 5 + 3 ~ Red Giant
-~ J110841 ~ Class 5 + 3   
-~ J134024 ~ Class 5 + 3   
-~ J142349 ~ Class 5 + 3   
-~ J212203 ~ Class 5 + 3 ~ Wolf-Rayet Star
-~ J124942 ~ Class 5 + 3 ~ Cataclysmic Variable
-~ J131747 ~ Class 5 + 3 ~ Wolf-Rayet Star
-~ J133553 ~ Class 5 + 3 ~ Black Hole
-~ J115422 ~ Class 5 + 3   
-~ J103448 ~ Class 5 + 3   
-~ J161301 ~ Class 5 + 3   
-~ J130334 ~ Class 5 + 3   
-~ J172125 ~ Class 5 + 3 ~ Magnetar 
-~ J114537 ~ Class 5 + 3 ~ Cataclysmic Variable
-~ J134440 ~ Class 5 + 3   
-~ J101912 ~ Class 5 + 3 ~ Wolf-Rayet Star
-~ J214006 ~ Class 5 + 3 ~ Cataclysmic Variable
-~ J235108 ~ Class 5 + 3   
-~ J124538 ~ Class 5 + 3 ~ Red Giant
-~ J125641 ~ Class 5 + 3 ~ Black Hole
-~ J141728 ~ Class 5 + 3   
-~ J100616 ~ Class 5 + 3 ~ Pulsar 
-~ J204350 ~ Class 5 + 3   
-~ J151300 ~ Class 5 + 3 ~ Cataclysmic Variable
-~ J114041 ~ Class 5 + 3   
-~ J115644 ~ Class 5 + 5   
-~ J103328 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J143127 ~ Class 5 + 5 ~ Black Hole
-~ J121459 ~ Class 5 + 5   
-~ J114441 ~ Class 5 + 5   
-~ J102345 ~ Class 5 + 5 ~ Magnetar 
-~ J161609 ~ Class 5 + 5   
-~ J131646 ~ Class 5 + 5   
-~ J144543 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J123658 ~ Class 5 + 5   
-~ J121450 ~ Class 5 + 5   
-~ J145753 ~ Class 5 + 5   
-~ J130510 ~ Class 5 + 5   
-~ J135402 ~ Class 5 + 5   
-~ J165220 ~ Class 5 + 5   
-~ J124152 ~ Class 5 + 5 ~ Red Giant
-~ J162349 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J210750 ~ Class 5 + 5 ~ Pulsar 
-~ J235305 ~ Class 5 + 5 ~ Black Hole
-~ J120546 ~ Class 5 + 5 ~ Black Hole
-~ J105059 ~ Class 5 + 5 ~ Magnetar 
-~ J140249 ~ Class 5 + 5   
-~ J154551 ~ Class 5 + 5   
-~ J151530 ~ Class 5 + 5 ~ Pulsar 
-~ J122520 ~ Class 5 + 5   
-~ J151200 ~ Class 5 + 5 ~ Black Hole
-~ J143245 ~ Class 5 + 5   
-~ J124722 ~ Class 5 + 5 ~ Black Hole
-~ J173506 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J121747 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J235456 ~ Class 5 + 5 ~ Red Giant
-~ J113712 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J165940 ~ Class 5 + 5 ~ Pulsar 
-~ J165520 ~ Class 5 + 5   
-~ J135653 ~ Class 5 + 5   
-~ J132946 ~ Class 5 + 5   
-~ J134702 ~ Class 5 + 5 ~ Red Giant
-~ J111249 ~ Class 5 + 5   
-~ J105607 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J100551 ~ Class 5 + 5   
-~ J140524 ~ Class 5 + 5 ~ Black Hole
-~ J234152 ~ Class 5 + 5 ~ Magnetar 
-~ J164732 ~ Class 5 + 5   
-~ J131505 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J115405 ~ Class 5 + 5   
-~ J215009 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J161940 ~ Class 5 + 5   
-~ J145825 ~ Class 5 + 5   
-~ J132605 ~ Class 5 + 5   
-~ J115907 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J125634 ~ Class 5 + 5   
-~ J110530 ~ Class 5 + 5 ~ Magnetar 
-~ J100854 ~ Class 5 + 5   
-~ J102053 ~ Class 5 + 5 ~ Red Giant
-~ J111518 ~ Class 5 + 5   
-~ J145349 ~ Class 5 + 5   
-~ J145846 ~ Class 5 + 5   
-~ J215554 ~ Class 5 + 5   
-~ J115950 ~ Class 5 + 5 ~ Red Giant
-~ J100109 ~ Class 5 + 5   
-~ J161838 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J173052 ~ Class 5 + 5   
-~ J170807 ~ Class 5 + 5   
-~ J105246 ~ Class 5 + 5   
-~ J144944 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J170930 ~ Class 5 + 5   
-~ J130039 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J103615 ~ Class 5 + 5   
-~ J111227 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J153222 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J144434 ~ Class 5 + 5 ~ Black Hole
-~ J230842 ~ Class 5 + 5   
-~ J172139 ~ Class 5 + 5 ~ Red Giant
-~ J232741 ~ Class 5 + 5 ~ Red Giant
-~ J110634 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J124058 ~ Class 5 + 5 ~ Magnetar 
-~ J123432 ~ Class 5 + 5 ~ Red Giant
-~ J151909 ~ Class 5 + 5 ~ Pulsar 
-~ J145706 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J230242 ~ Class 5 + 5 ~ Black Hole
-~ J172840 ~ Class 5 + 5   
-~ J131450 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J125101 ~ Class 5 + 5   
-~ J142910 ~ Class 5 + 5   
-~ J131142 ~ Class 5 + 5 ~ Black Hole
-~ J152827 ~ Class 5 + 5 ~ Black Hole
-~ J115901 ~ Class 5 + 5   
-~ J114100 ~ Class 5 + 5 ~ Wolf-Rayet Star
-~ J162132 ~ Class 5 + 5   
-~ J171722 ~ Class 5 + 4 ~ Pulsar 
-~ J135554 ~ Class 5 + 4   
-~ J214212 ~ Class 5 + 4   
-~ J130305 ~ Class 5 + 4   
-~ J111543 ~ Class 5 + 4   
-~ J160623 ~ Class 5 + 4 ~ Pulsar 
-~ J234722 ~ Class 5 + 4 ~ Pulsar 
-~ J133513 ~ Class 5 + 4 ~ Black Hole
-~ J104704 ~ Class 5 + 4   
-~ J120354 ~ Class 5 + 4 ~ Cataclysmic Variable
-~ J165312 ~ Class 5 + 4   
-~ J103812 ~ Class 5 + 4   
-~ J143525 ~ Class 5 + 4   
-~ J125716 ~ Class 5 + 4 ~ Magnetar 
-~ J143845 ~ Class 5 + 4 ~ Cataclysmic Variable
-~ J135626 ~ Class 5 + 4 ~ Black Hole
-~ J115905 ~ Class 5 + 4 ~ Magnetar 
-~ J233917 ~ Class 5 + 4 ~ Magnetar 
-~ J140343 ~ Class 5 + 4   
-~ J114315 ~ Class 5 + 4   
-~ J142653 ~ Class 5 + 4 ~ Red Giant
-~ J132546 ~ Class 5 + 4   
-~ J165205 ~ Class 5 + 4 ~ Cataclysmic Variable
-~ J122518 ~ Class 5 + 4   
-~ J153825 ~ Class 5 + 4 ~ Red Giant
-~ J101435 ~ Class 5 + 4 ~ Cataclysmic Variable
-~ J143819 ~ Class 5 + 4   
-~ J170417 ~ Class 5 + 4 ~ Red Giant
-~ J115727 ~ Class 5 + 4   
-~ J115124 ~ Class 5 + 4   
-~ J135533 ~ Class 5 + 4 ~ Wolf-Rayet Star
-~ J230745 ~ Class 5 + 4   
-~ J112918 ~ Class 5 + 4 ~ Black Hole
-~ J111640 ~ Class 5 + 4 ~ Wolf-Rayet Star
-~ J231137 ~ Class 5 + 4   
-~ J111613 ~ Class 5 + 4 ~ Cataclysmic Variable
-~ J145131 ~ Class 5 + 4   
-~ J111003 ~ Class 5 + 4 ~ Cataclysmic Variable
-~ J131520 ~ Class 5 + 4   
-~ J120922 ~ Class 5 + 4 ~ Red Giant
-~ J142138 ~ Class 5 + 4 ~ Magnetar 
-~ J153106 ~ Class 5 + 4 ~ Red Giant
-~ J111939 ~ Class 5 + 4 ~ Black Hole
-~ J173550 ~ Class 5 + 4   
-~ J145310 ~ Class 5 + 4   
-~ J155928 ~ Class 5 + 4   
-~ J234208 ~ Class 5 + 4 ~ Black Hole
-~ J105722 ~ Class 5 + 4   
-~ J123546 ~ Class 5 + 4   
-~ J210235 ~ Class 5 + 4   
-~ J170736 ~ Class 5 + 4 ~ Red Giant
-~ J170240 ~ Class 5 + 4   
-~ J125532 ~ Class 5 + 4   
-~ J133923 ~ Class 5 + 4 ~ Red Giant
-~ J131509 ~ Class 5 + 4   
-~ J210519 ~ Class 5 + 4 ~ Black Hole
-~ J233517 ~ Class 5 + 4   
-~ J162612 ~ Class 5 + 4   
-~ J123055 ~ Class 5 + 4 ~ Magnetar 
-~ J212302 ~ Class 5 + 4 ~ Magnetar 
-~ J102103 ~ Class 5 + 4   
-~ J213956 ~ Class 5 + 4 ~ Wolf-Rayet Star
-~ J161944 ~ Class 5 + 4   
-~ J135705 ~ Class 5 + 4 ~ Red Giant
-~ J103215 ~ Class 5 + 4   
-~ J141032 ~ Class 5 + 4   
-~ J135306 ~ Class 5 + 4 ~ Red Giant
-~ J155256 ~ Class 5 + 4 ~ Black Hole
-~ J162853 ~ Class 5 + 4 ~ Red Giant
-~ J104809 ~ Class 5 + 4 ~ Black Hole
-~ J144454 ~ Class 5 + 4 ~ Red Giant
-~ J110759 ~ Class 5 + 4   
-~ J215304 ~ Class 5 + 4 ~ Black Hole
-~ J110946 ~ Class 5 + 4   
-~ J230221 ~ Class 5 + 4 ~ Cataclysmic Variable
-~ J140133 ~ Class 5 + 4   
-~ J105531 ~ Class 5 + 4   
-~ J213502 ~ Class 5 + 4 ~ Black Hole
-~ J101647 ~ Class 5 + 4   
-~ J133023 ~ Class 5 + 4 ~ Magnetar 
-~ J164553 ~ Class 5 + 4   
-~ J232959 ~ Class 5 + 4   
-~ J152106 ~ Class 5 + 4 ~ Pulsar 
-~ J142535 ~ Class 5 + 4   
-~ J104859 ~ Class 6 + 2 ~ Pulsar 
-~ J155838 ~ Class 6 + 2   
-~ J164745 ~ Class 6 + 2 ~ Cataclysmic Variable
-~ J135504 ~ Class 6 + 2 ~ Red Giant
-~ J115923 ~ Class 6 + 2   
-~ J151325 ~ Class 6 + 2 ~ Pulsar 
-~ J105705 ~ Class 6 + 2 ~ Cataclysmic Variable
-~ J141434 ~ Class 6 + 6   
-~ J115844 ~ Class 6 + 6   
-~ J133906 ~ Class 6 + 6   
-~ J115855 ~ Class 6 + 6   
-~ J150020 ~ Class 6 + 6 ~ Magnetar 
-~ J142528 ~ Class 6 + 6   
-~ J130900 ~ Class 6 + 5   
-~ J222045 ~ Class 6 + 5 ~ Pulsar 
-~ J111450 ~ Class 6 + 5 ~ Cataclysmic Variable
-~ J103800 ~ Class 6 + 5 ~ Red Giant
-~ J144420 ~ Class 6 + 5   
-~ J152550 ~ Class 6 + 5   
-~ J114003 ~ Class 6 + 5 ~ Magnetar 
-~ J143751 ~ Class 6 + 5   
-~ J215930 ~ Class 6 + 5 ~ Red Giant
-~ J120512 ~ Class 6 + 3 ~ Cataclysmic Variable
-~ J145939 ~ Class 6 + 3   
-~ J135623 ~ Class 6 + 3 ~ Cataclysmic Variable
-~ J111918 ~ Class 6 + 3 ~ Red Giant
-~ J162614 ~ Class 6 + 3 ~ Pulsar 
-~ J104921 ~ Class 6 + 3   
-~ J230049 ~ Class 6 + 3 ~ Cataclysmic Variable
-~ J115935 ~ Class 6 + 3   
-~ J151920 ~ Class 6 + 1 ~ Cataclysmic Variable
-~ J160855 ~ Class 6 + 1   
-~ J155311 ~ Class 6 + 1   
-~ J101553 ~ Class 6 + 1 ~ Pulsar 
-~ J110421 ~ Class 6 + 1 ~ Wolf-Rayet Star
-~ J155207 ~ Class 6 + 1   
-~ J143200 ~ Class 6 + 4 ~ Red Giant
-~ J110834 ~ Class 6 + 4   
-~ J142247 ~ Class 6 + 4 ~ Cataclysmic Variable
-~ J112028 ~ Class 6 + 4 ~ Black Hole
-~ J111520 ~ Class 6 + 4 ~ Black Hole
-~ J161335 ~ Class 6 + 4   
-~ J170118 ~ Class 6 + 4   
-~ J160722 ~ Class 6 + 4 ~ Red Giant
-~ J124504 ~ Class 6 + 6 ~ Red Giant
-~ J212612 ~ Class 6 + 6   
-~ J154829 ~ Class 6 + 6 ~ Cataclysmic Variable
-~ J144436 ~ Class 6 + 6   
-~ J165641 ~ Class 6 + 6 ~ Black Hole
-~ J145510 ~ Class 6 + 6   
-~ J110810 ~ Class 6 + 3 ~ Black Hole
-~ J131916 ~ Class 6 + 3   
-~ J120103 ~ Class 6 + 3 ~ Red Giant
-~ J171404 ~ Class 6 + 3 ~ Red Giant
-~ J104632 ~ Class 6 + 3   
-~ J103400 ~ Class 6 + 3 ~ Red Giant
-~ J154021 ~ Class 6 + 3 ~ Magnetar 
-~ J122249 ~ Class 6 + 3 ~ Red Giant
-~ J213753 ~ Class 6 + 3 ~ Red Giant
-~ J155650 ~ Class 6 + 4   
-~ J152722 ~ Class 6 + 4   
-~ J100501 ~ Class 6 + 4   
-~ J140918 ~ Class 6 + 4 ~ Wolf-Rayet Star
-~ J103414 ~ Class 6 + 4 ~ Red Giant
-~ J223432 ~ Class 6 + 4   
-~ J100409 ~ Class 6 + 4   
-~ J141502 ~ Class 6 + 4   
-~ J115008 ~ Class 6 + 4 ~ Red Giant
-~ J112829 ~ Class 6 + 5   
-~ J105801 ~ Class 6 + 5 ~ Pulsar 
-~ J105023 ~ Class 6 + 5 ~ Wolf-Rayet Star
-~ J101652 ~ Class 6 + 5 ~ Red Giant
-~ J163225 ~ Class 6 + 5 ~ Pulsar 
-~ J135220 ~ Class 6 + 5 ~ Cataclysmic Variable
-~ J114430 ~ Class 6 + 5 ~ Magnetar 
-~ J103504 ~ Class 6 + 5   
-~ J123940 ~ Class 6 + 5   
-~ J104857 ~ Class 6 + 5 ~ Magnetar 
-~ J112417 ~ Class 6 + 5   
-~ J205141 ~ Class 6 + 5 ~ Magnetar 
-~ J104037 ~ Class 6 + 5   
-~ J144902 ~ Class 6 + 5   
-~ J122818 ~ Class 6 + 5 ~ Pulsar 
-~ J211353 ~ Class 6 + 5 ~ Wolf-Rayet Star
-~ J104136 ~ Class 6 + 5   
-~ J172842 ~ Class 6 + 5 ~ Cataclysmic Variable
-~ J122452 ~ Class 6 + 5 ~ Pulsar 
-~ J140200 ~ Class 6 + 5 ~ Magnetar 
-~ J232246 ~ Class 6 + 5   
-~ J101748 ~ Class 6 + 5   
-~ J133241 ~ Class 6 + 5 ~ Cataclysmic Variable
-~ J151817 ~ Class 6 + 5 ~ Wolf-Rayet Star
-~ J124201 ~ Class 6 + 5   
-~ J125111 ~ Class 6 + 5 ~ Pulsar 
-~ J101755 ~ Class 6 + 5 ~ Black Hole
-~ J101708 ~ Class 6 + 5   
-~ J135031 ~ Class 6 + 5 ~ Magnetar 
-~ J152117 ~ Class 6 + 5   
-~ J164701 ~ Class 6 + 5 ~ Wolf-Rayet Star
-~ J132106 ~ Class 6 + 5 ~ Pulsar 
-~ J141319 ~ Class 6 + 5 ~ Red Giant
-~ J170845 ~ Class 6 + 5   
-~ J161215 ~ Class 6 + 5   
-~ J111447 ~ Class 6 + 5   
-~ J222408 ~ Class 5 + 4   
-~ J161747 ~ Class 5 + 5 ~ Cataclysmic Variable
-~ J132328 ~ Class 5 + 4 ~ Pulsar 
-~ J153217 ~ Class 6 + 5   
-~ J142814 ~ Class 5 + 4 ~ Magnetar 
-~ J101248 ~ Class 5 + 6   
-~ J135825 ~ Class 5 + 4 ~ Cataclysmic Variable
-~ J151838 ~ Class 6 + 5   
-~ J100820 ~ Class 5 + 5   
-~ J213344 ~ Class 5 + 4   
-~ J103701 ~ Class 5 + 5   
-~ J171246 ~ Class 5 + 5   
-~ J170158 ~ Class 5 + 2 ~ Black Hole
-~ J230559 ~ Class 6 + 5 ~ Red Giant
-~ J145208 ~ Class 5 + 5   
-~ J224721 ~ Class 5 + 1 ~ Cataclysmic Variable
-~ J105934 ~ Class 6 + 6 ~ Magnetar 
-~ J130818 ~ Class 5 + 5 ~ Magnetar 
-~ J140555 ~ Class 6 + 6   
-~ J221356 ~ Class 5 + 3   
-~ J111245 ~ Class 5 + 5   
-~ J102834 ~ Class 6 + 5 ~ Magnetar 
-~ J154509 ~ Class 5 + 6   
-~ J234928 ~ Class 5 + 5   
-~ J222604 ~ Class 6 + 5 ~ Red Giant
-~ J133011 ~ Class 5 + 5 ~ Red Giant
-~ J125245 ~ Class 5 + 4   
-~ J145523 ~ Class 6 + 5   
-~ J143605 ~ Class 5 + 3 ~ Magnetar 
-~ J120750 ~ Class 5 + 1   
-~ J104617 ~ Class 5 + 6 ~ Cataclysmic Variable
-~ J125122 ~ Class 6 + 5 ~ Cataclysmic Variable
-~ J114809 ~ Class 5 + 5   
-~ J125657 ~ Class 5 + 3   
-~ J015092 ~ Shattered 1 + L,N ~ Black Hole
-~ J005834 ~ Shattered 1 + H,N ~ Cataclysmic Variable
-~ J012402 ~ Shattered 1 + H,N ~ Magnetar 
-~ J005926 ~ Shattered 1 + H,L ~ Pulsar 
-~ J010569 ~ Shattered 1 + H,L ~ Red Giant
-~ J012157 ~ Shattered 1 + L,N,2   
-~ J002757 ~ Shattered 1 + H,N   
-~ J004791 ~ Shattered 1 + H,L   
-~ J004317 ~ Shattered 1 + H,L   
-~ J002216 ~ Shattered 1 + L,N   
-~ J005482 ~ Shattered 2 + H,L,1 ~ Black Hole
-~ J005900 ~ Shattered 2 + N,L,3,4 ~ Cataclysmic Variable
-~ J013070 ~ Shattered 2 + 6,L,N ~ Magnetar 
-~ J001057 ~ Shattered 2 + N,4,H,2 ~ Pulsar 
-~ J011321 ~ Shattered 2 + H,N,4 ~ Red Giant
-~ J013123 ~ Shattered 2 + 2,H,L   
-~ J012735 ~ Shattered 2 + H,4,3,N   
-~ J012635 ~ Shattered 2 + H,L   
-~ J010000 ~ Shattered 2 + H   
-~ J001890 ~ Shattered 2 + 1,H,L   
-~ J002964 ~ Shattered 2 + 5,L,N   
-~ J004686 ~ Shattered 2 + 3,L,N   
-~ J011563 ~ Shattered 3 + H,L ~ Black Hole
-~ J001348 ~ Shattered 3 + H,L ~ Cataclysmic Variable
-~ J002838 ~ Shattered 3 + L,N ~ Magnetar 
-~ J001670 ~ Shattered 3 + L,N ~ Pulsar 
-~ J014348 ~ Shattered 3 + L,H ~ Red Giant
-~ J003789 ~ Shattered 3 + H,L   
-~ J012794 ~ Shattered 3 + L,N   
-~ J005923 ~ Shattered 3 + L,N   
-~ J001398 ~ Shattered 3 + L,N   
-~ J011339 ~ Shattered 3 + H,L   
-~ J004283 ~ Shattered 3 + N,L   
-~ J002625 ~ Shattered 4 + 3,4,L ~ Black Hole
-~ J004470 ~ Shattered 4 + 3,4,L ~ Black Hole
-~ J011824 ~ Shattered 4 + 3,4,N ~ Cataclysmic Variable
-~ J010247 ~ Shattered 4 + L,4,2 ~ Cataclysmic Variable
-~ J002423 ~ Shattered 4 + 2,1,H ~ Magnetar 
-~ J001302 ~ Shattered 4 + N,5,6 ~ Magnetar 
-~ J010556 ~ Shattered 4 + 2,1,H ~ Pulsar 
-~ J011778 ~ Shattered 4 + 1,3,H ~ Pulsar 
-~ J005259 ~ Shattered 4 + 4,3,H ~ Red Giant
-~ J005969 ~ Shattered 4 + 5,6,N ~ Red Giant
-~ J001769 ~ Shattered 4 + 5,N,4 ~ Wolf-Rayet Star
-~ J004150 ~ Shattered 4 + H,3,2 ~ Wolf-Rayet Star
-~ J005872 ~ Shattered 4 + 3,L,1   
-~ J011376 ~ Shattered 4 + 4,5,L   
-~ J005299 ~ Shattered 4 + 5,3,N   
-~ J011355 ~ Shattered 4 + 3,4   
-~ J011195 ~ Shattered 4 + L,4,5   
-~ J005280 ~ Shattered 4 + 4,3,L   
-~ J010811 ~ Shattered 5 + 6,N ~ Black Hole
-~ J001694 ~ Shattered 5 + 5,N ~ Black Hole
-~ J003941 ~ Shattered 5 + 5,N ~ Cataclysmic Variable
-~ J011790 ~ Shattered 5 + H,3,N ~ Cataclysmic Variable
-~ J013146 ~ Shattered 5 + 5,N ~ Magnetar 
-~ J004998 ~ Shattered 5 + 5,L ~ Magnetar 
-~ J003382 ~ Shattered 5 + 2,L ~ Pulsar 
-~ J003546 ~ Shattered 5 + 3,L ~ Pulsar 
-~ J001820 ~ Shattered 5 + 5,L ~ Red Giant
-~ J012578 ~ Shattered 5 + 5,L ~ Red Giant
-~ J012773 ~ Shattered 5 + 4,N ~ Wolf-Rayet Star
-~ J005223 ~ Shattered 5 + 4,L ~ Wolf-Rayet Star
-~ J005663 ~ Shattered 5 + L,1   
-~ J003793 ~ Shattered 5 + N,4,N   
-~ J004128 ~ Shattered 5 + L,5   
-~ J005070 ~ Shattered 5 + 6,N   
-~ J001025 ~ Shattered 5 + 3,L   
-~ J005724 ~ Shattered 5 + 5,N   
-~ J004921 ~ Shattered 5 + 5,N   
-~ J012686 ~ Shattered 6 + N,5   
-~ J010366 ~ Shattered 6 + 6,N   
-~ J012475 ~ Shattered 6 + 5,N   
-~ J015227 ~ Shattered 6 + 6,N   
-~ J010951 ~ Shattered 6 + N,6   
-~ Thera ~ Shattered 12 + H,L,N   
-~ J000895 ~ Shattered 13 + N,5 ~ Wolf-Rayet Star
-~ J000487 ~ Shattered 13 + 3,5,N ~ Wolf-Rayet Star
-~ J000621 ~ Shattered 13 + 2,N ~ Wolf-Rayet Star
-~ J000551 ~ Shattered 13 + 1,N ~ Wolf-Rayet Star
-~ J000630 ~ Shattered 13 + 1,4,N ~ Wolf-Rayet Star
-~ J000452 ~ Shattered 13 + 3,4,N ~ Wolf-Rayet Star
-~ J000327 ~ Shattered 13 + 2,5,N ~ Wolf-Rayet Star
-~ J000186 ~ Shattered 13 + 2,5,N ~ Wolf-Rayet Star
-~ J000528 ~ Shattered 13 + 3,4,N ~ Wolf-Rayet Star
-~ J000353 ~ Shattered 13 + 2,4,N ~ Wolf-Rayet Star
-~ J000461 ~ Shattered 13 + 3,N ~ Wolf-Rayet Star
-~ J000522 ~ Shattered 13 + 2,3,N ~ Wolf-Rayet Star
-~ J000965 ~ Shattered 13 + 3,N ~ Wolf-Rayet Star
-~ J000304 ~ Shattered 13 + 4,5,N ~ Wolf-Rayet Star
-~ J000595 ~ Shattered 13 + 2,5,N ~ Wolf-Rayet Star
-~ J000685 ~ Shattered 13 + 4,N ~ Wolf-Rayet Star
-~ J000844 ~ Shattered 13 + 2,N ~ Wolf-Rayet Star
-~ J000719 ~ Shattered 13 + 4,N ~ Wolf-Rayet Star
-~ J000726 ~ Shattered 13 + 1,N ~ Wolf-Rayet Star
-~ J000214 ~ Shattered 13 + 5,N ~ Wolf-Rayet Star
-~ J000652 ~ Shattered 13 + 6,N ~ Wolf-Rayet Star
-~ J000313 ~ Shattered 13 + 5,N ~ Wolf-Rayet Star
-~ J000687 ~ Shattered 13 + 1,N ~ Wolf-Rayet Star
-~ J000427 ~ Shattered 13 + 3,N ~ Wolf-Rayet Star
-~ J000102 ~ Shattered 13 + 3,N ~ Wolf-Rayet Star
-~ J055520 ~ Shattered 14 + 2 ~ Red Giant
-~ J110145 ~ Shattered 15 + 2 ~ Cataclysmic Variable
-~ J164710 ~ Shattered 16 + 2 ~ Magnetar 
-~ J200727 ~ Shattered 17 + 2 ~ Pulsar 
-~ J174618 ~ Shattered 18 + 2 ~ Wolf-Rayet Star
+~ J105443 ~ C1+N   
+~ J100744 ~ C1+N ~ Cataclysmic Variable
+~ J225046 ~ C1+N   
+~ J160837 ~ C1+N   
+~ J114700 ~ C1+N   
+~ J134914 ~ C1+N   
+~ J102655 ~ C1+N   
+~ J134312 ~ C1+N ~ Magnetar 
+~ J205818 ~ C1+N   
+~ J113434 ~ C1+N   
+~ J105711 ~ C1+N ~ Cataclysmic Variable
+~ J164218 ~ C1+N   
+~ J154535 ~ C1+N ~ Black Hole
+~ J111301 ~ C1+N ~ Cataclysmic Variable
+~ J135038 ~ C1+N   
+~ J121358 ~ C1+N   
+~ J222914 ~ C1+N ~ Pulsar 
+~ J155429 ~ C1+N   
+~ J204640 ~ C1+N ~ Black Hole
+~ J162604 ~ C1+N   
+~ J164807 ~ C1+N   
+~ J233317 ~ C1+N ~ Wolf-Rayet Star
+~ J155023 ~ C1+N   
+~ J112628 ~ C1+N ~ Wolf-Rayet Star
+~ J153001 ~ C1+N   
+~ J143204 ~ C1+N   
+~ J101729 ~ C1+N   
+~ J221203 ~ C1+N ~ Black Hole
+~ J125428 ~ C1+L   
+~ J131854 ~ C1+L ~ Black Hole
+~ J160534 ~ C1+L   
+~ J144855 ~ C1+L   
+~ J101453 ~ C1+L   
+~ J144913 ~ C1+L   
+~ J144530 ~ C1+L   
+~ J135411 ~ C1+L ~ Magnetar 
+~ J125713 ~ C1+L   
+~ J105521 ~ C1+L ~ Red Giant
+~ J224324 ~ C1+L   
+~ J163203 ~ C1+L ~ Cataclysmic Variable
+~ J171818 ~ C1+L ~ Magnetar 
+~ J145337 ~ C1+L   
+~ J150131 ~ C1+L   
+~ J130842 ~ C1+L   
+~ J145406 ~ C1+L   
+~ J103404 ~ C1+L ~ Wolf-Rayet Star
+~ J112124 ~ C1+L   
+~ J124926 ~ C1+L ~ Cataclysmic Variable
+~ J232605 ~ C1+L   
+~ J144938 ~ C1+L   
+~ J233828 ~ C1+L   
+~ J130714 ~ C1+L ~ Black Hole
+~ J142701 ~ C1+L   
+~ J154226 ~ C1+L   
+~ J125843 ~ C1+L   
+~ J155459 ~ C1+L   
+~ J225555 ~ C1+L ~ Magnetar 
+~ J115549 ~ C1+L   
+~ J140741 ~ C1+L ~ Black Hole
+~ J104140 ~ C1+L   
+~ J101757 ~ C1+L ~ Black Hole
+~ J100250 ~ C1+L   
+~ J113721 ~ C1+L   
+~ J105039 ~ C1+L ~ Pulsar 
+~ J233550 ~ C1+L   
+~ J114033 ~ C1+L ~ Wolf-Rayet Star
+~ J105936 ~ C1+L ~ Red Giant
+~ J140121 ~ C1+L ~ Magnetar 
+~ J154029 ~ C1+L   
+~ J101336 ~ C1+L ~ Cataclysmic Variable
+~ J160039 ~ C1+L   
+~ J161257 ~ C1+L ~ Red Giant
+~ J144303 ~ C1+L   
+~ J121131 ~ C1+L ~ Wolf-Rayet Star
+~ J113653 ~ C1+L   
+~ J123454 ~ C1+L ~ Wolf-Rayet Star
+~ J110750 ~ C1+L   
+~ J151106 ~ C1+L ~ Magnetar 
+~ J100040 ~ C1+L ~ Black Hole
+~ J223733 ~ C1+L   
+~ J110431 ~ C1+L ~ Cataclysmic Variable
+~ J134446 ~ C1+L   
+~ J143202 ~ C1+L   
+~ J210436 ~ C1+L   
+~ J133030 ~ C1+L ~ Cataclysmic Variable
+~ J170645 ~ C1+L   
+~ J103151 ~ C1+L ~ Pulsar 
+~ J222206 ~ C1+L   
+~ J130602 ~ C1+L   
+~ J123708 ~ C1+L   
+~ J123831 ~ C1+L   
+~ J164927 ~ C1+L   
+~ J134143 ~ C1+L   
+~ J214534 ~ C1+L   
+~ J135250 ~ C1+L   
+~ J111707 ~ C1+L   
+~ J135245 ~ C1+L   
+~ J101408 ~ C1+L   
+~ J215117 ~ C1+L   
+~ J141019 ~ C1+L   
+~ J102206 ~ C1+L   
+~ J125903 ~ C1+L   
+~ J134939 ~ C1+L   
+~ J162641 ~ C1+L ~ Red Giant
+~ J152537 ~ C1+L ~ Black Hole
+~ J224442 ~ C1+L ~ Black Hole
+~ J104138 ~ C1+L ~ Magnetar 
+~ J121516 ~ C1+L   
+~ J114540 ~ C1+L   
+~ J155013 ~ C1+L   
+~ J144450 ~ C1+L   
+~ J141239 ~ C1+L   
+~ J115545 ~ C1+L   
+~ J114905 ~ C1+L   
+~ J120522 ~ C1+L   
+~ J172907 ~ C1+L ~ Pulsar 
+~ J164550 ~ C1+L ~ Magnetar 
+~ J141812 ~ C1+L   
+~ J134637 ~ C1+L   
+~ J134132 ~ C1+L   
+~ J125011 ~ C1+L   
+~ J105942 ~ C1+L ~ Cataclysmic Variable
+~ J171653 ~ C1+L   
+~ J110213 ~ C1+L   
+~ J115048 ~ C1+L   
+~ J174405 ~ C1+L ~ Wolf-Rayet Star
+~ J123111 ~ C1+L   
+~ J123047 ~ C1+L   
+~ J231541 ~ C1+L   
+~ J215900 ~ C1+L ~ Cataclysmic Variable
+~ J110651 ~ C1+L   
+~ J140602 ~ C1+L   
+~ J163804 ~ C1+L ~ Wolf-Rayet Star
+~ J125209 ~ C1+H ~ Magnetar 
+~ J140831 ~ C1+H   
+~ J161811 ~ C1+H   
+~ J112913 ~ C1+H   
+~ J105632 ~ C1+H   
+~ J160710 ~ C1+H   
+~ J160835 ~ C1+H   
+~ J122659 ~ C1+H   
+~ J130931 ~ C1+H   
+~ J161115 ~ C1+H   
+~ J120734 ~ C1+H   
+~ J110906 ~ C1+H   
+~ J121418 ~ C1+H   
+~ J113820 ~ C1+H   
+~ J113506 ~ C1+H   
+~ J172240 ~ C1+H   
+~ J110101 ~ C1+H   
+~ J110108 ~ C1+H   
+~ J213555 ~ C1+H ~ Black Hole
+~ J144704 ~ C1+H   
+~ J115815 ~ C1+H   
+~ J133653 ~ C1+H   
+~ J171700 ~ C1+H   
+~ J104628 ~ C1+H   
+~ J114546 ~ C1+H   
+~ J235419 ~ C1+H   
+~ J204503 ~ C1+H ~ Magnetar 
+~ J215417 ~ C1+H   
+~ J110545 ~ C1+H   
+~ J153536 ~ C1+H   
+~ J150407 ~ C1+H ~ Red Giant
+~ J153530 ~ C1+H   
+~ J131232 ~ C1+H   
+~ J101020 ~ C1+H   
+~ J133613 ~ C1+H   
+~ J165901 ~ C1+H   
+~ J152006 ~ C1+H   
+~ J160345 ~ C1+H   
+~ J134330 ~ C1+H   
+~ J213342 ~ C1+H   
+~ J150745 ~ C1+H   
+~ J165056 ~ C1+H   
+~ J150827 ~ C1+H   
+~ J144632 ~ C1+H   
+~ J102630 ~ C1+H   
+~ J133335 ~ C1+H   
+~ J125925 ~ C1+H   
+~ J142617 ~ C1+H   
+~ J150818 ~ C1+H ~ Pulsar 
+~ J114420 ~ C1+H   
+~ J112250 ~ C1+H   
+~ J155935 ~ C1+H   
+~ J115738 ~ C1+H ~ Pulsar 
+~ J232715 ~ C1+H   
+~ J110051 ~ C1+H   
+~ J152928 ~ C1+H   
+~ J132216 ~ C1+H   
+~ J132758 ~ C1+H ~ Cataclysmic Variable
+~ J134145 ~ C1+H ~ Pulsar 
+~ J102849 ~ C1+H   
+~ J120335 ~ C1+H   
+~ J104439 ~ C1+H ~ Wolf-Rayet Star
+~ J122717 ~ C1+H   
+~ J101817 ~ C1+H   
+~ J131551 ~ C1+H ~ Black Hole
+~ J115200 ~ C1+H   
+~ J155029 ~ C1+H ~ Black Hole
+~ J223703 ~ C1+H   
+~ J233359 ~ C1+H   
+~ J114107 ~ C1+H   
+~ J152014 ~ C1+H   
+~ J100211 ~ C1+H   
+~ J104103 ~ C1+H   
+~ J171019 ~ C1+H ~ Cataclysmic Variable
+~ J114313 ~ C1+H   
+~ J130542 ~ C1+H   
+~ J114719 ~ C1+H   
+~ J130322 ~ C1+H   
+~ J161524 ~ C1+H ~ Pulsar 
+~ J162858 ~ C1+H   
+~ J121158 ~ C1+H ~ Black Hole
+~ J113050 ~ C1+H   
+~ J141514 ~ C1+H   
+~ J220654 ~ C1+H   
+~ J162118 ~ C1+H ~ Cataclysmic Variable
+~ J231004 ~ C1+H ~ Cataclysmic Variable
+~ J120621 ~ C1+H   
+~ J151601 ~ C1+H   
+~ J105837 ~ C1+H   
+~ J143133 ~ C1+H   
+~ J100422 ~ C1+H ~ Red Giant
+~ J104335 ~ C1+H ~ Wolf-Rayet Star
+~ J105700 ~ C1+H   
+~ J215431 ~ C1+H   
+~ J143628 ~ C1+H   
+~ J141150 ~ C1+H   
+~ J163743 ~ C1+H   
+~ J161509 ~ C1+H   
+~ J150629 ~ C1+H   
+~ J141017 ~ C1+H   
+~ J130045 ~ C1+H   
+~ J123748 ~ C1+H   
+~ J124051 ~ C1+H   
+~ J151141 ~ C1+H   
+~ J112129 ~ C1+H   
+~ J213653 ~ C1+H   
+~ J143649 ~ C1+H   
+~ J223855 ~ C1+H ~ Red Giant
+~ J140019 ~ C1+H ~ Black Hole
+~ J110605 ~ C1+H   
+~ J122843 ~ C1+H ~ Pulsar 
+~ J205004 ~ C1+H   
+~ J122114 ~ C1+H   
+~ J163533 ~ C1+H ~ Pulsar 
+~ J151518 ~ C1+H   
+~ J122712 ~ C1+H   
+~ J143002 ~ C1+H ~ Black Hole
+~ J160307 ~ C1+H ~ Red Giant
+~ J213932 ~ C1+H   
+~ J102414 ~ C1+H   
+~ J170949 ~ C1+H   
+~ J235001 ~ C1+H   
+~ J103320 ~ C1+H   
+~ J141038 ~ C1+H ~ Wolf-Rayet Star
+~ J172003 ~ C1+H   
+~ J124215 ~ C1+H ~ Magnetar 
+~ J215754 ~ C1+H ~ Red Giant
+~ J102837 ~ C1+H ~ Cataclysmic Variable
+~ J130155 ~ C1+H   
+~ J170544 ~ C1+H   
+~ J142649 ~ C1+H   
+~ J150539 ~ C1+H ~ Black Hole
+~ J163156 ~ C1+H   
+~ J120338 ~ C1+H ~ Wolf-Rayet Star
+~ J142941 ~ C1+H ~ Magnetar 
+~ J110126 ~ C1+H   
+~ J155504 ~ C1+H   
+~ J144228 ~ C1+H ~ Red Giant
+~ J223650 ~ C1+H   
+~ J102734 ~ C1+H   
+~ J105232 ~ C1+H   
+~ J133128 ~ C1+H   
+~ J140135 ~ C1+H ~ Pulsar 
+~ J115216 ~ C1+H   
+~ J153311 ~ C1+H   
+~ J164756 ~ C1+H   
+~ J165216 ~ C1+H ~ Red Giant
+~ J114914 ~ C1+H ~ Cataclysmic Variable
+~ J212504 ~ C1+H ~ Wolf-Rayet Star
+~ J120256 ~ C1+H   
+~ J143421 ~ C1+H   
+~ J223026 ~ C1+H   
+~ J102918 ~ C1+H   
+~ J142136 ~ C1+H   
+~ J134540 ~ C1+H   
+~ J124451 ~ C1+H   
+~ J102749 ~ C1+H   
+~ J165741 ~ C1+H ~ Cataclysmic Variable
+~ J142119 ~ C1+H   
+~ J105642 ~ C1+H   
+~ J154354 ~ C1+H ~ Magnetar 
+~ J102005 ~ C1+H   
+~ J133052 ~ C1+H   
+~ J103341 ~ C1+H   
+~ J142114 ~ C1+H   
+~ J152353 ~ C1+H   
+~ J120431 ~ C1+H   
+~ J103547 ~ C1+H   
+~ J161107 ~ C1+H   
+~ J160334 ~ C1+H ~ Black Hole
+~ J101845 ~ C1+H   
+~ J171805 ~ C1+H ~ Red Giant
+~ J134610 ~ C1+H ~ Wolf-Rayet Star
+~ J173842 ~ C1+H   
+~ J155203 ~ C1+H ~ Wolf-Rayet Star
+~ J121935 ~ C1+H   
+~ J105013 ~ C1+H ~ Cataclysmic Variable
+~ J161846 ~ C1+H   
+~ J113632 ~ C1+H ~ Magnetar 
+~ J170106 ~ C1+H   
+~ J123828 ~ C1+H   
+~ J172147 ~ C1+H   
+~ J164759 ~ C1+H   
+~ J212957 ~ C1+H   
+~ J212338 ~ C1+H   
+~ J115823 ~ C1+H   
+~ J112744 ~ C1+H   
+~ J121941 ~ C1+H   
+~ J125650 ~ C1+H   
+~ J161344 ~ C1+H ~ Black Hole
+~ J134833 ~ C1+H   
+~ J143517 ~ C1+H ~ Black Hole
+~ J133245 ~ C1+H ~ Red Giant
+~ J113918 ~ C1+H   
+~ J161644 ~ C1+H   
+~ J152257 ~ C1+H   
+~ J155833 ~ C1+H ~ Magnetar 
+~ J151332 ~ C1+H   
+~ J231306 ~ C1+H ~ Wolf-Rayet Star
+~ J171312 ~ C1+H   
+~ J112406 ~ C1+H ~ Cataclysmic Variable
+~ J212904 ~ C1+H   
+~ J111811 ~ C1+H   
+~ J104201 ~ C1+H   
+~ J150216 ~ C1+H   
+~ J112934 ~ C1+H   
+~ J115808 ~ C1+H   
+~ J121915 ~ C1+H   
+~ J133259 ~ C1+H   
+~ J150325 ~ C1+H   
+~ J122224 ~ C1+H   
+~ J131702 ~ C1+H ~ Pulsar 
+~ J141807 ~ C1+H   
+~ J142327 ~ C1+H   
+~ J144822 ~ C1+H   
+~ J164417 ~ C2+3,H   
+~ J125227 ~ C2+3,H ~ Pulsar 
+~ J113057 ~ C2+3,H   
+~ J101524 ~ C2+3,H   
+~ J124508 ~ C2+3,H   
+~ J141156 ~ C2+3,H   
+~ J222822 ~ C2+3,H   
+~ J104253 ~ C2+3,H   
+~ J144153 ~ C2+3,H   
+~ J103406 ~ C2+3,H ~ Pulsar 
+~ J133210 ~ C2+3,H   
+~ J111740 ~ C2+3,H   
+~ J125956 ~ C2+3,H   
+~ J105951 ~ C2+3,H   
+~ J141857 ~ C2+3,H   
+~ J120726 ~ C2+3,H   
+~ J155737 ~ C2+3,H ~ Pulsar 
+~ J144605 ~ C2+3,H   
+~ J144218 ~ C2+3,H   
+~ J114835 ~ C2+3,H   
+~ J134006 ~ C2+3,H   
+~ J160941 ~ C2+3,H   
+~ J111557 ~ C2+3,H   
+~ J124219 ~ C2+3,H   
+~ J155620 ~ C2+3,H ~ Wolf-Rayet Star
+~ J114346 ~ C2+3,H   
+~ J153532 ~ C2+3,H ~ Pulsar 
+~ J211936 ~ C2+3,H   
+~ J211036 ~ C2+3,H   
+~ J145805 ~ C2+3,H   
+~ J151548 ~ C2+3,H ~ Magnetar 
+~ J160412 ~ C2+3,H ~ Pulsar 
+~ J104008 ~ C2+3,H   
+~ J145715 ~ C2+3,H   
+~ J235321 ~ C2+3,H ~ Cataclysmic Variable
+~ J103339 ~ C2+3,H   
+~ J132009 ~ C2+3,H   
+~ J210548 ~ C2+3,H   
+~ J235408 ~ C2+3,H   
+~ J122821 ~ C2+3,H   
+~ J121925 ~ C2+3,H ~ Cataclysmic Variable
+~ J151047 ~ C2+3,H ~ Pulsar 
+~ J111011 ~ C2+3,H   
+~ J154212 ~ C2+3,H   
+~ J130256 ~ C2+3,H ~ Magnetar 
+~ J113230 ~ C2+3,H   
+~ J132557 ~ C2+3,H   
+~ J233534 ~ C2+3,H ~ Magnetar 
+~ J232801 ~ C2+3,H   
+~ J153627 ~ C2+3,H ~ Magnetar 
+~ J134800 ~ C2+3,H   
+~ J111508 ~ C2+3,H   
+~ J143639 ~ C2+3,H   
+~ J160753 ~ C2+3,H   
+~ J151231 ~ C2+3,H   
+~ J142547 ~ C2+3,H   
+~ J142306 ~ C2+3,H   
+~ J210422 ~ C2+3,H   
+~ J112137 ~ C2+3,H   
+~ J160715 ~ C2+3,H ~ Black Hole
+~ J145931 ~ C2+3,H   
+~ J103217 ~ C2+3,H ~ Magnetar 
+~ J143505 ~ C2+3,H   
+~ J142533 ~ C2+3,H ~ Pulsar 
+~ J112146 ~ C2+3,H ~ Red Giant
+~ J103839 ~ C2+3,H ~ Wolf-Rayet Star
+~ J152433 ~ C2+3,H ~ Red Giant
+~ J110408 ~ C2+3,H   
+~ J205546 ~ C2+3,H   
+~ J152801 ~ C2+3,H ~ Pulsar 
+~ J120308 ~ C2+3,H   
+~ J103948 ~ C2+3,H   
+~ J112820 ~ C2+3,H   
+~ J231837 ~ C2+3,H   
+~ J110043 ~ C2+3,H   
+~ J121454 ~ C2+3,H   
+~ J230959 ~ C2+3,H   
+~ J103408 ~ C2+3,H ~ Red Giant
+~ J162720 ~ C2+3,H ~ Red Giant
+~ J132418 ~ C2+3,H   
+~ J164235 ~ C2+3,H ~ Pulsar 
+~ J143429 ~ C2+3,H   
+~ J134654 ~ C2+3,H   
+~ J112801 ~ C2+3,H   
+~ J110656 ~ C2+3,H   
+~ J134951 ~ C2+3,H   
+~ J155307 ~ C2+3,H   
+~ J131204 ~ C2+3,H   
+~ J213737 ~ C2+3,H ~ Black Hole
+~ J235117 ~ C2+3,H   
+~ J164938 ~ C2+3,H   
+~ J120310 ~ C2+3,H ~ Black Hole
+~ J144838 ~ C2+3,H   
+~ J101307 ~ C2+3,H   
+~ J172354 ~ C2+3,H   
+~ J235447 ~ C2+3,H   
+~ J124023 ~ C2+3,H   
+~ J171424 ~ C2+3,H   
+~ J150921 ~ C2+3,H   
+~ J171518 ~ C2+3,H   
+~ J140012 ~ C2+3,H   
+~ J155616 ~ C2+3,H ~ Black Hole
+~ J234557 ~ C2+3,H   
+~ J162700 ~ C2+3,H   
+~ J103716 ~ C2+4,H   
+~ J100640 ~ C2+4,H   
+~ J151250 ~ C2+4,H   
+~ J141332 ~ C2+4,H ~ Wolf-Rayet Star
+~ J211915 ~ C2+4,H ~ Cataclysmic Variable
+~ J144546 ~ C2+4,H ~ Pulsar 
+~ J145759 ~ C2+4,H   
+~ J103422 ~ C2+4,H ~ Wolf-Rayet Star
+~ J130222 ~ C2+4,H   
+~ J165357 ~ C2+4,H   
+~ J105321 ~ C2+4,H   
+~ J105803 ~ C2+4,H   
+~ J130209 ~ C2+4,H   
+~ J122832 ~ C2+4,H ~ Red Giant
+~ J143359 ~ C2+4,H   
+~ J100447 ~ C2+4,H ~ Black Hole
+~ J115651 ~ C2+4,H   
+~ J134323 ~ C2+4,H ~ Wolf-Rayet Star
+~ J160014 ~ C2+4,H ~ Red Giant
+~ J110823 ~ C2+4,H ~ Red Giant
+~ J100246 ~ C2+4,H   
+~ J131221 ~ C2+4,H   
+~ J145155 ~ C2+4,H   
+~ J114405 ~ C2+4,H   
+~ J215537 ~ C2+4,H   
+~ J172551 ~ C2+4,H   
+~ J131107 ~ C2+4,H ~ Black Hole
+~ J113108 ~ C2+4,H   
+~ J172556 ~ C2+4,H   
+~ J123450 ~ C2+4,H ~ Wolf-Rayet Star
+~ J135809 ~ C2+4,H ~ Red Giant
+~ J212319 ~ C2+4,H ~ Pulsar 
+~ J104210 ~ C2+4,H ~ Pulsar 
+~ J170038 ~ C2+4,H ~ Black Hole
+~ J104115 ~ C2+4,H   
+~ J114758 ~ C2+4,H ~ Pulsar 
+~ J231517 ~ C2+4,H ~ Cataclysmic Variable
+~ J114055 ~ C2+4,H   
+~ J120619 ~ C2+4,H   
+~ J213058 ~ C2+4,H   
+~ J162430 ~ C2+4,H   
+~ J120928 ~ C2+4,H ~ Red Giant
+~ J132918 ~ C2+4,H   
+~ J105203 ~ C2+4,H   
+~ J104328 ~ C2+4,H   
+~ J130854 ~ C2+4,H   
+~ J164130 ~ C2+4,H   
+~ J110316 ~ C2+4,H   
+~ J122331 ~ C2+4,H   
+~ J133419 ~ C2+4,H ~ Cataclysmic Variable
+~ J150137 ~ C2+4,H   
+~ J140112 ~ C2+4,H   
+~ J125721 ~ C2+4,H   
+~ J154515 ~ C2+4,H   
+~ J135703 ~ C2+4,H ~ Pulsar 
+~ J102347 ~ C2+4,H   
+~ J234942 ~ C2+4,H ~ Red Giant
+~ J134618 ~ C2+4,H ~ Black Hole
+~ J154858 ~ C2+4,H   
+~ J132052 ~ C2+4,H ~ Magnetar 
+~ J114046 ~ C2+4,H ~ Red Giant
+~ J150859 ~ C2+4,H   
+~ J151615 ~ C2+4,H ~ Cataclysmic Variable
+~ J122246 ~ C2+4,H   
+~ J132559 ~ C2+4,H   
+~ J230207 ~ C2+4,H   
+~ J140308 ~ C2+4,H   
+~ J140642 ~ C2+4,H   
+~ J114306 ~ C2+4,H   
+~ J154606 ~ C2+4,H   
+~ J135910 ~ C2+4,H ~ Cataclysmic Variable
+~ J132024 ~ C2+4,H   
+~ J160311 ~ C2+4,H   
+~ J142239 ~ C2+4,H   
+~ J101149 ~ C2+4,H   
+~ J154538 ~ C2+4,H   
+~ J144426 ~ C2+4,H   
+~ J150341 ~ C2+4,H ~ Wolf-Rayet Star
+~ J122124 ~ C2+4,H   
+~ J112614 ~ C2+4,H   
+~ J145316 ~ C2+4,H ~ Magnetar 
+~ J215736 ~ C2+4,H ~ Red Giant
+~ J163138 ~ C2+4,H ~ Pulsar 
+~ J100033 ~ C2+4,H   
+~ J170552 ~ C2+4,H   
+~ J104820 ~ C2+4,H   
+~ J131240 ~ C2+4,H   
+~ J120442 ~ C2+4,H   
+~ J105000 ~ C2+4,H ~ Magnetar 
+~ J164507 ~ C2+4,H ~ Cataclysmic Variable
+~ J144956 ~ C2+4,H   
+~ J114712 ~ C2+4,H   
+~ J211908 ~ C2+4,H   
+~ J150700 ~ C2+4,H   
+~ J164931 ~ C2+4,H   
+~ J121412 ~ C2+4,H ~ Wolf-Rayet Star
+~ J145211 ~ C2+4,H ~ Black Hole
+~ J174449 ~ C2+4,H   
+~ J133015 ~ C2+4,H   
+~ J134534 ~ C2+4,H ~ Pulsar 
+~ J153229 ~ C2+4,H   
+~ J133557 ~ C2+4,H ~ Wolf-Rayet Star
+~ J150807 ~ C2+2,L   
+~ J110413 ~ C2+2,L   
+~ J105352 ~ C2+2,L   
+~ J161246 ~ C2+2,L   
+~ J125927 ~ C2+2,L ~ Red Giant
+~ J130650 ~ C2+2,L ~ Cataclysmic Variable
+~ J142826 ~ C2+2,L ~ Wolf-Rayet Star
+~ J152737 ~ C2+2,L ~ Black Hole
+~ J225316 ~ C2+2,L ~ Cataclysmic Variable
+~ J163146 ~ C2+2,L ~ Cataclysmic Variable
+~ J134107 ~ C2+2,L   
+~ J104850 ~ C2+2,L   
+~ J131124 ~ C2+2,L   
+~ J123435 ~ C2+2,L   
+~ J150853 ~ C2+2,L   
+~ J170558 ~ C2+2,L ~ Black Hole
+~ J214238 ~ C2+2,L ~ Magnetar 
+~ J110538 ~ C2+2,L ~ Red Giant
+~ J143336 ~ C2+2,L   
+~ J232044 ~ C2+2,L ~ Cataclysmic Variable
+~ J145225 ~ C2+2,L ~ Black Hole
+~ J231210 ~ C2+2,L   
+~ J223853 ~ C2+2,L   
+~ J234542 ~ C2+2,L   
+~ J115911 ~ C2+2,L ~ Wolf-Rayet Star
+~ J135155 ~ C2+2,L   
+~ J152825 ~ C2+2,L   
+~ J115334 ~ C2+2,L ~ Cataclysmic Variable
+~ J114749 ~ C2+2,L   
+~ J134730 ~ C2+2,L ~ Black Hole
+~ J105544 ~ C2+2,L ~ Cataclysmic Variable
+~ J233129 ~ C2+2,L   
+~ J114528 ~ C2+2,L ~ Red Giant
+~ J103351 ~ C2+2,L   
+~ J152322 ~ C2+2,L ~ Cataclysmic Variable
+~ J132617 ~ C2+2,L   
+~ J104517 ~ C2+2,L   
+~ J132401 ~ C2+2,L   
+~ J142918 ~ C2+2,L ~ Wolf-Rayet Star
+~ J163902 ~ C2+2,L ~ Red Giant
+~ J214843 ~ C2+2,L ~ Wolf-Rayet Star
+~ J173322 ~ C2+2,L   
+~ J120252 ~ C2+2,L   
+~ J232305 ~ C2+2,L ~ Pulsar 
+~ J123907 ~ C2+2,L   
+~ J144057 ~ C2+2,L   
+~ J223320 ~ C2+2,L   
+~ J153247 ~ C2+2,L ~ Wolf-Rayet Star
+~ J204623 ~ C2+2,L   
+~ J223348 ~ C2+2,L   
+~ J115734 ~ C2+2,L ~ Cataclysmic Variable
+~ J154735 ~ C2+2,L   
+~ J115314 ~ C2+2,L ~ Cataclysmic Variable
+~ J164816 ~ C2+2,L   
+~ J132712 ~ C2+2,L   
+~ J124530 ~ C2+2,L   
+~ J134949 ~ C2+2,L   
+~ J132458 ~ C2+2,L ~ Cataclysmic Variable
+~ J160927 ~ C2+2,L ~ Cataclysmic Variable
+~ J150836 ~ C2+2,L ~ Magnetar 
+~ J102222 ~ C2+2,L ~ Cataclysmic Variable
+~ J103144 ~ C2+2,L   
+~ J135629 ~ C2+2,L   
+~ J115530 ~ C2+2,L   
+~ J133111 ~ C2+2,L   
+~ J150904 ~ C2+2,L ~ Pulsar 
+~ J111846 ~ C2+2,L   
+~ J152950 ~ C2+2,L ~ Cataclysmic Variable
+~ J120704 ~ C2+2,L   
+~ J104718 ~ C2+2,L ~ Wolf-Rayet Star
+~ J131808 ~ C2+2,L   
+~ J231644 ~ C2+2,L ~ Wolf-Rayet Star
+~ J232147 ~ C2+2,L   
+~ J132048 ~ C2+2,L   
+~ J172350 ~ C2+2,L   
+~ J145619 ~ C2+2,L   
+~ J163446 ~ C2+2,L   
+~ J140816 ~ C2+2,L   
+~ J141015 ~ C2+2,L   
+~ J101346 ~ C2+2,L   
+~ J212238 ~ C2+2,L ~ Cataclysmic Variable
+~ J235852 ~ C2+2,L ~ Black Hole
+~ J134349 ~ C2+2,L ~ Cataclysmic Variable
+~ J204221 ~ C2+2,L   
+~ J110910 ~ C2+2,L   
+~ J131753 ~ C2+2,L   
+~ J113221 ~ C2+2,L   
+~ J152941 ~ C2+2,L   
+~ J144727 ~ C2+2,L   
+~ J143320 ~ C2+2,L ~ Magnetar 
+~ J155551 ~ C2+2,L   
+~ J162516 ~ C2+2,L   
+~ J135827 ~ C2+2,L ~ Red Giant
+~ J131706 ~ C2+2,L ~ Cataclysmic Variable
+~ J214854 ~ C2+2,L   
+~ J150109 ~ C2+2,L   
+~ J103512 ~ C2+2,L   
+~ J121658 ~ C2+2,L ~ Wolf-Rayet Star
+~ J143706 ~ C2+2,L   
+~ J235924 ~ C2+2,L   
+~ J103854 ~ C2+2,L   
+~ J214725 ~ C2+2,L   
+~ J101415 ~ C2+2,L ~ Red Giant
+~ J122837 ~ C2+2,L   
+~ J125727 ~ C2+2,L ~ Black Hole
+~ J142847 ~ C2+2,L ~ Magnetar 
+~ J155035 ~ C2+2,L   
+~ J102504 ~ C2+2,L   
+~ J160305 ~ C2+2,L   
+~ J151503 ~ C2+2,L ~ Red Giant
+~ J142838 ~ C2+2,L ~ Red Giant
+~ J131034 ~ C2+2,L ~ Wolf-Rayet Star
+~ J214901 ~ C2+2,L ~ Wolf-Rayet Star
+~ J113323 ~ C2+2,L ~ Wolf-Rayet Star
+~ J112956 ~ C2+2,L ~ Black Hole
+~ J104802 ~ C2+2,L   
+~ J100808 ~ C2+2,L   
+~ J100509 ~ C2+2,L   
+~ J142055 ~ C2+2,L   
+~ J135141 ~ C2+2,L   
+~ J151902 ~ C2+2,L   
+~ J235759 ~ C2+2,L ~ Cataclysmic Variable
+~ J164613 ~ C2+2,L ~ Magnetar 
+~ J225805 ~ C2+2,L   
+~ J112916 ~ C2+2,L   
+~ J115347 ~ C2+2,L   
+~ J224217 ~ C2+2,L   
+~ J110555 ~ C2+2,L   
+~ J143455 ~ C2+2,L   
+~ J111141 ~ C2+2,L   
+~ J104606 ~ C2+2,L ~ Pulsar 
+~ J222830 ~ C2+2,L ~ Pulsar 
+~ J123249 ~ C2+2,L   
+~ J115310 ~ C2+2,L   
+~ J143702 ~ C2+2,L ~ Black Hole
+~ J223538 ~ C2+2,L   
+~ J131618 ~ C2+2,L   
+~ J215944 ~ C2+2,L   
+~ J121952 ~ C2+2,L   
+~ J121928 ~ C2+2,L ~ Red Giant
+~ J105439 ~ C2+2,L   
+~ J150627 ~ C2+5,N   
+~ J121745 ~ C2+5,N ~ Cataclysmic Variable
+~ J141438 ~ C2+5,N   
+~ J214929 ~ C2+5,N   
+~ J130709 ~ C2+5,N   
+~ J103924 ~ C2+5,N   
+~ J211000 ~ C2+5,N ~ Red Giant
+~ J123555 ~ C2+5,N   
+~ J151125 ~ C2+5,N ~ Magnetar 
+~ J123412 ~ C2+5,N ~ Cataclysmic Variable
+~ J112309 ~ C2+5,N   
+~ J123850 ~ C2+5,N   
+~ J163923 ~ C2+5,N   
+~ J143546 ~ C2+5,N   
+~ J130832 ~ C2+5,N   
+~ J221337 ~ C2+5,N   
+~ J113449 ~ C2+5,N ~ Magnetar 
+~ J212607 ~ C2+5,N   
+~ J165157 ~ C2+5,N ~ Red Giant
+~ J142937 ~ C2+5,N   
+~ J120455 ~ C2+5,N   
+~ J122638 ~ C2+5,N   
+~ J161411 ~ C2+5,N ~ Wolf-Rayet Star
+~ J124028 ~ C2+5,N   
+~ J134735 ~ C2+5,N   
+~ J142845 ~ C2+5,N   
+~ J140750 ~ C2+5,N   
+~ J104515 ~ C2+5,N ~ Wolf-Rayet Star
+~ J113039 ~ C2+5,N   
+~ J111159 ~ C2+5,N   
+~ J105342 ~ C2+5,N   
+~ J121728 ~ C2+5,N   
+~ J115700 ~ C2+5,N ~ Wolf-Rayet Star
+~ J143234 ~ C2+5,N   
+~ J122524 ~ C2+5,N   
+~ J124007 ~ C2+5,N ~ Red Giant
+~ J150533 ~ C2+5,N   
+~ J143933 ~ C2+5,N   
+~ J225128 ~ C2+5,N ~ Magnetar 
+~ J133632 ~ C2+5,N ~ Red Giant
+~ J131744 ~ C2+6,N   
+~ J125923 ~ C2+6,N   
+~ J161138 ~ C2+6,N ~ Red Giant
+~ J125824 ~ C2+6,N   
+~ J223511 ~ C2+6,N   
+~ J134401 ~ C2+6,N   
+~ J214739 ~ C2+6,N ~ Pulsar 
+~ J104321 ~ C2+6,N   
+~ J115327 ~ C2+6,N ~ Wolf-Rayet Star
+~ J154937 ~ C2+6,N   
+~ J112505 ~ C2+1,H   
+~ J102739 ~ C2+1,H   
+~ J171309 ~ C2+1,H   
+~ J133417 ~ C2+1,H   
+~ J124749 ~ C2+1,H   
+~ J122137 ~ C2+1,H ~ Magnetar 
+~ J140353 ~ C2+1,H   
+~ J104029 ~ C2+1,H   
+~ J151348 ~ C2+1,H ~ Pulsar 
+~ J163522 ~ C2+1,H   
+~ J131315 ~ C2+1,H ~ Black Hole
+~ J114008 ~ C2+1,H ~ Magnetar 
+~ J233839 ~ C2+1,H ~ Red Giant
+~ J112558 ~ C2+1,H   
+~ J114308 ~ C2+1,H   
+~ J130125 ~ C2+1,H   
+~ J173213 ~ C2+1,H   
+~ J160126 ~ C2+1,H   
+~ J154813 ~ C2+1,H   
+~ J215151 ~ C2+1,H   
+~ J144739 ~ C2+1,H   
+~ J102602 ~ C2+1,H   
+~ J120924 ~ C2+1,H   
+~ J212906 ~ C2+1,H   
+~ J101719 ~ C2+1,H   
+~ J101824 ~ C2+1,H   
+~ J153003 ~ C2+1,H   
+~ J105123 ~ C2+1,H   
+~ J122635 ~ C2+1,H ~ Red Giant
+~ J152624 ~ C2+1,H   
+~ J224145 ~ C2+1,H   
+~ J163318 ~ C2+1,H   
+~ J144004 ~ C2+1,H   
+~ J122931 ~ C2+1,H   
+~ J173245 ~ C2+1,H   
+~ J145246 ~ C2+1,H ~ Red Giant
+~ J124526 ~ C2+1,H ~ Red Giant
+~ J165648 ~ C2+1,H   
+~ J134405 ~ C2+1,H   
+~ J213111 ~ C2+1,H   
+~ J135422 ~ C2+1,H   
+~ J153030 ~ C2+1,H ~ Wolf-Rayet Star
+~ J120634 ~ C2+1,H   
+~ J102209 ~ C2+1,H   
+~ J123540 ~ C2+1,H   
+~ J112715 ~ C2+1,H ~ Red Giant
+~ J162159 ~ C2+1,H   
+~ J122118 ~ C2+1,H ~ Wolf-Rayet Star
+~ J105244 ~ C2+1,H ~ Black Hole
+~ J123958 ~ C2+1,H ~ Cataclysmic Variable
+~ J223552 ~ C2+1,H ~ Wolf-Rayet Star
+~ J232359 ~ C2+1,H   
+~ J171539 ~ C2+1,H   
+~ J100102 ~ C2+1,H   
+~ J154249 ~ C2+1,H   
+~ J105311 ~ C2+1,H   
+~ J210536 ~ C2+1,H   
+~ J151248 ~ C2+1,H   
+~ J131852 ~ C2+1,H   
+~ J141611 ~ C2+1,H   
+~ J113723 ~ C2+1,H   
+~ J121323 ~ C2+1,H   
+~ J144422 ~ C2+1,H   
+~ J140722 ~ C2+1,H   
+~ J141637 ~ C2+1,H ~ Magnetar 
+~ J112617 ~ C2+1,H   
+~ J150754 ~ C2+1,H   
+~ J102946 ~ C2+1,H ~ Cataclysmic Variable
+~ J115234 ~ C2+1,H   
+~ J145145 ~ C2+1,H ~ Red Giant
+~ J145426 ~ C2+1,H   
+~ J122732 ~ C2+1,H   
+~ J144203 ~ C2+1,H   
+~ J140843 ~ C2+1,H   
+~ J155631 ~ C2+1,H   
+~ J235525 ~ C2+1,H   
+~ J121749 ~ C2+1,H   
+~ J162518 ~ C2+1,H ~ Black Hole
+~ J132012 ~ C2+1,H   
+~ J102038 ~ C2+1,H ~ Red Giant
+~ J150234 ~ C2+1,H ~ Cataclysmic Variable
+~ J112520 ~ C2+1,H   
+~ J165412 ~ C2+1,H   
+~ J151102 ~ C2+1,H ~ Black Hole
+~ J133049 ~ C2+1,H   
+~ J161628 ~ C2+1,H   
+~ J134306 ~ C2+1,H   
+~ J131842 ~ C2+1,H   
+~ J232329 ~ C2+1,H ~ Black Hole
+~ J164921 ~ C2+1,H ~ Cataclysmic Variable
+~ J203814 ~ C2+1,H   
+~ J151311 ~ C2+1,H   
+~ J101650 ~ C2+1,H ~ Wolf-Rayet Star
+~ J165006 ~ C2+1,H   
+~ J103533 ~ C2+1,H ~ Magnetar 
+~ J101441 ~ C2+1,H ~ Red Giant
+~ J124253 ~ C2+1,H   
+~ J232200 ~ C2+1,H   
+~ J144326 ~ C2+1,H   
+~ J124449 ~ C2+1,H ~ Black Hole
+~ J100642 ~ C2+1,H   
+~ J133150 ~ C2+1,H   
+~ J164126 ~ C2+1,H   
+~ J171142 ~ C2+1,H   
+~ J145634 ~ C2+1,H   
+~ J151431 ~ C2+1,H   
+~ J233555 ~ C2+1,H   
+~ J100651 ~ C2+1,H ~ Red Giant
+~ J132103 ~ C2+1,H   
+~ J121720 ~ C2+1,H ~ Black Hole
+~ J210355 ~ C2+1,H   
+~ J125029 ~ C2+1,H   
+~ J103619 ~ C2+1,H ~ Pulsar 
+~ J165014 ~ C2+1,H   
+~ J124611 ~ C2+1,H   
+~ J150418 ~ C2+1,H ~ Wolf-Rayet Star
+~ J145440 ~ C2+1,H   
+~ J113223 ~ C2+1,H   
+~ J234915 ~ C2+1,H   
+~ J162042 ~ C2+1,H   
+~ J112019 ~ C2+1,H ~ Pulsar 
+~ J162332 ~ C2+1,H   
+~ J125350 ~ C2+1,H   
+~ J101710 ~ C2+1,H ~ Black Hole
+~ J223029 ~ C2+1,H   
+~ J234810 ~ C2+1,H   
+~ J135230 ~ C2+1,H   
+~ J111038 ~ C2+1,H   
+~ J160650 ~ C3+L   
+~ J114342 ~ C3+L ~ Black Hole
+~ J152031 ~ C3+L   
+~ J113629 ~ C3+L   
+~ J220301 ~ C3+L   
+~ J102057 ~ C3+L ~ Pulsar 
+~ J124753 ~ C3+L ~ Magnetar 
+~ J114225 ~ C3+L   
+~ J105002 ~ C3+L   
+~ J111218 ~ C3+L   
+~ J111634 ~ C3+L   
+~ J105007 ~ C3+L ~ Magnetar 
+~ J205027 ~ C3+L   
+~ J111355 ~ C3+L   
+~ J101012 ~ C3+L ~ Red Giant
+~ J161338 ~ C3+L   
+~ J170002 ~ C3+L   
+~ J104654 ~ C3+L   
+~ J124329 ~ C3+L ~ Red Giant
+~ J114648 ~ C3+L ~ Pulsar 
+~ J131228 ~ C3+L ~ Red Giant
+~ J110448 ~ C3+L   
+~ J144621 ~ C3+L ~ Red Giant
+~ J153104 ~ C3+L   
+~ J100932 ~ C3+L   
+~ J114048 ~ C3+L   
+~ J115706 ~ C3+L   
+~ J123230 ~ C3+L ~ Magnetar 
+~ J152218 ~ C3+L ~ Magnetar 
+~ J123303 ~ C3+L ~ Cataclysmic Variable
+~ J102856 ~ C3+L ~ Red Giant
+~ J151900 ~ C3+L ~ Cataclysmic Variable
+~ J124646 ~ C3+L   
+~ J153528 ~ C3+L   
+~ J112850 ~ C3+L   
+~ J102257 ~ C3+L   
+~ J142414 ~ C3+L ~ Black Hole
+~ J165803 ~ C3+L ~ Wolf-Rayet Star
+~ J115918 ~ C3+L ~ Pulsar 
+~ J222104 ~ C3+L   
+~ J124203 ~ C3+L   
+~ J112608 ~ C3+L   
+~ J161657 ~ C3+L   
+~ J111805 ~ C3+L ~ Wolf-Rayet Star
+~ J113451 ~ C3+L   
+~ J141007 ~ C3+L ~ Wolf-Rayet Star
+~ J164034 ~ C3+L   
+~ J101750 ~ C3+L   
+~ J165001 ~ C3+L ~ Red Giant
+~ J111619 ~ C3+L   
+~ J140521 ~ C3+L ~ Wolf-Rayet Star
+~ J140752 ~ C3+L ~ Cataclysmic Variable
+~ J143447 ~ C3+L   
+~ J142018 ~ C3+L   
+~ J105102 ~ C3+L ~ Wolf-Rayet Star
+~ J124630 ~ C3+L   
+~ J165302 ~ C3+L ~ Magnetar 
+~ J143916 ~ C3+L   
+~ J221414 ~ C3+L   
+~ J153903 ~ C3+L   
+~ J103955 ~ C3+L ~ Cataclysmic Variable
+~ J210952 ~ C3+L   
+~ J134102 ~ C3+L   
+~ J140050 ~ C3+L ~ Red Giant
+~ J131757 ~ C3+L   
+~ J140341 ~ C3+L   
+~ J111856 ~ C3+L   
+~ J102407 ~ C3+L   
+~ J151341 ~ C3+L   
+~ J110706 ~ C3+L   
+~ J133651 ~ C3+L   
+~ J123452 ~ C3+L ~ Cataclysmic Variable
+~ J102143 ~ C3+L ~ Wolf-Rayet Star
+~ J220832 ~ C3+L ~ Pulsar 
+~ J160847 ~ C3+L   
+~ J125949 ~ C3+L   
+~ J164250 ~ C3+L ~ Black Hole
+~ J212329 ~ C3+L   
+~ J112905 ~ C3+L   
+~ J144447 ~ C3+L   
+~ J113530 ~ C3+L ~ Magnetar 
+~ J103604 ~ C3+L ~ Wolf-Rayet Star
+~ J142038 ~ C3+L ~ Pulsar 
+~ J130403 ~ C3+L   
+~ J132525 ~ C3+L   
+~ J103653 ~ C3+L   
+~ J154642 ~ C3+L ~ Black Hole
+~ J163526 ~ C3+L   
+~ J212713 ~ C3+L   
+~ J132635 ~ C3+L   
+~ J114330 ~ C3+L   
+~ J224926 ~ C3+L   
+~ J113619 ~ C3+L ~ Black Hole
+~ J214654 ~ C3+L   
+~ J151429 ~ C3+L   
+~ J111214 ~ C3+L   
+~ J113420 ~ C3+L   
+~ J135526 ~ C3+L   
+~ J164116 ~ C3+L   
+~ J214227 ~ C3+L ~ Pulsar 
+~ J164342 ~ C3+L ~ Wolf-Rayet Star
+~ J151538 ~ C3+L ~ Magnetar 
+~ J125938 ~ C3+L   
+~ J165806 ~ C3+L ~ Wolf-Rayet Star
+~ J122803 ~ C3+L ~ Cataclysmic Variable
+~ J113243 ~ C3+L   
+~ J134022 ~ C3+L ~ Cataclysmic Variable
+~ J152143 ~ C3+L   
+~ J170717 ~ C3+L   
+~ J121452 ~ C3+L   
+~ J124126 ~ C3+L   
+~ J173230 ~ C3+L   
+~ J164457 ~ C3+L   
+~ J112944 ~ C3+L   
+~ J115253 ~ C3+L   
+~ J100118 ~ C3+L ~ Magnetar 
+~ J100620 ~ C3+L   
+~ J145916 ~ C3+L ~ Pulsar 
+~ J223207 ~ C3+L   
+~ J144646 ~ C3+L   
+~ J142520 ~ C3+L ~ Magnetar 
+~ J230226 ~ C3+L   
+~ J150704 ~ C3+L   
+~ J225524 ~ C3+L ~ Black Hole
+~ J133234 ~ C3+L   
+~ J125833 ~ C3+L   
+~ J104459 ~ C3+L ~ Red Giant
+~ J164713 ~ C3+L   
+~ J135355 ~ C3+L   
+~ J220838 ~ C3+L   
+~ J225949 ~ C3+L   
+~ J130535 ~ C3+L ~ Red Giant
+~ J111255 ~ C3+L   
+~ J121628 ~ C3+L   
+~ J221117 ~ C3+L   
+~ J115015 ~ C3+L ~ Cataclysmic Variable
+~ J172751 ~ C3+L ~ Red Giant
+~ J134301 ~ C3+L ~ Pulsar 
+~ J104351 ~ C3+L   
+~ J144408 ~ C3+L ~ Black Hole
+~ J220950 ~ C3+L   
+~ J165815 ~ C3+L   
+~ J120452 ~ C3+L   
+~ J142026 ~ C3+L ~ Magnetar 
+~ J111031 ~ C3+L ~ Magnetar 
+~ J130116 ~ C3+L ~ Magnetar 
+~ J111309 ~ C3+L   
+~ J122213 ~ C3+L   
+~ J170740 ~ C3+L   
+~ J113543 ~ C3+L   
+~ J170817 ~ C3+L ~ Cataclysmic Variable
+~ J123405 ~ C3+L   
+~ J125741 ~ C3+L   
+~ J114627 ~ C3+L ~ Wolf-Rayet Star
+~ J155117 ~ C3+L   
+~ J165118 ~ C3+L   
+~ J141004 ~ C3+L   
+~ J174317 ~ C3+L ~ Wolf-Rayet Star
+~ J145040 ~ C3+L   
+~ J171549 ~ C3+L ~ Pulsar 
+~ J100009 ~ C3+L ~ Pulsar 
+~ J124257 ~ C3+L   
+~ J154530 ~ C3+L   
+~ J152636 ~ C3+L   
+~ J100728 ~ C3+L ~ Red Giant
+~ J115504 ~ C3+L   
+~ J104905 ~ C3+L   
+~ J125149 ~ C3+L ~ Pulsar 
+~ J172743 ~ C3+L   
+~ J111421 ~ C3+L ~ Cataclysmic Variable
+~ J152146 ~ C3+L ~ Pulsar 
+~ J111603 ~ C3+L   
+~ J114127 ~ C3+L ~ Black Hole
+~ J113923 ~ C3+L   
+~ J123837 ~ C3+L   
+~ J125049 ~ C3+L   
+~ J161455 ~ C3+L ~ Pulsar 
+~ J124715 ~ C3+L ~ Black Hole
+~ J124813 ~ C3+L ~ Black Hole
+~ J120945 ~ C3+L ~ Pulsar 
+~ J155541 ~ C3+L   
+~ J105017 ~ C3+L ~ Pulsar 
+~ J154900 ~ C3+L   
+~ J164951 ~ C3+L   
+~ J162459 ~ C3+L   
+~ J141832 ~ C3+L   
+~ J115136 ~ C3+L   
+~ J112854 ~ C3+L ~ Red Giant
+~ J222222 ~ C3+L   
+~ J124654 ~ C3+L ~ Wolf-Rayet Star
+~ J132750 ~ C3+L   
+~ J170511 ~ C3+L   
+~ J155852 ~ C3+L   
+~ J121856 ~ C3+H   
+~ J131025 ~ C3+H   
+~ J122854 ~ C3+H ~ Red Giant
+~ J132222 ~ C3+H   
+~ J203753 ~ C3+H   
+~ J130835 ~ C3+H   
+~ J134123 ~ C3+H ~ Cataclysmic Variable
+~ J133857 ~ C3+H ~ Wolf-Rayet Star
+~ J171813 ~ C3+H ~ Magnetar 
+~ J143513 ~ C3+H ~ Cataclysmic Variable
+~ J112656 ~ C3+H   
+~ J154357 ~ C3+H   
+~ J154145 ~ C3+H   
+~ J100129 ~ C3+H   
+~ J155124 ~ C3+H   
+~ J133207 ~ C3+H ~ Pulsar 
+~ J124830 ~ C3+H   
+~ J144725 ~ C3+H ~ Magnetar 
+~ J170409 ~ C3+H ~ Red Giant
+~ J103326 ~ C3+H   
+~ J160739 ~ C3+H ~ Pulsar 
+~ J133041 ~ C3+H ~ Cataclysmic Variable
+~ J205412 ~ C3+H   
+~ J145851 ~ C3+H ~ Cataclysmic Variable
+~ J132737 ~ C3+H ~ Red Giant
+~ J130247 ~ C3+H ~ Black Hole
+~ J151405 ~ C3+H   
+~ J131802 ~ C3+H ~ Wolf-Rayet Star
+~ J221515 ~ C3+H   
+~ J142951 ~ C3+H   
+~ J101736 ~ C3+H   
+~ J233739 ~ C3+H   
+~ J221447 ~ C3+H   
+~ J145645 ~ C3+H   
+~ J153051 ~ C3+H   
+~ J141451 ~ C3+H   
+~ J131859 ~ C3+H ~ Wolf-Rayet Star
+~ J144553 ~ C3+H   
+~ J145615 ~ C3+H   
+~ J223109 ~ C3+H ~ Cataclysmic Variable
+~ J132721 ~ C3+H   
+~ J103353 ~ C3+H   
+~ J173223 ~ C3+H   
+~ J104837 ~ C3+H   
+~ J163745 ~ C3+H   
+~ J101500 ~ C3+H   
+~ J224826 ~ C3+H ~ Wolf-Rayet Star
+~ J230905 ~ C3+H   
+~ J110924 ~ C3+H   
+~ J122220 ~ C3+H ~ Magnetar 
+~ J165153 ~ C3+H ~ Pulsar 
+~ J204030 ~ C3+H   
+~ J134136 ~ C3+H   
+~ J113334 ~ C3+H   
+~ J125403 ~ C3+H   
+~ J162437 ~ C3+H   
+~ J235630 ~ C3+H   
+~ J105409 ~ C3+H   
+~ J163529 ~ C3+H   
+~ J152931 ~ C3+H   
+~ J131559 ~ C3+H ~ Red Giant
+~ J143918 ~ C3+H   
+~ J104643 ~ C3+H ~ Wolf-Rayet Star
+~ J212304 ~ C3+H ~ Cataclysmic Variable
+~ J154634 ~ C3+H ~ Black Hole
+~ J172052 ~ C3+H ~ Pulsar 
+~ J135036 ~ C3+H ~ Cataclysmic Variable
+~ J134431 ~ C3+H   
+~ J121105 ~ C3+H   
+~ J120357 ~ C3+H   
+~ J101854 ~ C3+H   
+~ J232826 ~ C3+H   
+~ J154934 ~ C3+H ~ Cataclysmic Variable
+~ J170132 ~ C3+H ~ Black Hole
+~ J114916 ~ C3+H   
+~ J142400 ~ C3+H   
+~ J115502 ~ C3+H   
+~ J121300 ~ C3+H ~ Red Giant
+~ J223658 ~ C3+H   
+~ J124327 ~ C3+H   
+~ J220438 ~ C3+H   
+~ J144636 ~ C3+H   
+~ J113347 ~ C3+H   
+~ J150737 ~ C3+H   
+~ J152044 ~ C3+H ~ Magnetar 
+~ J142443 ~ C3+H ~ Wolf-Rayet Star
+~ J164104 ~ C3+H   
+~ J155008 ~ C3+H   
+~ J114358 ~ C3+H   
+~ J122259 ~ C3+H ~ Pulsar 
+~ J125243 ~ C3+H   
+~ J114508 ~ C3+H   
+~ J125216 ~ C3+H   
+~ J113143 ~ C3+H   
+~ J101612 ~ C3+H   
+~ J101354 ~ C3+H   
+~ J100156 ~ C3+H   
+~ J110425 ~ C3+H ~ Pulsar 
+~ J133121 ~ C3+H   
+~ J165936 ~ C3+H   
+~ J213411 ~ C3+H ~ Red Giant
+~ J231545 ~ C3+H ~ Pulsar 
+~ J121603 ~ C3+H   
+~ J222120 ~ C3+H   
+~ J231240 ~ C3+H   
+~ J164338 ~ C3+L ~ Magnetar 
+~ J142603 ~ C3+L ~ Wolf-Rayet Star
+~ J212812 ~ C3+L ~ Wolf-Rayet Star
+~ J164501 ~ C3+L   
+~ J144751 ~ C3+L   
+~ J214744 ~ C3+L ~ Wolf-Rayet Star
+~ J135304 ~ C3+L   
+~ J223601 ~ C3+L ~ Magnetar 
+~ J103529 ~ C3+L   
+~ J161051 ~ C3+L ~ Cataclysmic Variable
+~ J224352 ~ C3+L   
+~ J113048 ~ C3+L   
+~ J140322 ~ C3+L   
+~ J152741 ~ C3+L   
+~ J222732 ~ C3+L   
+~ J171542 ~ C3+L   
+~ J205136 ~ C3+L   
+~ J121706 ~ C3+L ~ Pulsar 
+~ J143110 ~ C3+L   
+~ J110121 ~ C3+L ~ Wolf-Rayet Star
+~ J104626 ~ C3+L   
+~ J212159 ~ C3+L   
+~ J151733 ~ C3+L ~ Wolf-Rayet Star
+~ J103032 ~ C3+L ~ Cataclysmic Variable
+~ J150048 ~ C3+L   
+~ J113432 ~ C3+L ~ Black Hole
+~ J134629 ~ C3+L   
+~ J113339 ~ C3+L ~ Pulsar 
+~ J122041 ~ C3+L   
+~ J130719 ~ C3+L   
+~ J204039 ~ C3+L ~ Magnetar 
+~ J101048 ~ C3+L   
+~ J114119 ~ C3+L ~ Black Hole
+~ J110411 ~ C3+L   
+~ J104903 ~ C3+L   
+~ J151433 ~ C3+L   
+~ J143040 ~ C3+L   
+~ J133521 ~ C3+L   
+~ J163911 ~ C3+L ~ Red Giant
+~ J204842 ~ C3+L   
+~ J135214 ~ C3+L ~ Magnetar 
+~ J131716 ~ C3+L ~ Red Giant
+~ J225350 ~ C3+L ~ Red Giant
+~ J105447 ~ C3+N   
+~ J144103 ~ C3+N   
+~ J165847 ~ C3+N ~ Cataclysmic Variable
+~ J121921 ~ C3+N ~ Wolf-Rayet Star
+~ J212025 ~ C3+N ~ Magnetar 
+~ J145717 ~ C3+N ~ Pulsar 
+~ J113705 ~ C3+N ~ Black Hole
+~ J132037 ~ C3+N   
+~ J224401 ~ C3+N   
+~ J152544 ~ C3+N ~ Wolf-Rayet Star
+~ J114506 ~ C3+N   
+~ J231245 ~ C3+N ~ Red Giant
+~ J151804 ~ C3+N ~ Pulsar 
+~ J105033 ~ C3+N   
+~ J214600 ~ C3+N ~ Black Hole
+~ J152333 ~ C3+N   
+~ J131245 ~ C3+N ~ Pulsar 
+~ J151045 ~ C3+N   
+~ J160822 ~ C3+N   
+~ J125944 ~ C3+N ~ Magnetar 
+~ J173330 ~ C3+N   
+~ J115512 ~ C3+N   
+~ J161854 ~ C3+N ~ Black Hole
+~ J122442 ~ C3+N ~ Black Hole
+~ J114010 ~ C3+N   
+~ J153546 ~ C3+N ~ Wolf-Rayet Star
+~ J141046 ~ C3+N   
+~ J160111 ~ C3+N ~ Wolf-Rayet Star
+~ J101243 ~ C3+N   
+~ J214009 ~ C3+N   
+~ J152757 ~ C3+N   
+~ J164729 ~ C3+N ~ Wolf-Rayet Star
+~ J171420 ~ C3+N   
+~ J232441 ~ C3+N ~ Red Giant
+~ J131656 ~ C3+N   
+~ J135406 ~ C3+N ~ Black Hole
+~ J230708 ~ C3+N   
+~ J120124 ~ C3+N   
+~ J132746 ~ C3+N   
+~ J212207 ~ C3+N   
+~ J104416 ~ C3+N ~ Pulsar 
+~ J104841 ~ C3+N   
+~ J172701 ~ C3+N ~ Wolf-Rayet Star
+~ J104835 ~ C3+N   
+~ J113647 ~ C3+N   
+~ J144316 ~ C3+N ~ Pulsar 
+~ J114612 ~ C3+N   
+~ J130759 ~ C3+N   
+~ J164751 ~ C3+N   
+~ J131324 ~ C3+N ~ Red Giant
+~ J230722 ~ C3+N ~ Black Hole
+~ J134118 ~ C3+N ~ Cataclysmic Variable
+~ J164223 ~ C3+N ~ Pulsar 
+~ J154449 ~ C3+N   
+~ J172815 ~ C3+N   
+~ J151242 ~ C3+N   
+~ J213423 ~ C3+N ~ Red Giant
+~ J145555 ~ C3+N   
+~ J101323 ~ C3+N   
+~ J112954 ~ C3+N   
+~ J133951 ~ C3+N   
+~ J150444 ~ C3+N   
+~ J153858 ~ C3+N   
+~ J172422 ~ C3+N ~ Magnetar 
+~ J155545 ~ C3+N   
+~ J161441 ~ C3+N   
+~ J125449 ~ C3+N ~ Pulsar 
+~ J210445 ~ C3+N   
+~ J123443 ~ C3+N   
+~ J121422 ~ C3+N   
+~ J155403 ~ C3+N   
+~ J103724 ~ C3+N ~ Red Giant
+~ J112948 ~ C3+N ~ Black Hole
+~ J235330 ~ C3+N   
+~ J121507 ~ C3+N   
+~ J235712 ~ C3+N   
+~ J125016 ~ C3+N ~ Cataclysmic Variable
+~ J151516 ~ C3+N   
+~ J132226 ~ C3+N ~ Black Hole
+~ J170656 ~ C3+N   
+~ J155722 ~ C3+N   
+~ J150135 ~ C3+N   
+~ J151645 ~ C3+N ~ Wolf-Rayet Star
+~ J211151 ~ C3+N   
+~ J213109 ~ C3+N   
+~ J233628 ~ C3+N   
+~ J102433 ~ C3+N   
+~ J111823 ~ C3+N   
+~ J211805 ~ C3+N   
+~ J172028 ~ C3+N   
+~ J101833 ~ C3+N   
+~ J104815 ~ C3+N   
+~ J124635 ~ C3+N ~ Black Hole
+~ J110738 ~ C3+N   
+~ J170550 ~ C3+N   
+~ J143704 ~ C3+N   
+~ J143614 ~ C3+L   
+~ J170236 ~ C3+L   
+~ J153034 ~ C3+L ~ Pulsar 
+~ J220338 ~ C3+L   
+~ J171828 ~ C3+L   
+~ J112942 ~ C3+L   
+~ J112709 ~ C3+L ~ Wolf-Rayet Star
+~ J161213 ~ C3+L   
+~ J140739 ~ C3+L ~ Pulsar 
+~ J213534 ~ C3+L ~ Wolf-Rayet Star
+~ J165224 ~ C3+L   
+~ J170144 ~ C3+L   
+~ J162010 ~ C3+L ~ Cataclysmic Variable
+~ J110226 ~ C3+L ~ Cataclysmic Variable
+~ J104421 ~ C3+L ~ Cataclysmic Variable
+~ J104330 ~ C3+L   
+~ J140208 ~ C3+L   
+~ J100338 ~ C3+L   
+~ J110034 ~ C3+L   
+~ J124207 ~ C3+L   
+~ J132907 ~ C3+L   
+~ J100015 ~ C3+L   
+~ J144024 ~ C3+L   
+~ J122806 ~ C3+L   
+~ J133250 ~ C3+L   
+~ J135852 ~ C3+L   
+~ J130616 ~ C3+L ~ Magnetar 
+~ J204323 ~ C3+L   
+~ J120742 ~ C3+L   
+~ J105549 ~ C3+L   
+~ J103237 ~ C3+L   
+~ J215326 ~ C3+L   
+~ J121700 ~ C3+L ~ Cataclysmic Variable
+~ J124358 ~ C3+L   
+~ J112420 ~ C3+L   
+~ J130022 ~ C3+L ~ Magnetar 
+~ J155419 ~ C3+L   
+~ J135723 ~ C3+L ~ Wolf-Rayet Star
+~ J105201 ~ C3+L ~ Cataclysmic Variable
+~ J133218 ~ C3+L ~ Magnetar 
+~ J143345 ~ C3+L   
+~ J115448 ~ C3+L   
+~ J135642 ~ C3+L   
+~ J205900 ~ C3+L   
+~ J112747 ~ C3+L   
+~ J121027 ~ C3+L   
+~ J124744 ~ C3+L ~ Pulsar 
+~ J161303 ~ C3+L   
+~ J141848 ~ C3+L   
+~ J104001 ~ C3+L   
+~ J102304 ~ C3+L   
+~ J172852 ~ C3+L   
+~ J131304 ~ C3+L ~ Magnetar 
+~ J145632 ~ C3+L   
+~ J102515 ~ C3+L   
+~ J160645 ~ C3+L   
+~ J135129 ~ C3+L ~ Black Hole
+~ J115909 ~ C3+L   
+~ J160225 ~ C4+2,4   
+~ J210458 ~ C4+2,4 ~ Wolf-Rayet Star
+~ J113925 ~ C4+2,4 ~ Black Hole
+~ J204815 ~ C4+2,4   
+~ J104754 ~ C4+2,4   
+~ J130518 ~ C4+2,4   
+~ J142200 ~ C4+2,4 ~ Cataclysmic Variable
+~ J103731 ~ C4+2,4   
+~ J100046 ~ C4+2,4 ~ Cataclysmic Variable
+~ J230301 ~ C4+2,4   
+~ J165839 ~ C4+2,4 ~ Black Hole
+~ J235953 ~ C4+2,4   
+~ J115018 ~ C4+2,4 ~ Wolf-Rayet Star
+~ J133458 ~ C4+2,4   
+~ J221859 ~ C4+2,4   
+~ J170215 ~ C4+2,4   
+~ J165820 ~ C4+2,4   
+~ J130253 ~ C4+2,4   
+~ J120937 ~ C4+2,4   
+~ J214811 ~ C4+2,4   
+~ J160419 ~ C4+2,4   
+~ J161752 ~ C4+2,1   
+~ J112610 ~ C4+2,1   
+~ J123726 ~ C4+2,1 ~ Black Hole
+~ J124837 ~ C4+2,1   
+~ J151643 ~ C4+2,1 ~ Pulsar 
+~ J160321 ~ C4+2,1   
+~ J165308 ~ C4+2,1 ~ Cataclysmic Variable
+~ J171359 ~ C4+2,5   
+~ J115547 ~ C4+2,5 ~ Cataclysmic Variable
+~ J141055 ~ C4+2,5   
+~ J153202 ~ C4+2,5   
+~ J121845 ~ C4+2,5 ~ Cataclysmic Variable
+~ J113456 ~ C4+2,5   
+~ J144746 ~ C4+2,5   
+~ J171554 ~ C4+2,5 ~ Magnetar 
+~ J111029 ~ C4+2,5   
+~ J145129 ~ C4+2,5   
+~ J113730 ~ C4+2,5 ~ Red Giant
+~ J100956 ~ C4+2,5   
+~ J134407 ~ C4+2,5   
+~ J101507 ~ C4+2,5 ~ Red Giant
+~ J105546 ~ C4+2,3 ~ Wolf-Rayet Star
+~ J123528 ~ C4+2,3   
+~ J145318 ~ C4+2,3 ~ Black Hole
+~ J132611 ~ C4+2,3   
+~ J153338 ~ C4+2,3   
+~ J102534 ~ C4+2,3 ~ Wolf-Rayet Star
+~ J144519 ~ C4+2,5 ~ Magnetar 
+~ J141218 ~ C4+2,5 ~ Black Hole
+~ J152255 ~ C4+2,5 ~ Magnetar 
+~ J142241 ~ C4+2,5 ~ Cataclysmic Variable
+~ J131047 ~ C4+2,5 ~ Red Giant
+~ J100150 ~ C4+2,5 ~ Black Hole
+~ J104311 ~ C4+2,3 ~ Black Hole
+~ J111950 ~ C4+2,3   
+~ J132754 ~ C4+2,3 ~ Wolf-Rayet Star
+~ J101551 ~ C4+2,3   
+~ J211027 ~ C4+2,3   
+~ J105415 ~ C4+2,3 ~ Cataclysmic Variable
+~ J224148 ~ C4+6,5 ~ Wolf-Rayet Star
+~ J100806 ~ C4+6,5   
+~ J133638 ~ C4+6,5   
+~ J231614 ~ C4+6,5   
+~ J103110 ~ C4+6,5 ~ Black Hole
+~ J101706 ~ C4+6,5   
+~ J142214 ~ C4+6,3   
+~ J155340 ~ C4+6,3   
+~ J165326 ~ C4+6,3 ~ Cataclysmic Variable
+~ J133113 ~ C4+6,3   
+~ J122656 ~ C4+6,3 ~ Black Hole
+~ J134716 ~ C4+6,3   
+~ J171344 ~ C4+6,3 ~ Red Giant
+~ J161119 ~ C4+6,5   
+~ J111404 ~ C4+6,5 ~ Cataclysmic Variable
+~ J105346 ~ C4+6,5 ~ Wolf-Rayet Star
+~ J154631 ~ C4+6,5 ~ Red Giant
+~ J150112 ~ C4+6,5 ~ Red Giant
+~ J104649 ~ C4+6,5 ~ Magnetar 
+~ J234421 ~ C4+6,4   
+~ J105726 ~ C4+6,4   
+~ J111758 ~ C4+6,4 ~ Cataclysmic Variable
+~ J142923 ~ C4+6,4   
+~ J114026 ~ C4+6,4   
+~ J115118 ~ C4+6,4   
+~ J162226 ~ C4+1,3 ~ Red Giant
+~ J165020 ~ C4+1,3 ~ Wolf-Rayet Star
+~ J125302 ~ C4+1,3   
+~ J113754 ~ C4+1,3 ~ Magnetar 
+~ J153215 ~ C4+1,3 ~ Wolf-Rayet Star
+~ J213820 ~ C4+1,3   
+~ J111555 ~ C4+1,2   
+~ J131553 ~ C4+1,2   
+~ J143841 ~ C4+1,2   
+~ J113250 ~ C4+1,2 ~ Magnetar 
+~ J204635 ~ C4+1,2   
+~ J212954 ~ C4+1,2   
+~ J132309 ~ C4+1,5   
+~ J231341 ~ C4+1,5   
+~ J160800 ~ C4+1,5 ~ Pulsar 
+~ J155338 ~ C4+1,5   
+~ J132149 ~ C4+1,5   
+~ J171937 ~ C4+1,5   
+~ J152443 ~ C4+1,5   
+~ J111329 ~ C4+1,4 ~ Red Giant
+~ J171334 ~ C4+1,4   
+~ J115552 ~ C4+1,4   
+~ J151520 ~ C4+1,4 ~ Pulsar 
+~ J165920 ~ C4+1,4   
+~ J145838 ~ C4+1,4   
+~ J125031 ~ C4+1,4   
+~ J110736 ~ C4+1,2 ~ Wolf-Rayet Star
+~ J165423 ~ C4+1,2   
+~ J155521 ~ C4+1,2 ~ Cataclysmic Variable
+~ J135508 ~ C4+1,2   
+~ J103008 ~ C4+1,2 ~ Magnetar 
+~ J103704 ~ C4+1,2 ~ Magnetar 
+~ J104603 ~ C4+1,2 ~ Pulsar 
+~ J163641 ~ C4+1,4 ~ Black Hole
+~ J203952 ~ C4+1,4   
+~ J105411 ~ C4+1,4   
+~ J101126 ~ C4+1,4   
+~ J122155 ~ C4+1,4 ~ Wolf-Rayet Star
+~ J110016 ~ C4+1,4 ~ Red Giant
+~ J212417 ~ C4+1,4 ~ Cataclysmic Variable
+~ J142355 ~ C4+1,3 ~ Red Giant
+~ J121347 ~ C4+1,3 ~ Cataclysmic Variable
+~ J172915 ~ C4+1,3   
+~ J155416 ~ C4+1,3   
+~ J211258 ~ C4+1,3   
+~ J120643 ~ C4+1,3 ~ Pulsar 
+~ J143946 ~ C4+4,2 ~ Pulsar 
+~ J125247 ~ C4+4,2   
+~ J144732 ~ C4+4,2 ~ Magnetar 
+~ J155711 ~ C4+4,2 ~ Wolf-Rayet Star
+~ J214308 ~ C4+4,2   
+~ J134851 ~ C4+4,2 ~ Wolf-Rayet Star
+~ J145452 ~ C4+4,2   
+~ J115026 ~ C4+4,1 ~ Black Hole
+~ J151720 ~ C4+4,1   
+~ J151353 ~ C4+4,1 ~ Black Hole
+~ J113727 ~ C4+4,1 ~ Magnetar 
+~ J130944 ~ C4+4,1   
+~ J145238 ~ C4+4,1   
+~ J235219 ~ C4+4,1   
+~ J172512 ~ C4+4,3   
+~ J141322 ~ C4+4,3 ~ Pulsar 
+~ J210333 ~ C4+4,3   
+~ J135836 ~ C4+4,3 ~ Pulsar 
+~ J101915 ~ C4+4,3 ~ Magnetar 
+~ J130203 ~ C4+4,3 ~ Wolf-Rayet Star
+~ J110719 ~ C4+4,3   
+~ J131208 ~ C4+4,3 ~ Black Hole
+~ J121623 ~ C4+4,3 ~ Pulsar 
+~ J150637 ~ C4+4,3   
+~ J130332 ~ C4+4,3   
+~ J1226-0 ~ C4+4,3   
+~ J114355 ~ C4+4,3 ~ Cataclysmic Variable
+~ J144401 ~ C4+4,3 ~ Red Giant
+~ J103242 ~ C4+4,3 ~ Cataclysmic Variable
+~ J161815 ~ C4+4,3   
+~ J132256 ~ C4+4,3 ~ Cataclysmic Variable
+~ J162819 ~ C4+4,3   
+~ J131004 ~ C4+4,3 ~ Black Hole
+~ J141931 ~ C4+4,3   
+~ J112630 ~ C4+4,6   
+~ J154109 ~ C4+4,6   
+~ J153116 ~ C4+4,6 ~ Black Hole
+~ J160455 ~ C4+4,6   
+~ J102439 ~ C4+4,6 ~ Magnetar 
+~ J160459 ~ C4+4,6 ~ Red Giant
+~ J131712 ~ C4+4,6   
+~ J140244 ~ C4+4,5 ~ Wolf-Rayet Star
+~ J150635 ~ C4+4,5 ~ Red Giant
+~ J125213 ~ C4+4,5 ~ Magnetar 
+~ J154541 ~ C4+4,5   
+~ J120409 ~ C4+4,5   
+~ J140545 ~ C4+4,5   
+~ J162251 ~ C4+4,5 ~ Black Hole
+~ J120450 ~ C4+4,5 ~ Red Giant
+~ J220151 ~ C4+4,5   
+~ J104502 ~ C4+4,5   
+~ J152654 ~ C4+4,5 ~ Cataclysmic Variable
+~ J124727 ~ C4+4,5   
+~ J151940 ~ C4+4,5   
+~ J212129 ~ C4+4,5   
+~ J141633 ~ C4+4,5   
+~ J145604 ~ C4+4,5   
+~ J212851 ~ C4+4,5 ~ Magnetar 
+~ J145659 ~ C4+4,5   
+~ J165719 ~ C4+4,5 ~ Pulsar 
+~ J154706 ~ C4+4,6   
+~ J141252 ~ C4+4,6 ~ Cataclysmic Variable
+~ J112110 ~ C4+4,6   
+~ J140912 ~ C4+4,6   
+~ J165532 ~ C4+4,6   
+~ J161037 ~ C4+4,6   
+~ J130828 ~ C4+4,6 ~ Wolf-Rayet Star
+~ J122934 ~ C4+4,3   
+~ J163435 ~ C4+4,3 ~ Wolf-Rayet Star
+~ J221855 ~ C4+4,3 ~ Magnetar 
+~ J124109 ~ C4+4,3 ~ Black Hole
+~ J123458 ~ C4+4,3   
+~ J134527 ~ C4+4,3 ~ Wolf-Rayet Star
+~ J133157 ~ C4+4,3 ~ Pulsar 
+~ J141342 ~ C4+4,3   
+~ J145757 ~ C4+4,3 ~ Black Hole
+~ J130343 ~ C4+4,3 ~ Black Hole
+~ J152628 ~ C4+4,3 ~ Black Hole
+~ J112928 ~ C4+4,3   
+~ J133358 ~ C4+4,3   
+~ J102844 ~ C4+4,5   
+~ J134732 ~ C4+4,5 ~ Red Giant
+~ J213615 ~ C4+4,5 ~ Magnetar 
+~ J131037 ~ C4+4,5   
+~ J154724 ~ C4+4,5   
+~ J213139 ~ C4+4,5 ~ Pulsar 
+~ J103104 ~ C4+4,5 ~ Cataclysmic Variable
+~ J121116 ~ C4+4,5 ~ Wolf-Rayet Star
+~ J142822 ~ C4+4,5 ~ Wolf-Rayet Star
+~ J102521 ~ C4+4,5   
+~ J215935 ~ C4+4,5   
+~ J162303 ~ C4+4,5 ~ Black Hole
+~ J102409 ~ C4+4,5   
+~ J104714 ~ C4+4,5 ~ Pulsar 
+~ J171225 ~ C4+4,2 ~ Black Hole
+~ J124306 ~ C4+4,2   
+~ J135908 ~ C4+4,2   
+~ J124930 ~ C4+4,2   
+~ J162632 ~ C4+4,2   
+~ J155313 ~ C4+4,2   
+~ J211328 ~ C4+4,5   
+~ J204506 ~ C4+4,5   
+~ J133957 ~ C4+4,5 ~ Red Giant
+~ J115304 ~ C4+4,5   
+~ J112150 ~ C4+4,5   
+~ J131252 ~ C4+4,5   
+~ J133936 ~ C4+4,2   
+~ J143140 ~ C4+4,2 ~ Magnetar 
+~ J154833 ~ C4+4,2   
+~ J101331 ~ C4+4,2   
+~ J151359 ~ C4+4,2   
+~ J150951 ~ C4+4,2 ~ Black Hole
+~ J140215 ~ C4+4,2   
+~ J152421 ~ C4+4,2   
+~ J130554 ~ C4+4,2   
+~ J101604 ~ C4+4,2 ~ Pulsar 
+~ J150320 ~ C4+4,2 ~ Black Hole
+~ J134414 ~ C4+4,2   
+~ J131113 ~ C4+4,2   
+~ J124933 ~ C4+4,3 ~ Cataclysmic Variable
+~ J150044 ~ C4+4,3   
+~ J155200 ~ C4+4,3   
+~ J145944 ~ C4+4,3   
+~ J145535 ~ C4+4,3   
+~ J141021 ~ C4+4,3   
+~ J223312 ~ C4+4,2   
+~ J212028 ~ C4+4,2 ~ Magnetar 
+~ J164835 ~ C4+4,2 ~ Black Hole
+~ J115528 ~ C4+4,2   
+~ J143922 ~ C4+4,2   
+~ J225234 ~ C4+4,2   
+~ J165645 ~ C4+4,2 ~ Pulsar 
+~ J100142 ~ C4+4,1   
+~ J101129 ~ C4+4,1   
+~ J141220 ~ C4+4,1 ~ Magnetar 
+~ J112450 ~ C4+4,1   
+~ J121558 ~ C4+4,1   
+~ J104404 ~ C4+4,1   
+~ J152633 ~ C4+4,3   
+~ J104624 ~ C4+4,3   
+~ J113227 ~ C4+4,3 ~ Pulsar 
+~ J211817 ~ C4+4,3 ~ Pulsar 
+~ J144329 ~ C4+4,3   
+~ J154102 ~ C4+4,3   
+~ J162231 ~ C4+3,4   
+~ J151303 ~ C4+3,4 ~ Red Giant
+~ J145848 ~ C4+3,4 ~ Red Giant
+~ J152720 ~ C4+3,4 ~ Magnetar 
+~ J123753 ~ C4+3,4   
+~ J101042 ~ C4+3,4 ~ Cataclysmic Variable
+~ J223824 ~ C4+3,4   
+~ J125929 ~ C4+3,1   
+~ J225111 ~ C4+3,1   
+~ J135346 ~ C4+3,1   
+~ J144120 ~ C4+3,1 ~ Black Hole
+~ J215743 ~ C4+3,1   
+~ J111007 ~ C4+3,1   
+~ J231710 ~ C4+3,5 ~ Magnetar 
+~ J141001 ~ C4+3,5   
+~ J163444 ~ C4+3,5   
+~ J103141 ~ C4+3,5 ~ Black Hole
+~ J112215 ~ C4+3,5   
+~ J215758 ~ C4+3,5   
+~ J101145 ~ C4+3,5 ~ Pulsar 
+~ J212838 ~ C4+3,2   
+~ J111458 ~ C4+3,2   
+~ J115554 ~ C4+3,2   
+~ J170445 ~ C4+3,2   
+~ J162831 ~ C4+3,2   
+~ J124236 ~ C4+3,2 ~ Cataclysmic Variable
+~ J101535 ~ C4+3,2 ~ Pulsar 
+~ J113551 ~ C4+3,2 ~ Red Giant
+~ J162656 ~ C4+3,2   
+~ J114530 ~ C4+3,2 ~ Cataclysmic Variable
+~ J155214 ~ C4+3,2   
+~ J102336 ~ C4+3,2   
+~ J123352 ~ C4+3,2   
+~ J100937 ~ C4+3,4 ~ Cataclysmic Variable
+~ J100107 ~ C4+3,4   
+~ J204230 ~ C4+3,4   
+~ J233909 ~ C4+3,4   
+~ J134354 ~ C4+3,4   
+~ J160046 ~ C4+3,4   
+~ J162816 ~ C4+3,4 ~ Magnetar 
+~ J170305 ~ C4+3,4 ~ Black Hole
+~ J102045 ~ C4+3,4 ~ Pulsar 
+~ J100830 ~ C4+3,4   
+~ J115658 ~ C4+3,4   
+~ J123947 ~ C4+3,4 ~ Cataclysmic Variable
+~ J224754 ~ C4+3,2   
+~ J140246 ~ C4+3,2   
+~ J214440 ~ C4+3,2   
+~ J144135 ~ C4+3,2 ~ Black Hole
+~ J151021 ~ C4+3,2   
+~ J114133 ~ C4+3,2 ~ Magnetar 
+~ J130810 ~ C4+3,5 ~ Red Giant
+~ J141425 ~ C4+3,5   
+~ J121847 ~ C4+3,5   
+~ J150805 ~ C4+3,5   
+~ J140810 ~ C4+3,5   
+~ J141104 ~ C4+3,5   
+~ J114735 ~ C4+3,5   
+~ J205922 ~ C4+3,5 ~ Black Hole
+~ J215101 ~ C4+3,5   
+~ J144131 ~ C4+3,5   
+~ J213429 ~ C4+3,5 ~ Red Giant
+~ J121006 ~ C4+3,5 ~ Pulsar 
+~ J111644 ~ C4+3,1 ~ Cataclysmic Variable
+~ J164031 ~ C4+3,1   
+~ J155249 ~ C4+3,1 ~ Pulsar 
+~ J103228 ~ C4+3,1   
+~ J164025 ~ C4+3,1   
+~ J163217 ~ C4+3,1 ~ Cataclysmic Variable
+~ J103631 ~ C4+3,1   
+~ J145739 ~ C4+3,4   
+~ J114408 ~ C4+3,4   
+~ J131704 ~ C4+3,4   
+~ J112404 ~ C4+3,4 ~ Magnetar 
+~ J104723 ~ C4+3,4 ~ Pulsar 
+~ J123746 ~ C4+3,4   
+~ J225441 ~ C4+3,4 ~ Magnetar 
+~ J111629 ~ C4+3,4 ~ Cataclysmic Variable
+~ J140154 ~ C4+3,4 ~ Red Giant
+~ J144743 ~ C4+3,4 ~ Wolf-Rayet Star
+~ J210247 ~ C4+3,4   
+~ J133013 ~ C4+3,4 ~ Red Giant
+~ J160032 ~ C4+3,4 ~ Black Hole
+~ J111009 ~ C4+3,4   
+~ J142117 ~ C4+3,5   
+~ J110417 ~ C4+3,5   
+~ J204853 ~ C4+3,5   
+~ J132144 ~ C4+3,5 ~ Red Giant
+~ J160016 ~ C4+3,5   
+~ J142335 ~ C4+3,5   
+~ J105835 ~ C4+3,5   
+~ J102055 ~ C4+3,5   
+~ J140932 ~ C4+3,5 ~ Wolf-Rayet Star
+~ J134333 ~ C4+3,5   
+~ J160156 ~ C4+3,5   
+~ J150944 ~ C4+3,5 ~ Magnetar 
+~ J113508 ~ C4+3,5   
+~ J151757 ~ C4+3,5   
+~ J142800 ~ C4+3,5 ~ Magnetar 
+~ J170642 ~ C4+3,5 ~ Pulsar 
+~ J130451 ~ C4+3,5 ~ Wolf-Rayet Star
+~ J113158 ~ C4+3,5 ~ Red Giant
+~ J225133 ~ C4+3,5 ~ Red Giant
+~ J100001 ~ C4+3,6   
+~ J155831 ~ C4+3,6   
+~ J145749 ~ C4+3,6 ~ Black Hole
+~ J164659 ~ C4+3,6   
+~ J135543 ~ C4+3,6   
+~ J132735 ~ C4+3,6   
+~ J141740 ~ C4+3,2 ~ Pulsar 
+~ J101315 ~ C4+3,2   
+~ J123345 ~ C4+3,2   
+~ J105621 ~ C4+3,2 ~ Red Giant
+~ J113813 ~ C4+3,2 ~ Pulsar 
+~ J135807 ~ C4+3,2   
+~ J122728 ~ C4+5,3   
+~ J110915 ~ C4+5,3   
+~ J171430 ~ C4+5,3 ~ Magnetar 
+~ J154321 ~ C4+5,3   
+~ J104729 ~ C4+5,3 ~ Red Giant
+~ J111753 ~ C4+5,3 ~ Pulsar 
+~ J140823 ~ C4+5,4   
+~ J161357 ~ C4+5,4 ~ Black Hole
+~ J162205 ~ C4+5,4   
+~ J113950 ~ C4+5,4   
+~ J124224 ~ C4+5,4   
+~ J155959 ~ C4+5,4   
+~ J103213 ~ C4+5,3   
+~ J105858 ~ C4+5,3 ~ Wolf-Rayet Star
+~ J172502 ~ C4+5,3   
+~ J170151 ~ C4+5,3 ~ Pulsar 
+~ J165058 ~ C4+5,3   
+~ J173638 ~ C4+5,3   
+~ J130330 ~ C4+5,4 ~ Pulsar 
+~ J132740 ~ C4+5,4   
+~ J133931 ~ C4+5,4 ~ Magnetar 
+~ J143902 ~ C4+5,4   
+~ J165105 ~ C4+5,4 ~ Cataclysmic Variable
+~ J141316 ~ C4+5,4   
+~ J113152 ~ C4+5,2   
+~ J113453 ~ C4+5,2 ~ Magnetar 
+~ J144845 ~ C4+5,2   
+~ J140053 ~ C4+5,2   
+~ J151416 ~ C4+5,2 ~ Wolf-Rayet Star
+~ J100846 ~ C4+5,2 ~ Black Hole
+~ J165943 ~ C4+5,3 ~ Wolf-Rayet Star
+~ J103538 ~ C4+5,3   
+~ J154854 ~ C4+5,3   
+~ J212627 ~ C4+5,3 ~ Black Hole
+~ J150656 ~ C4+5,3 ~ Black Hole
+~ J224031 ~ C4+5,3 ~ Pulsar 
+~ J215455 ~ C4+5,3   
+~ J122503 ~ C4+5,3   
+~ J103120 ~ C4+5,3 ~ Cataclysmic Variable
+~ J164528 ~ C4+5,3 ~ Pulsar 
+~ J125316 ~ C4+5,3 ~ Magnetar 
+~ J113131 ~ C4+5,3   
+~ J144038 ~ C4+5,4 ~ Pulsar 
+~ J172926 ~ C4+5,4   
+~ J154610 ~ C4+5,4 ~ Wolf-Rayet Star
+~ J103412 ~ C4+5,4   
+~ J150318 ~ C4+5,4 ~ Cataclysmic Variable
+~ J211504 ~ C4+5,4   
+~ J111617 ~ C4+5,4 ~ Black Hole
+~ J100346 ~ C4+5,2   
+~ J143557 ~ C4+5,2 ~ Red Giant
+~ J130001 ~ C4+5,2   
+~ J101142 ~ C4+5,2   
+~ J155002 ~ C4+5,2   
+~ J154232 ~ C4+5,2   
+~ J142506 ~ C4+5,4 ~ Magnetar 
+~ J155506 ~ C4+5,4   
+~ J163754 ~ C4+5,4   
+~ J100357 ~ C4+5,4   
+~ J115031 ~ C4+5,4   
+~ J122706 ~ C4+5,4   
+~ J114318 ~ C4+5,3 ~ Red Giant
+~ J150625 ~ C4+5,3   
+~ J113437 ~ C4+5,3   
+~ J213924 ~ C4+5,3   
+~ J152711 ~ C4+5,3 ~ Black Hole
+~ J160929 ~ C4+5,3 ~ Black Hole
+~ J153110 ~ C4+5,3 ~ Red Giant
+~ J132532 ~ C4+5,2   
+~ J114031 ~ C4+5,2   
+~ J120316 ~ C4+5,2 ~ Cataclysmic Variable
+~ J151610 ~ C4+5,2 ~ Red Giant
+~ J145937 ~ C4+5,2 ~ Black Hole
+~ J122056 ~ C4+5,2 ~ Red Giant
+~ J170127 ~ C4+5,2   
+~ J145424 ~ C4+5,1 ~ Cataclysmic Variable
+~ J101835 ~ C4+5,1 ~ Cataclysmic Variable
+~ J103907 ~ C4+5,1   
+~ J130237 ~ C4+5,1   
+~ J104948 ~ C4+5,1 ~ Cataclysmic Variable
+~ J120844 ~ C4+5,1   
+~ J154824 ~ C4+5,6 ~ Wolf-Rayet Star
+~ J134216 ~ C4+5,6 ~ Wolf-Rayet Star
+~ J120131 ~ C4+5,6   
+~ J120134 ~ C4+5,6 ~ Pulsar 
+~ J224558 ~ C4+5,6   
+~ J161029 ~ C4+5,6   
+~ J225530 ~ C4+3,4 ~ Magnetar 
+~ J154407 ~ C4+3,4   
+~ J140720 ~ C4+3,4   
+~ J222125 ~ C4+3,4 ~ Black Hole
+~ J152502 ~ C4+3,4   
+~ J220215 ~ C4+3,4 ~ Pulsar 
+~ J141647 ~ C4+3,2   
+~ J101957 ~ C4+3,2 ~ Wolf-Rayet Star
+~ J223808 ~ C4+3,2 ~ Black Hole
+~ J105433 ~ C4+3,2   
+~ J153722 ~ C4+3,2 ~ Magnetar 
+~ J105348 ~ C4+3,2 ~ Red Giant
+~ J113133 ~ C4+3,4   
+~ J105319 ~ C4+3,4   
+~ J162828 ~ C4+3,4 ~ Cataclysmic Variable
+~ J233449 ~ C4+3,4   
+~ J150026 ~ C4+3,4 ~ Wolf-Rayet Star
+~ J125629 ~ C4+3,4 ~ Pulsar 
+~ J123246 ~ C4+3,4 ~ Cataclysmic Variable
+~ J215615 ~ C4+3,4 ~ Magnetar 
+~ J152404 ~ C4+3,4 ~ Red Giant
+~ J132152 ~ C4+3,4   
+~ J145335 ~ C4+3,4   
+~ J162255 ~ C4+3,4   
+~ J112722 ~ C4+3,4 ~ Magnetar 
+~ J134459 ~ C4+3,1   
+~ J131624 ~ C4+3,1 ~ Magnetar 
+~ J165611 ~ C4+3,1 ~ Black Hole
+~ J152820 ~ C5+5 ~ Pulsar 
+~ J135100 ~ C5+5   
+~ J122515 ~ C5+5 ~ Wolf-Rayet Star
+~ J172943 ~ C5+5   
+~ J205738 ~ C5+5   
+~ J134242 ~ C5+5   
+~ J103251 ~ C5+5 ~ Magnetar 
+~ J111220 ~ C5+5   
+~ J170540 ~ C5+5 ~ Wolf-Rayet Star
+~ J102446 ~ C5+1 ~ Black Hole
+~ J141137 ~ C5+1   
+~ J164147 ~ C5+1   
+~ J100702 ~ C5+1 ~ Black Hole
+~ J133119 ~ C5+1 ~ Magnetar 
+~ J124730 ~ C5+1 ~ Black Hole
+~ J132823 ~ C5+1   
+~ J100724 ~ C5+1 ~ Red Giant
+~ J162638 ~ C5+1 ~ Pulsar 
+~ J230257 ~ C5+2   
+~ J223018 ~ C5+2 ~ Pulsar 
+~ J135449 ~ C5+2 ~ Black Hole
+~ J133537 ~ C5+2 ~ Black Hole
+~ J155714 ~ C5+2 ~ Pulsar 
+~ J112325 ~ C5+2 ~ Cataclysmic Variable
+~ J150606 ~ C5+2 ~ Wolf-Rayet Star
+~ J110550 ~ C5+2   
+~ J205659 ~ C5+2 ~ Red Giant
+~ J100120 ~ C5+2   
+~ J151057 ~ C5+2   
+~ J213245 ~ C5+2 ~ Wolf-Rayet Star
+~ J121230 ~ C5+2   
+~ J145203 ~ C5+2 ~ Wolf-Rayet Star
+~ J111106 ~ C5+2 ~ Cataclysmic Variable
+~ J222834 ~ C5+2   
+~ J232336 ~ C5+5   
+~ J161032 ~ C5+5   
+~ J154733 ~ C5+5   
+~ J153144 ~ C5+5   
+~ J122721 ~ C5+5 ~ Magnetar 
+~ J133440 ~ C5+5   
+~ J103727 ~ C5+2   
+~ J152739 ~ C5+2   
+~ J140717 ~ C5+2   
+~ J205205 ~ C5+2   
+~ J130026 ~ C5+2 ~ Pulsar 
+~ J151035 ~ C5+2   
+~ J112603 ~ C5+2 ~ Black Hole
+~ J151811 ~ C5+2 ~ Black Hole
+~ J105441 ~ C5+2   
+~ J124949 ~ C5+2 ~ Black Hole
+~ J130711 ~ C5+2 ~ Black Hole
+~ J131948 ~ C5+2   
+~ J132814 ~ C5+2 ~ Wolf-Rayet Star
+~ J213734 ~ C5+2   
+~ J140608 ~ C5+1 ~ Wolf-Rayet Star
+~ J212336 ~ C5+1 ~ Pulsar 
+~ J104448 ~ C5+1 ~ Magnetar 
+~ J164846 ~ C5+1 ~ Wolf-Rayet Star
+~ J161354 ~ C5+1   
+~ J103959 ~ C5+1   
+~ J114353 ~ C5+1 ~ Red Giant
+~ J171622 ~ C5+1 ~ Cataclysmic Variable
+~ J143123 ~ C5+1 ~ Pulsar 
+~ J125023 ~ C5+5   
+~ J122116 ~ C5+5   
+~ J151718 ~ C5+5   
+~ J153335 ~ C5+5 ~ Wolf-Rayet Star
+~ J170122 ~ C5+5   
+~ J150515 ~ C5+5 ~ Magnetar 
+~ J104216 ~ C5+5   
+~ J111000 ~ C5+5   
+~ J155600 ~ C5+5 ~ Cataclysmic Variable
+~ J132601 ~ C5+5 ~ Black Hole
+~ J132258 ~ C5+5   
+~ J221512 ~ C5+5 ~ Red Giant
+~ J125853 ~ C5+5 ~ Cataclysmic Variable
+~ J141609 ~ C5+5   
+~ J134096 ~ C5+5 ~ Cataclysmic Variable
+~ J121146 ~ C5+5   
+~ J121649 ~ C5+5 ~ Cataclysmic Variable
+~ J135559 ~ C5+5   
+~ J130735 ~ C5+5   
+~ J144115 ~ C5+5 ~ Black Hole
+~ J112241 ~ C5+5 ~ Magnetar 
+~ J141204 ~ C5+5 ~ Cataclysmic Variable
+~ J131401 ~ C5+5   
+~ J170231 ~ C5+5   
+~ J164430 ~ C5+5   
+~ J143740 ~ C5+5   
+~ J115517 ~ C5+5   
+~ J230936 ~ C5+5   
+~ J133525 ~ C5+5 ~ Red Giant
+~ J215338 ~ C5+5   
+~ J112003 ~ C5+5   
+~ J214318 ~ C5+5   
+~ J110938 ~ C5+5   
+~ J103453 ~ C5+5 ~ Black Hole
+~ J101000 ~ C5+5 ~ Cataclysmic Variable
+~ J110117 ~ C5+5   
+~ J100328 ~ C5+5 ~ Black Hole
+~ J155845 ~ C5+5   
+~ J152703 ~ C5+5   
+~ J110628 ~ C5+5 ~ Red Giant
+~ J142438 ~ C5+5 ~ Wolf-Rayet Star
+~ J153054 ~ C5+5   
+~ J114019 ~ C5+5   
+~ J233255 ~ C5+5 ~ Wolf-Rayet Star
+~ J135046 ~ C5+5   
+~ J145322 ~ C5+5 ~ Magnetar 
+~ J112844 ~ C5+5 ~ Pulsar 
+~ J120816 ~ C5+5 ~ Red Giant
+~ J165340 ~ C5+5   
+~ J124409 ~ C5+5 ~ Wolf-Rayet Star
+~ J124733 ~ C5+5   
+~ J173645 ~ C5+5   
+~ J165743 ~ C5+5   
+~ J171013 ~ C5+5   
+~ J155905 ~ C5+5   
+~ J213055 ~ C5+5 ~ Cataclysmic Variable
+~ J212224 ~ C5+5 ~ Wolf-Rayet Star
+~ J234252 ~ C5+5 ~ Black Hole
+~ J150036 ~ C5+5   
+~ J172431 ~ C5+5   
+~ J114154 ~ C5+5 ~ Cataclysmic Variable
+~ J115127 ~ C5+5   
+~ J233658 ~ C5+5   
+~ J114403 ~ C5+5 ~ Black Hole
+~ J165946 ~ C5+5 ~ Red Giant
+~ J124046 ~ C5+5   
+~ J102736 ~ C5+5 ~ Magnetar 
+~ J133252 ~ C5+5   
+~ J140600 ~ C5+5   
+~ J163701 ~ C5+5   
+~ J115041 ~ C5+5   
+~ J154726 ~ C5+5   
+~ J123602 ~ C5+5 ~ Black Hole
+~ J100549 ~ C5+5   
+~ J124100 ~ C5+5 ~ Black Hole
+~ J113701 ~ C5+5   
+~ J164327 ~ C5+5   
+~ J110018 ~ C5+5   
+~ J164511 ~ C5+5 ~ Cataclysmic Variable
+~ J130037 ~ C5+5 ~ Magnetar 
+~ J101028 ~ C5+5   
+~ J100858 ~ C5+5   
+~ J151813 ~ C5+5 ~ Pulsar 
+~ J113758 ~ C5+5   
+~ J153802 ~ C5+5 ~ Cataclysmic Variable
+~ J130401 ~ C5+5 ~ Red Giant
+~ J130241 ~ C5+5   
+~ J232934 ~ C5+5 ~ Wolf-Rayet Star
+~ J213642 ~ C5+5   
+~ J144107 ~ C5+5 ~ Magnetar 
+~ J140336 ~ C5+5 ~ Red Giant
+~ J214712 ~ C5+5   
+~ J170809 ~ C5+5 ~ Black Hole
+~ J220924 ~ C5+5   
+~ J142624 ~ C5+5 ~ Magnetar 
+~ J150306 ~ C5+5   
+~ J100425 ~ C5+5   
+~ J161745 ~ C5+5 ~ Red Giant
+~ J131718 ~ C5+5   
+~ J151319 ~ C5+5   
+~ J113059 ~ C5+5   
+~ J142234 ~ C5+5   
+~ J113636 ~ C5+5 ~ Cataclysmic Variable
+~ J142858 ~ C5+5 ~ Wolf-Rayet Star
+~ J135540 ~ C5+5 ~ Red Giant
+~ J155739 ~ C5+5   
+~ J132427 ~ C5+5 ~ Black Hole
+~ J114337 ~ C5+5   
+~ J121842 ~ C5+5   
+~ J100415 ~ C5+5   
+~ J143057 ~ C5+5   
+~ J165953 ~ C5+5 ~ Wolf-Rayet Star
+~ J102753 ~ C5+5 ~ Black Hole
+~ J221325 ~ C5+5 ~ Wolf-Rayet Star
+~ J114443 ~ C5+5 ~ Magnetar 
+~ J125990 ~ C5+5   
+~ J114518 ~ C5+5 ~ Cataclysmic Variable
+~ J102623 ~ C5+5 ~ Wolf-Rayet Star
+~ J164900 ~ C5+6   
+~ J122049 ~ C5+6 ~ Red Giant
+~ J154846 ~ C5+6 ~ Wolf-Rayet Star
+~ J115522 ~ C5+6   
+~ J145844 ~ C5+6 ~ Magnetar 
+~ J121704 ~ C5+6   
+~ J121959 ~ C5+6   
+~ J105849 ~ C5+6 ~ Wolf-Rayet Star
+~ J122610 ~ C5+6   
+~ J152912 ~ C5+6 ~ Black Hole
+~ J145359 ~ C5+6   
+~ J154906 ~ C5+6 ~ Magnetar 
+~ J160547 ~ C5+6 ~ Magnetar 
+~ J111150 ~ C5+6 ~ Red Giant
+~ J111935 ~ C5+6   
+~ J100237 ~ C5+6 ~ Wolf-Rayet Star
+~ J145735 ~ C5+6   
+~ J103600 ~ C5+6 ~ Black Hole
+~ J211517 ~ C5+6 ~ Wolf-Rayet Star
+~ J131128 ~ C5+6 ~ Cataclysmic Variable
+~ J143107 ~ C5+6 ~ Black Hole
+~ J213125 ~ C5+6 ~ Pulsar 
+~ J152325 ~ C5+6 ~ Cataclysmic Variable
+~ J114014 ~ C5+6 ~ Wolf-Rayet Star
+~ J215215 ~ C5+6   
+~ J143718 ~ C5+6 ~ Black Hole
+~ J134141 ~ C5+6 ~ Cataclysmic Variable
+~ J114842 ~ C5+6   
+~ J105504 ~ C5+6 ~ Black Hole
+~ J130302 ~ C5+6 ~ Cataclysmic Variable
+~ J170327 ~ C5+6   
+~ J120823 ~ C5+6 ~ Magnetar 
+~ J153449 ~ C5+6 ~ Red Giant
+~ J164621 ~ C5+6 ~ Magnetar 
+~ J142631 ~ C5+6   
+~ J134652 ~ C5+6   
+~ J123628 ~ C5+6   
+~ J130621 ~ C5+6   
+~ J171158 ~ C5+6   
+~ J163930 ~ C5+6 ~ Cataclysmic Variable
+~ J113907 ~ C5+6   
+~ J164610 ~ C5+6   
+~ J145512 ~ C5+6 ~ Magnetar 
+~ J133833 ~ C5+6   
+~ J141250 ~ C5+6 ~ Red Giant
+~ J105623 ~ C5+6 ~ Magnetar 
+~ J120010 ~ C5+6   
+~ J233630 ~ C5+6 ~ Black Hole
+~ J162007 ~ C5+6 ~ Black Hole
+~ J215124 ~ C5+6   
+~ J141615 ~ C5+6   
+~ J133222 ~ C5+6   
+~ J105822 ~ C5+6 ~ Wolf-Rayet Star
+~ J171136 ~ C5+6   
+~ J152111 ~ C5+6 ~ Pulsar 
+~ J104846 ~ C5+6 ~ Red Giant
+~ J123440 ~ C5+6   
+~ J121416 ~ C5+6 ~ Magnetar 
+~ J161635 ~ C5+6 ~ Black Hole
+~ J141043 ~ C5+6   
+~ J163408 ~ C5+6 ~ Cataclysmic Variable
+~ J135204 ~ C5+6   
+~ J133913 ~ C5+6 ~ Magnetar 
+~ J153447 ~ C5+6 ~ Cataclysmic Variable
+~ J145313 ~ C5+6   
+~ J162753 ~ C5+3 ~ Pulsar 
+~ J135301 ~ C5+3 ~ Wolf-Rayet Star
+~ J125254 ~ C5+3 ~ Cataclysmic Variable
+~ J145320 ~ C5+3 ~ Red Giant
+~ J103116 ~ C5+3   
+~ J120437 ~ C5+3   
+~ J100252 ~ C5+3   
+~ J153919 ~ C5+3 ~ Pulsar 
+~ J115520 ~ C5+3 ~ Wolf-Rayet Star
+~ J100919 ~ C5+3 ~ Wolf-Rayet Star
+~ J115933 ~ C5+3 ~ Pulsar 
+~ J133529 ~ C5+3   
+~ J131549 ~ C5+3 ~ Cataclysmic Variable
+~ J205517 ~ C5+3   
+~ J220546 ~ C5+3   
+~ J102853 ~ C5+3   
+~ J115418 ~ C5+3   
+~ J155040 ~ C5+3   
+~ J172937 ~ C5+3   
+~ J122757 ~ C5+3   
+~ J100759 ~ C5+3   
+~ J145416 ~ C5+3   
+~ J152034 ~ C5+3 ~ Magnetar 
+~ J125544 ~ C5+3 ~ Wolf-Rayet Star
+~ J123235 ~ C5+3   
+~ J151204 ~ C5+3   
+~ J104537 ~ C5+3 ~ Black Hole
+~ J162047 ~ C5+3 ~ Wolf-Rayet Star
+~ J140514 ~ C5+3   
+~ J154152 ~ C5+3   
+~ J143626 ~ C5+3 ~ Pulsar 
+~ J161737 ~ C5+3 ~ Black Hole
+~ J142110 ~ C5+3   
+~ J112042 ~ C5+3   
+~ J105719 ~ C5+3 ~ Black Hole
+~ J101556 ~ C5+3   
+~ J230047 ~ C5+3 ~ Black Hole
+~ J213226 ~ C5+3 ~ Pulsar 
+~ J104218 ~ C5+3   
+~ J115308 ~ C5+3 ~ Red Giant
+~ J140418 ~ C5+3 ~ Black Hole
+~ J101343 ~ C5+3 ~ Wolf-Rayet Star
+~ J105135 ~ C5+3 ~ Red Giant
+~ J111818 ~ C5+3 ~ Red Giant
+~ J110841 ~ C5+3   
+~ J134024 ~ C5+3   
+~ J142349 ~ C5+3   
+~ J212203 ~ C5+3 ~ Wolf-Rayet Star
+~ J124942 ~ C5+3 ~ Cataclysmic Variable
+~ J131747 ~ C5+3 ~ Wolf-Rayet Star
+~ J133553 ~ C5+3 ~ Black Hole
+~ J115422 ~ C5+3   
+~ J103448 ~ C5+3   
+~ J161301 ~ C5+3   
+~ J130334 ~ C5+3   
+~ J172125 ~ C5+3 ~ Magnetar 
+~ J114537 ~ C5+3 ~ Cataclysmic Variable
+~ J134440 ~ C5+3   
+~ J101912 ~ C5+3 ~ Wolf-Rayet Star
+~ J214006 ~ C5+3 ~ Cataclysmic Variable
+~ J235108 ~ C5+3   
+~ J124538 ~ C5+3 ~ Red Giant
+~ J125641 ~ C5+3 ~ Black Hole
+~ J141728 ~ C5+3   
+~ J100616 ~ C5+3 ~ Pulsar 
+~ J204350 ~ C5+3   
+~ J151300 ~ C5+3 ~ Cataclysmic Variable
+~ J114041 ~ C5+3   
+~ J115644 ~ C5+5   
+~ J103328 ~ C5+5 ~ Wolf-Rayet Star
+~ J143127 ~ C5+5 ~ Black Hole
+~ J121459 ~ C5+5   
+~ J114441 ~ C5+5   
+~ J102345 ~ C5+5 ~ Magnetar 
+~ J161609 ~ C5+5   
+~ J131646 ~ C5+5   
+~ J144543 ~ C5+5 ~ Wolf-Rayet Star
+~ J123658 ~ C5+5   
+~ J121450 ~ C5+5   
+~ J145753 ~ C5+5   
+~ J130510 ~ C5+5   
+~ J135402 ~ C5+5   
+~ J165220 ~ C5+5   
+~ J124152 ~ C5+5 ~ Red Giant
+~ J162349 ~ C5+5 ~ Wolf-Rayet Star
+~ J210750 ~ C5+5 ~ Pulsar 
+~ J235305 ~ C5+5 ~ Black Hole
+~ J120546 ~ C5+5 ~ Black Hole
+~ J105059 ~ C5+5 ~ Magnetar 
+~ J140249 ~ C5+5   
+~ J154551 ~ C5+5   
+~ J151530 ~ C5+5 ~ Pulsar 
+~ J122520 ~ C5+5   
+~ J151200 ~ C5+5 ~ Black Hole
+~ J143245 ~ C5+5   
+~ J124722 ~ C5+5 ~ Black Hole
+~ J173506 ~ C5+5 ~ Wolf-Rayet Star
+~ J121747 ~ C5+5 ~ Wolf-Rayet Star
+~ J235456 ~ C5+5 ~ Red Giant
+~ J113712 ~ C5+5 ~ Cataclysmic Variable
+~ J165940 ~ C5+5 ~ Pulsar 
+~ J165520 ~ C5+5   
+~ J135653 ~ C5+5   
+~ J132946 ~ C5+5   
+~ J134702 ~ C5+5 ~ Red Giant
+~ J111249 ~ C5+5   
+~ J105607 ~ C5+5 ~ Cataclysmic Variable
+~ J100551 ~ C5+5   
+~ J140524 ~ C5+5 ~ Black Hole
+~ J234152 ~ C5+5 ~ Magnetar 
+~ J164732 ~ C5+5   
+~ J131505 ~ C5+5 ~ Cataclysmic Variable
+~ J115405 ~ C5+5   
+~ J215009 ~ C5+5 ~ Cataclysmic Variable
+~ J161940 ~ C5+5   
+~ J145825 ~ C5+5   
+~ J132605 ~ C5+5   
+~ J115907 ~ C5+5 ~ Wolf-Rayet Star
+~ J125634 ~ C5+5   
+~ J110530 ~ C5+5 ~ Magnetar 
+~ J100854 ~ C5+5   
+~ J102053 ~ C5+5 ~ Red Giant
+~ J111518 ~ C5+5   
+~ J145349 ~ C5+5   
+~ J145846 ~ C5+5   
+~ J215554 ~ C5+5   
+~ J115950 ~ C5+5 ~ Red Giant
+~ J100109 ~ C5+5   
+~ J161838 ~ C5+5 ~ Cataclysmic Variable
+~ J173052 ~ C5+5   
+~ J170807 ~ C5+5   
+~ J105246 ~ C5+5   
+~ J144944 ~ C5+5 ~ Cataclysmic Variable
+~ J170930 ~ C5+5   
+~ J130039 ~ C5+5 ~ Wolf-Rayet Star
+~ J103615 ~ C5+5   
+~ J111227 ~ C5+5 ~ Wolf-Rayet Star
+~ J153222 ~ C5+5 ~ Cataclysmic Variable
+~ J144434 ~ C5+5 ~ Black Hole
+~ J230842 ~ C5+5   
+~ J172139 ~ C5+5 ~ Red Giant
+~ J232741 ~ C5+5 ~ Red Giant
+~ J110634 ~ C5+5 ~ Cataclysmic Variable
+~ J124058 ~ C5+5 ~ Magnetar 
+~ J123432 ~ C5+5 ~ Red Giant
+~ J151909 ~ C5+5 ~ Pulsar 
+~ J145706 ~ C5+5 ~ Wolf-Rayet Star
+~ J230242 ~ C5+5 ~ Black Hole
+~ J172840 ~ C5+5   
+~ J131450 ~ C5+5 ~ Wolf-Rayet Star
+~ J125101 ~ C5+5   
+~ J142910 ~ C5+5   
+~ J131142 ~ C5+5 ~ Black Hole
+~ J152827 ~ C5+5 ~ Black Hole
+~ J115901 ~ C5+5   
+~ J114100 ~ C5+5 ~ Wolf-Rayet Star
+~ J162132 ~ C5+5   
+~ J171722 ~ C5+4 ~ Pulsar 
+~ J135554 ~ C5+4   
+~ J214212 ~ C5+4   
+~ J130305 ~ C5+4   
+~ J111543 ~ C5+4   
+~ J160623 ~ C5+4 ~ Pulsar 
+~ J234722 ~ C5+4 ~ Pulsar 
+~ J133513 ~ C5+4 ~ Black Hole
+~ J104704 ~ C5+4   
+~ J120354 ~ C5+4 ~ Cataclysmic Variable
+~ J165312 ~ C5+4   
+~ J103812 ~ C5+4   
+~ J143525 ~ C5+4   
+~ J125716 ~ C5+4 ~ Magnetar 
+~ J143845 ~ C5+4 ~ Cataclysmic Variable
+~ J135626 ~ C5+4 ~ Black Hole
+~ J115905 ~ C5+4 ~ Magnetar 
+~ J233917 ~ C5+4 ~ Magnetar 
+~ J140343 ~ C5+4   
+~ J114315 ~ C5+4   
+~ J142653 ~ C5+4 ~ Red Giant
+~ J132546 ~ C5+4   
+~ J165205 ~ C5+4 ~ Cataclysmic Variable
+~ J122518 ~ C5+4   
+~ J153825 ~ C5+4 ~ Red Giant
+~ J101435 ~ C5+4 ~ Cataclysmic Variable
+~ J143819 ~ C5+4   
+~ J170417 ~ C5+4 ~ Red Giant
+~ J115727 ~ C5+4   
+~ J115124 ~ C5+4   
+~ J135533 ~ C5+4 ~ Wolf-Rayet Star
+~ J230745 ~ C5+4   
+~ J112918 ~ C5+4 ~ Black Hole
+~ J111640 ~ C5+4 ~ Wolf-Rayet Star
+~ J231137 ~ C5+4   
+~ J111613 ~ C5+4 ~ Cataclysmic Variable
+~ J145131 ~ C5+4   
+~ J111003 ~ C5+4 ~ Cataclysmic Variable
+~ J131520 ~ C5+4   
+~ J120922 ~ C5+4 ~ Red Giant
+~ J142138 ~ C5+4 ~ Magnetar 
+~ J153106 ~ C5+4 ~ Red Giant
+~ J111939 ~ C5+4 ~ Black Hole
+~ J173550 ~ C5+4   
+~ J145310 ~ C5+4   
+~ J155928 ~ C5+4   
+~ J234208 ~ C5+4 ~ Black Hole
+~ J105722 ~ C5+4   
+~ J123546 ~ C5+4   
+~ J210235 ~ C5+4   
+~ J170736 ~ C5+4 ~ Red Giant
+~ J170240 ~ C5+4   
+~ J125532 ~ C5+4   
+~ J133923 ~ C5+4 ~ Red Giant
+~ J131509 ~ C5+4   
+~ J210519 ~ C5+4 ~ Black Hole
+~ J233517 ~ C5+4   
+~ J162612 ~ C5+4   
+~ J123055 ~ C5+4 ~ Magnetar 
+~ J212302 ~ C5+4 ~ Magnetar 
+~ J102103 ~ C5+4   
+~ J213956 ~ C5+4 ~ Wolf-Rayet Star
+~ J161944 ~ C5+4   
+~ J135705 ~ C5+4 ~ Red Giant
+~ J103215 ~ C5+4   
+~ J141032 ~ C5+4   
+~ J135306 ~ C5+4 ~ Red Giant
+~ J155256 ~ C5+4 ~ Black Hole
+~ J162853 ~ C5+4 ~ Red Giant
+~ J104809 ~ C5+4 ~ Black Hole
+~ J144454 ~ C5+4 ~ Red Giant
+~ J110759 ~ C5+4   
+~ J215304 ~ C5+4 ~ Black Hole
+~ J110946 ~ C5+4   
+~ J230221 ~ C5+4 ~ Cataclysmic Variable
+~ J140133 ~ C5+4   
+~ J105531 ~ C5+4   
+~ J213502 ~ C5+4 ~ Black Hole
+~ J101647 ~ C5+4   
+~ J133023 ~ C5+4 ~ Magnetar 
+~ J164553 ~ C5+4   
+~ J232959 ~ C5+4   
+~ J152106 ~ C5+4 ~ Pulsar 
+~ J142535 ~ C5+4   
+~ J104859 ~ C6+2 ~ Pulsar 
+~ J155838 ~ C6+2   
+~ J164745 ~ C6+2 ~ Cataclysmic Variable
+~ J135504 ~ C6+2 ~ Red Giant
+~ J115923 ~ C6+2   
+~ J151325 ~ C6+2 ~ Pulsar 
+~ J105705 ~ C6+2 ~ Cataclysmic Variable
+~ J141434 ~ C6+6   
+~ J115844 ~ C6+6   
+~ J133906 ~ C6+6   
+~ J115855 ~ C6+6   
+~ J150020 ~ C6+6 ~ Magnetar 
+~ J142528 ~ C6+6   
+~ J130900 ~ C6+5   
+~ J222045 ~ C6+5 ~ Pulsar 
+~ J111450 ~ C6+5 ~ Cataclysmic Variable
+~ J103800 ~ C6+5 ~ Red Giant
+~ J144420 ~ C6+5   
+~ J152550 ~ C6+5   
+~ J114003 ~ C6+5 ~ Magnetar 
+~ J143751 ~ C6+5   
+~ J215930 ~ C6+5 ~ Red Giant
+~ J120512 ~ C6+3 ~ Cataclysmic Variable
+~ J145939 ~ C6+3   
+~ J135623 ~ C6+3 ~ Cataclysmic Variable
+~ J111918 ~ C6+3 ~ Red Giant
+~ J162614 ~ C6+3 ~ Pulsar 
+~ J104921 ~ C6+3   
+~ J230049 ~ C6+3 ~ Cataclysmic Variable
+~ J115935 ~ C6+3   
+~ J151920 ~ C6+1 ~ Cataclysmic Variable
+~ J160855 ~ C6+1   
+~ J155311 ~ C6+1   
+~ J101553 ~ C6+1 ~ Pulsar 
+~ J110421 ~ C6+1 ~ Wolf-Rayet Star
+~ J155207 ~ C6+1   
+~ J143200 ~ C6+4 ~ Red Giant
+~ J110834 ~ C6+4   
+~ J142247 ~ C6+4 ~ Cataclysmic Variable
+~ J112028 ~ C6+4 ~ Black Hole
+~ J111520 ~ C6+4 ~ Black Hole
+~ J161335 ~ C6+4   
+~ J170118 ~ C6+4   
+~ J160722 ~ C6+4 ~ Red Giant
+~ J124504 ~ C6+6 ~ Red Giant
+~ J212612 ~ C6+6   
+~ J154829 ~ C6+6 ~ Cataclysmic Variable
+~ J144436 ~ C6+6   
+~ J165641 ~ C6+6 ~ Black Hole
+~ J145510 ~ C6+6   
+~ J110810 ~ C6+3 ~ Black Hole
+~ J131916 ~ C6+3   
+~ J120103 ~ C6+3 ~ Red Giant
+~ J171404 ~ C6+3 ~ Red Giant
+~ J104632 ~ C6+3   
+~ J103400 ~ C6+3 ~ Red Giant
+~ J154021 ~ C6+3 ~ Magnetar 
+~ J122249 ~ C6+3 ~ Red Giant
+~ J213753 ~ C6+3 ~ Red Giant
+~ J155650 ~ C6+4   
+~ J152722 ~ C6+4   
+~ J100501 ~ C6+4   
+~ J140918 ~ C6+4 ~ Wolf-Rayet Star
+~ J103414 ~ C6+4 ~ Red Giant
+~ J223432 ~ C6+4   
+~ J100409 ~ C6+4   
+~ J141502 ~ C6+4   
+~ J115008 ~ C6+4 ~ Red Giant
+~ J112829 ~ C6+5   
+~ J105801 ~ C6+5 ~ Pulsar 
+~ J105023 ~ C6+5 ~ Wolf-Rayet Star
+~ J101652 ~ C6+5 ~ Red Giant
+~ J163225 ~ C6+5 ~ Pulsar 
+~ J135220 ~ C6+5 ~ Cataclysmic Variable
+~ J114430 ~ C6+5 ~ Magnetar 
+~ J103504 ~ C6+5   
+~ J123940 ~ C6+5   
+~ J104857 ~ C6+5 ~ Magnetar 
+~ J112417 ~ C6+5   
+~ J205141 ~ C6+5 ~ Magnetar 
+~ J104037 ~ C6+5   
+~ J144902 ~ C6+5   
+~ J122818 ~ C6+5 ~ Pulsar 
+~ J211353 ~ C6+5 ~ Wolf-Rayet Star
+~ J104136 ~ C6+5   
+~ J172842 ~ C6+5 ~ Cataclysmic Variable
+~ J122452 ~ C6+5 ~ Pulsar 
+~ J140200 ~ C6+5 ~ Magnetar 
+~ J232246 ~ C6+5   
+~ J101748 ~ C6+5   
+~ J133241 ~ C6+5 ~ Cataclysmic Variable
+~ J151817 ~ C6+5 ~ Wolf-Rayet Star
+~ J124201 ~ C6+5   
+~ J125111 ~ C6+5 ~ Pulsar 
+~ J101755 ~ C6+5 ~ Black Hole
+~ J101708 ~ C6+5   
+~ J135031 ~ C6+5 ~ Magnetar 
+~ J152117 ~ C6+5   
+~ J164701 ~ C6+5 ~ Wolf-Rayet Star
+~ J132106 ~ C6+5 ~ Pulsar 
+~ J141319 ~ C6+5 ~ Red Giant
+~ J170845 ~ C6+5   
+~ J161215 ~ C6+5   
+~ J111447 ~ C6+5   
+~ J222408 ~ C5+4   
+~ J161747 ~ C5+5 ~ Cataclysmic Variable
+~ J132328 ~ C5+4 ~ Pulsar 
+~ J153217 ~ C6+5   
+~ J142814 ~ C5+4 ~ Magnetar 
+~ J101248 ~ C5+6   
+~ J135825 ~ C5+4 ~ Cataclysmic Variable
+~ J151838 ~ C6+5   
+~ J100820 ~ C5+5   
+~ J213344 ~ C5+4   
+~ J103701 ~ C5+5   
+~ J171246 ~ C5+5   
+~ J170158 ~ C5+2 ~ Black Hole
+~ J230559 ~ C6+5 ~ Red Giant
+~ J145208 ~ C5+5   
+~ J224721 ~ C5+1 ~ Cataclysmic Variable
+~ J105934 ~ C6+6 ~ Magnetar 
+~ J130818 ~ C5+5 ~ Magnetar 
+~ J140555 ~ C6+6   
+~ J221356 ~ C5+3   
+~ J111245 ~ C5+5   
+~ J102834 ~ C6+5 ~ Magnetar 
+~ J154509 ~ C5+6   
+~ J234928 ~ C5+5   
+~ J222604 ~ C6+5 ~ Red Giant
+~ J133011 ~ C5+5 ~ Red Giant
+~ J125245 ~ C5+4   
+~ J145523 ~ C6+5   
+~ J143605 ~ C5+3 ~ Magnetar 
+~ J120750 ~ C5+1   
+~ J104617 ~ C5+6 ~ Cataclysmic Variable
+~ J125122 ~ C6+5 ~ Cataclysmic Variable
+~ J114809 ~ C5+5   
+~ J125657 ~ C5+3   
+~ J015092 ~ Shattered C1+L,N ~ Black Hole
+~ J005834 ~ Shattered C1+H,N ~ Cataclysmic Variable
+~ J012402 ~ Shattered C1+H,N ~ Magnetar 
+~ J005926 ~ Shattered C1+H,L ~ Pulsar 
+~ J010569 ~ Shattered C1+H,L ~ Red Giant
+~ J012157 ~ Shattered C1+L,N,2   
+~ J002757 ~ Shattered C1+H,N   
+~ J004791 ~ Shattered C1+H,L   
+~ J004317 ~ Shattered C1+H,L   
+~ J002216 ~ Shattered C1+L,N   
+~ J005482 ~ Shattered C2+H,L,1 ~ Black Hole
+~ J005900 ~ Shattered C2+N,L,3,4 ~ Cataclysmic Variable
+~ J013070 ~ Shattered C2+6,L,N ~ Magnetar 
+~ J001057 ~ Shattered C2+N,4,H,2 ~ Pulsar 
+~ J011321 ~ Shattered C2+H,N,4 ~ Red Giant
+~ J013123 ~ Shattered C2+2,H,L   
+~ J012735 ~ Shattered C2+H,4,3,N   
+~ J012635 ~ Shattered C2+H,L   
+~ J010000 ~ Shattered C2+H   
+~ J001890 ~ Shattered C2+1,H,L   
+~ J002964 ~ Shattered C2+5,L,N   
+~ J004686 ~ Shattered C2+3,L,N   
+~ J011563 ~ Shattered C3+H,L ~ Black Hole
+~ J001348 ~ Shattered C3+H,L ~ Cataclysmic Variable
+~ J002838 ~ Shattered C3+L,N ~ Magnetar 
+~ J001670 ~ Shattered C3+L,N ~ Pulsar 
+~ J014348 ~ Shattered C3+L,H ~ Red Giant
+~ J003789 ~ Shattered C3+H,L   
+~ J012794 ~ Shattered C3+L,N   
+~ J005923 ~ Shattered C3+L,N   
+~ J001398 ~ Shattered C3+L,N   
+~ J011339 ~ Shattered C3+H,L   
+~ J004283 ~ Shattered C3+N,L   
+~ J002625 ~ Shattered C4+3,4,L ~ Black Hole
+~ J004470 ~ Shattered C4+3,4,L ~ Black Hole
+~ J011824 ~ Shattered C4+3,4,N ~ Cataclysmic Variable
+~ J010247 ~ Shattered C4+L,4,2 ~ Cataclysmic Variable
+~ J002423 ~ Shattered C4+2,1,H ~ Magnetar 
+~ J001302 ~ Shattered C4+N,5,6 ~ Magnetar 
+~ J010556 ~ Shattered C4+2,1,H ~ Pulsar 
+~ J011778 ~ Shattered C4+1,3,H ~ Pulsar 
+~ J005259 ~ Shattered C4+4,3,H ~ Red Giant
+~ J005969 ~ Shattered C4+5,6,N ~ Red Giant
+~ J001769 ~ Shattered C4+5,N,4 ~ Wolf-Rayet Star
+~ J004150 ~ Shattered C4+H,3,2 ~ Wolf-Rayet Star
+~ J005872 ~ Shattered C4+3,L,1   
+~ J011376 ~ Shattered C4+4,5,L   
+~ J005299 ~ Shattered C4+5,3,N   
+~ J011355 ~ Shattered C4+3,4   
+~ J011195 ~ Shattered C4+L,4,5   
+~ J005280 ~ Shattered C4+4,3,L   
+~ J010811 ~ Shattered C5+6,N ~ Black Hole
+~ J001694 ~ Shattered C5+5,N ~ Black Hole
+~ J003941 ~ Shattered C5+5,N ~ Cataclysmic Variable
+~ J011790 ~ Shattered C5+H,3,N ~ Cataclysmic Variable
+~ J013146 ~ Shattered C5+5,N ~ Magnetar 
+~ J004998 ~ Shattered C5+5,L ~ Magnetar 
+~ J003382 ~ Shattered C5+2,L ~ Pulsar 
+~ J003546 ~ Shattered C5+3,L ~ Pulsar 
+~ J001820 ~ Shattered C5+5,L ~ Red Giant
+~ J012578 ~ Shattered C5+5,L ~ Red Giant
+~ J012773 ~ Shattered C5+4,N ~ Wolf-Rayet Star
+~ J005223 ~ Shattered C5+4,L ~ Wolf-Rayet Star
+~ J005663 ~ Shattered C5+L,1   
+~ J003793 ~ Shattered C5+N,4,N   
+~ J004128 ~ Shattered C5+L,5   
+~ J005070 ~ Shattered C5+6,N   
+~ J001025 ~ Shattered C5+3,L   
+~ J005724 ~ Shattered C5+5,N   
+~ J004921 ~ Shattered C5+5,N   
+~ J012686 ~ Shattered C6+N,5   
+~ J010366 ~ Shattered C6+6,N   
+~ J012475 ~ Shattered C6+5,N   
+~ J015227 ~ Shattered C6+6,N   
+~ J010951 ~ Shattered C6+N,6   
+~ Thera ~ Shattered C12+H,L,N   
+~ J000895 ~ Shattered C13+N,5 ~ Wolf-Rayet Star
+~ J000487 ~ Shattered C13+3,5,N ~ Wolf-Rayet Star
+~ J000621 ~ Shattered C13+2,N ~ Wolf-Rayet Star
+~ J000551 ~ Shattered C13+1,N ~ Wolf-Rayet Star
+~ J000630 ~ Shattered C13+1,4,N ~ Wolf-Rayet Star
+~ J000452 ~ Shattered C13+3,4,N ~ Wolf-Rayet Star
+~ J000327 ~ Shattered C13+2,5,N ~ Wolf-Rayet Star
+~ J000186 ~ Shattered C13+2,5,N ~ Wolf-Rayet Star
+~ J000528 ~ Shattered C13+3,4,N ~ Wolf-Rayet Star
+~ J000353 ~ Shattered C13+2,4,N ~ Wolf-Rayet Star
+~ J000461 ~ Shattered C13+3,N ~ Wolf-Rayet Star
+~ J000522 ~ Shattered C13+2,3,N ~ Wolf-Rayet Star
+~ J000965 ~ Shattered C13+3,N ~ Wolf-Rayet Star
+~ J000304 ~ Shattered C13+4,5,N ~ Wolf-Rayet Star
+~ J000595 ~ Shattered C13+2,5,N ~ Wolf-Rayet Star
+~ J000685 ~ Shattered C13+4,N ~ Wolf-Rayet Star
+~ J000844 ~ Shattered C13+2,N ~ Wolf-Rayet Star
+~ J000719 ~ Shattered C13+4,N ~ Wolf-Rayet Star
+~ J000726 ~ Shattered C13+1,N ~ Wolf-Rayet Star
+~ J000214 ~ Shattered C13+5,N ~ Wolf-Rayet Star
+~ J000652 ~ Shattered C13+6,N ~ Wolf-Rayet Star
+~ J000313 ~ Shattered C13+5,N ~ Wolf-Rayet Star
+~ J000687 ~ Shattered C13+1,N ~ Wolf-Rayet Star
+~ J000427 ~ Shattered C13+3,N ~ Wolf-Rayet Star
+~ J000102 ~ Shattered C13+3,N ~ Wolf-Rayet Star
+~ J055520 ~ Shattered C14+2 ~ Red Giant
+~ J110145 ~ Shattered C15+2 ~ Cataclysmic Variable
+~ J164710 ~ Shattered C16+2 ~ Magnetar 
+~ J200727 ~ Shattered C17+2 ~ Pulsar 
+~ J174618 ~ Shattered C18+2 ~ Wolf-Rayet Star
