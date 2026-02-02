@@ -3,14 +3,15 @@
 # [COMMAND]					[BEHAVIOR]
 # map add					additively paste sigs
 # map lazy					'lazy-delete' paste
-# map undo					revert last command
+# map undo					revert last command (3 step max)
 #
 # [NAVIGATION]				[BEHAVIOR]
 # map up 					navigate up
 # map top 					navigate to home system
 # map nav <sig> <sig>.. 	navigate down one or more wormholes
 # map full 					show full map
-# map path					show only wormholes
+# map paths					show only wormholes
+# map gas					show only wormholes & gas
 #
 # [SIGNATURES]				[BEHAVIOR]
 # map <sig> <label>			rename a sig (accepts multiple words)
@@ -117,17 +118,21 @@ elif [[ "$1" == "add" || "$1" == "lazy" ]]; then
 
 		# Concatenate new string and remove irrelevant bits
 		tailReal=$(echo "$tail" | cut -c1-"$i")
-		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Unstable Wormhole //' -e 's/Wormhole //' -e 's/Gas Site //' -e 's/Data Site //' -e 's/Relic Site //')
+		newText=$(echo "${head} ${tailReal}" | sed -e 's/Cosmic Signature //' -e 's/Unstable Wormhole //' -e 's/Wormhole //' -e 's/Gas Site //' -e 's/Data Site /—Data—/' -e 's/Relic Site /—Relic—/')
 
 		newText=$(echo "${newText}" | sed -e 's/Perimeter Amplifier//' -e 's/Perimeter Information Center//' -e 's/Perimeter Comms Relay//' -e 's/Perimeter Transponder Farm//' -e 's/Frontier Database//' -e 's/Frontier Receiver//' -e 's/Frontier Digital Nexus//' -e 's/Frontier Trinary Hub//' -e 's/Frontier Enclave Relay//' -e 's/Frontier Server Bank//' -e 's/Core Backup Array//' -e 's/Core Emergence//' -e 's/Perimeter Coronation Platform//'  -e 's/Perimeter Power Array//' -e 's/Perimeter Gateway//' -e 's/Perimeter Habitation Coils//' -e 's/Frontier Quarantine Outpost//' -e 's/Frontier Recursive Depot//' -e 's/Frontier Conversion Module//' -e 's/Frontier Evacuation Center//' -e 's/Core Data Field//' -e 's/Core Information Pen//' -e 's/Core Assembly Hall//' -e 's/Core Circuitry Disassembler//')
 		
 		# Remove more bits from data/relic sites, but only when they're revealed
 		# This allows for half-scanned stuff to show "Data Site" still, etc
+		# This section is a mess and needs a complete refactor
 		if [[ "$newText" == *"Unsecured"* || "$newText" == *"Forgotten"* || "$newText" == *"Ruined"* || "$newText" == *"Central"* || "$newText" == *"Crimson"* || "$newText" == *"Tetrimon"* || "$newText" == *"Reservoir"* ]] ; then
-			newText=$(echo "${newText}" | sed -e 's/—Data Site— //' -e 's/—Relic Site— //' -e 's/—Gas Site— //' -e 's/Perimeter //' -e 's/Frontier //' -e 's/Core //' -e 's/Reservoir//')
-			newText=$(echo "${newText}" | sed -e 's/Unsecured/Combat/' -e 's/Forgotten/Combat/')
-			newText=$(echo "${newText}" | sed -e 's/Ruined/Relic/' -e 's/Central/Data/' -e 's/Sparking Transmitter//' -e 's/Survey Site//' -e 's/Command Center//' -e 's/Data Mining Site//' -e 's/Monument Site//' -e 's/Temple Site//' -e 's/Science Outpost//' -e 's/Crystal Quarry//')
+			newText=$(echo "${newText}" | sed -e 's/—Data—//' -e 's/—Relic—//' -e 's/—Gas Site—//' -e 's/Perimeter //' -e 's/Frontier //' -e 's/Core //' -e 's/Reservoir/</')
+			newText=$(echo "${newText}" | sed -e 's/Unsecured/—Combat—/' -e 's/Forgotten/—Combat—/')
+			newText=$(echo "${newText}" | sed -e 's/Ruined/—Relic—/' -e 's/Central/—Data—/' -e 's/Sparking Transmitter//' -e 's/Survey Site//' -e 's/Command Center//' -e 's/Data Mining Site//' -e 's/Monument Site//' -e 's/Temple Site//' -e 's/Science Outpost//' -e 's/Crystal Quarry//' -e 's/Rogue Drone//')
 			newText=$(echo "${newText}" | sed -e 's/Angel//' -e 's/Blood Raider//' -e 's/Guristas//' -e 's/Sansha//' -e 's/Serpentis//' -e 's/Rogue Drones//')
+		fi
+		if [[ "$newText" == *"AEGIS Secure Transfer Facility"* ]]; then
+			newText=$(echo "${newText}" | sed -e 's/AEGIS Secure Transfer Facility/—Combat—/')
 		fi
 		# Signature 'overwriting' (i.e., which to keep) functionality is
 		# done by comparing string lengths (somehow this actually works)
@@ -203,9 +208,12 @@ echo $divider
 if [[ "$1" == "full" ]]; then
 	cd "$top"
 	tree -C | tail -n+2 - | head -n -2
-elif [[ "$1" == "path" ]]; then
+elif [[ "$1" == "paths" ]]; then
 	cd "$top"
 	tree -C | tail -n+2 - | head -n -2 | grep '~'
+elif [[ "$1" == "gas" ]]; then
+	cd "$top"
+	tree -C | tail -n+2 - | head -n -2 | grep '~\|<'
 else
 	tree -LC 1 | tail -n+2 - | head -n -2
 fi
