@@ -1,0 +1,6 @@
+GRX-719	Cosmic Signature			0.0%	16.60 AU
+KBS-296	Cosmic Signature			0.0%	21.90 AU
+OMS-660	Cosmic Signature			0.0%	8.48 AU
+UFJ-940	Cosmic Anomaly	Combat Site	Blood Rally Point	100.0%	24.13 AU
+WRF-940	Cosmic Anomaly	Ore Site	Clear Icicle Belt	100.0%	2.32 AU
+XRN-220	Cosmic Anomaly	Ore Site	Small Gneiss Deposit	100.0%	13.72 AU

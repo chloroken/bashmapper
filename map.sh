@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -eu
 
 # [COMMAND]					[BEHAVIOR]
 # map add					additively paste sigs
@@ -19,24 +20,30 @@
 # map <sig> <jcode>			append class/statics/weather to label
 # map del <sig> <sig>..		remove one or more signatures
 
-# Initialize magic variables
+# Setup core directory variables
 dir="$HOME/Documents/bashmapper"
-top="$dir/top/"
+top="$dir/top"
 backup1="$dir/undo1/"
 backup2="$dir/undo2/"
 backup3="$dir/undo3/"
+
+# Ensure map root directory and all subdirectories exist
+mkdir -p "$top"
+
+# Setup current location tracker
+cur_loc="$dir/current-location.txt"
+if ! [ -f "$cur_loc" ]; then
+	echo "$top" > "$cur_loc"
+fi
+cd "$(cat "$cur_loc")"
+
+# Initialize magic variables
 clipboard="$dir/clipboard.txt"
 del="$dir/del.txt"
 new="$dir/new.txt"
 divider="=============================="
 
-# Ensure map root directory exists
-if [ ! -d "$dir/top/" ]; then
-    mkdir "$dir/top/"
-fi
-
-# Undo functionality (3 steps)
-if [[ "$1" == "undo" ]]; then
+undo() {
 	if [ ! -z "$(ls -A $backup1)" ]; then
 		rm -rf "$top"
 		cp -r "$backup1" "$top"
@@ -47,59 +54,78 @@ if [[ "$1" == "undo" ]]; then
 		rm -rf "$backup3"
 		cd "$top"
 	fi
-else
+}
+
+backup() {
 	rm -rf "$backup3"
 	cp -r "$backup2" "$backup3"
 	rm -rf "$backup2"
 	cp -r "$backup1" "$backup2"
 	rm -rf "$backup1"
 	cp -r "$top" "$backup1"
-fi
+}
 
-# Reset map view ("map top")
-if [[ "$1" == "top" || "$1" == "full" ]]; then
+nav() {
+	cd "$1"
+	if ! $(pwd | grep -q "$top"); then
+		echo "Error: '$1' took us out of the directory structure (pwd:'$(pwd)')"
+		exit -1
+	fi
+	pwd > "$cur_loc"
+}
+
+is_sig() {
+	# Sig IDs are 3 
+	# Ensure we're looking at sig IDs (e.g., "ABC")
+	letters='^[a-zA-Z]+$'
+	if [[ "${#1}" -eq 3  && "$1" =~ $letters ]]; then
+		return 0
+	else
+		return 1
+	fi
+}
+
+cur_system() {
+	tree -LC 1 | tail -n+2 - | head -n -2
+}
+
+cur_loc_string() {
+	echo $divider
+	echo "CURRENT LOCATION: ${PWD##*/}"
+	echo $divider
+}
+
+cur_system_string() {
+	clear
+	cur_loc_string
+	cur_system
+}
+
+full_map() {
 	cd "$top"
+	tree -C | tail -n+2 - | head -n -2
+}
 
-# Navigate up ("map up")
-elif [[ "$1" == "up" && "${PWD##*/}" != "top" ]]; then
-	cd ".."
+sig_full_filename() {
+	find . -maxdepth 1 -iname "${1}*"
+}
 
-# Multi-sig commands ("map <cmd> <sig> <sig>..")
-elif [[ "$1" == "nav" || "$1" == "del" || "$1" == "flag" ]]; then
-	for param in "$@"; do
-
-		# Ensure we're looking at sig IDs (e.g., "ABC")
-		letters='^[a-zA-Z]+$'
-		if [[ "${#param}" -eq 3  && "${param}" =~ $letters ]]; then
-			filename=$(find . -maxdepth 1 -iname "${param}*")
-
-			# Navigate wormholes ("map nav <sig> <sig>..")
-			if [[ "$1" == "nav" ]]; then
-				cd "$filename"
-
-			# Delete signatures ("map del <sig> <sig>..")
-			elif [[ "$1" == "del" ]]; then
-				rm -rf "$filename"
-
-			# Flag a signature with "!" (map flag <sig>)
-			elif [[ "$1" == "flag" ]]; then
-			echo "multiflagging"
-				preString="$filename"
-				for (( i=0; i<${#preString}; i++ )); do
-					if [[ "${preString:$i:1}" == " " ]]; then
-						if [[ $i -ge 1 ]]; then
-							break
-						fi
-					fi
-				done
-				postString="${preString:0:$i}!${preString:$i}"
-				mv "$filename" "$postString"
+flag() {
+	echo "multiflagging"
+	filename="$(sig_full_filename "$1")"
+	preString="$filename"
+	for (( i=0; i<${#preString}; i++ )); do
+		if [[ "${preString:$i:1}" == " " ]]; then
+			if [[ $i -ge 1 ]]; then
+				break
 			fi
 		fi
 	done
+	postString="${preString:0:$i}!${preString:$i}"
+	mv "$filename" "$postString"
+}
 
-# Paste signatures from clipboard ("map add")
-elif [[ "$1" == "add" || "$1" == "lazy" ]]; then
+add_from_clipboard() {
 	wl-paste | sed -e "s/[[:space:]]\+/ /g" | tr -s ' ' > "$clipboard"
 	cat "$clipboard" | while read -r line || [ -n "$line" ]; do
 
@@ -164,59 +190,107 @@ elif [[ "$1" == "add" || "$1" == "lazy" ]]; then
 		fi
 	done
 	rm "$clipboard"
+}
 
-# Labeling commands
-elif [[ "${#1}" -eq 3 ]]; then
-	filename=$(find . -maxdepth 1 -iname "${1}*")
+label_sig() {
+	filename=$(find . -maxdepth 1 -iname "${cur_command}*")
+	label="$1"
 
 	# Naming commands
 	id=$(echo "$filename" | cut -c1-5)
-	tempname=$(echo "$id" "$2")
+	tempname=$(echo "$id" "$label")
 	re='^[0-9]+$'
 	
 	# Auto-label signatures ("map <sig> <jcode>")
-	if [[ "${#2}" -eq 6 && "$2" =~ $re ]]; then # jcodes are 6-digit integers
+	if [[ "${#label}" -eq 6 && "$1" =~ $re ]]; then # jcodes are 6-digit integers
 		
 		# Append class, static, and weather strings
-		newname=$(grep -hr "$2" "$dir/data.txt")
+		newname=$(grep -hr "$1" "$dir/data.txt")
 		mv "$filename" "$filename $newname"
 		cd "$filename $newname"
 			
-	# Simple relabel ("map <sig> <label>")
-	elif [[ $# -eq 2 ]]; then
-		mv "$filename" "$tempname"
-
-	# Complex relabel ("map <sig> <label> <label>..")
-	elif [[ $# -gt 2 ]]; then
-		paramStrings=""
-		i=1
-		for param in "$@"; do
-			if ((i>2)); then
-				paramStrings="${paramStrings}$param "
-			fi
-			((i++))
-		done
-		mv "$filename" "$tempname $paramStrings"
+	# Handles both Complex ("map <sig> <label> <label>..") and Simple relabel ("map <sig> <label>")
+	else
+		label=$(echo "$id" "$*")
+		mv "$filename" "$label"
 	fi
+}
+
+# If no commands given, print the current system
+if [ "$#" -eq 0 ]; then
+	cur_system_string
+	exit 0
 fi
 
-# Print updated map
-clear
-echo $divider
-echo "CURRENT LOCATION: ${PWD##*/}"
-echo $divider
-if [[ "$1" == "full" ]]; then
-	cd "$top"
-	tree -C | tail -n+2 - | head -n -2
-elif [[ "$1" == "paths" ]]; then
-	cd "$top"
-	tree -C | tail -n+2 - | head -n -2 | grep '~'
-elif [[ "$1" == "gas" ]]; then
-	cd "$top"
-	tree -C | tail -n+2 - | head -n -2 | grep '~\|<'
+# Record the current command and shift remaining arguments left
+cur_command="$1"
+shift
+
+# Undo functionality (3 steps)
+if [[ "$cur_command" == "undo" ]]; then
+	undo
 else
-	tree -LC 1 | tail -n+2 - | head -n -2
+	backup
 fi
+
+# Process command
+case "$cur_command" in
+	"top")
+		nav "$top"
+		;;
+	"up")
+		nav "$(dirname $(pwd))"
+		;;
+	"nav")
+		for param in "$@"; do
+			if is_sig "$param"; then
+				nav "$(sig_full_filename "$param")"
+			fi
+		done
+		;;
+	"del")
+		for param in "$@"; do
+			if is_sig "$param"; then
+				rm -rf "$(sig_full_filename "$param")"
+			fi
+		done
+		;;
+	"flag")
+		for param in "$@"; do
+			if is_sig "$param"; then
+				flag "$param"
+			fi
+		done
+		;;
+	"add"|"lazy")
+		add_from_clipboard $cur_command
+		;;
+	"full")
+		clear
+		cur_loc_string
+		full_map
+		exit 0
+		;;
+	"paths")
+		clear
+		cur_loc_string
+		full_map | grep "~"
+		exit 0
+		;;
+	"gas")
+		clear
+		cur_loc_string
+		full_map | grep "~\|<"
+		exit 0
+		;;
+	*)
+		if is_sig "$cur_command"; then
+			label_sig "$*"
+		fi
+		;;
+esac
+
+cur_system_string
 
 # Indicate signatures for manual removal
 if [[ -s "$dir/del.txt" ]]; then
